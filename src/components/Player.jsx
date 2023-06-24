@@ -13,7 +13,7 @@ const Player = () => {
         },
       };
   return (
-    <Lottie options={defaultOptions} height={400} width={400} style={{maxHeight:"90vw",maxWidth:"90vw"}} />
+    <Lottie options={defaultOptions} height={350} width={350} style={{maxHeight:"75svw",maxWidth:"75svw","cursor":"default"}} />
   )
 }
 
