@@ -1,24 +1,15 @@
-"use client"
+import Player from "@/components/Player";
 
-import Lottie from "react-lottie";
-import animationData from "@/animations/building.json"
 
 export default function Home() {
-  const defaultOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
+
   return (
-    <main className="flex min-h-screen min-w-screen flex-col items-center justify-between p-24 md:text-2xl bg-blue-100">
-      <div className="drop-shadow-xl flex-col flex gap-20 items-center ">
-        <Lottie options={defaultOptions} height={400} width={400} style={{maxHeight:"90vw",maxWidth:"90vw"}} />
+    <main className="flex min-h-screen min-w-screen flex-col items-center justify-center p-12 xl:p-0 md:text-2xl bg-blue-100">
+      <div className="drop-shadow-xl flex-col flex gap-10 items-center ">
+       <Player/>
       <div>
-      <h1 className="text-center font-black text-5xl break-keep break-words mb-4">HackOdisha 3.0</h1>
-      <h2 className="text-center font-black text-3xl break-keep break-words">Coming Soon 🚀</h2>
+      <h1 className="text-center font-black text-3xl md:text-5xl break-keep break-words mb-4">HackOdisha 3.0</h1>
+      <h2 className="text-center font-black text-xl md:text-3xl break-keep break-words">Coming Soon 🚀</h2>
       </div>
       <a href="https://twitter.com/hackodisha" target="_blank" rel="noreferrer">
       <button className="px-4 py-2 bg-blue-200 w-fit hover:bg-blue-300 ease-in duration-100 rounded-lg ">
