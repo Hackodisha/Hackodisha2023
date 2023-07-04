@@ -1,0 +1,30 @@
+.upperline {
+    background-repeat: no-repeat;
+    background-image: url('/Images/upperline.svg');
+    background-size: contain;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textcolor{
+    color: #0C9794; 
+}
+.frame{
+    background-repeat: no-repeat;
+    background-image: url('/Images/frameTop.svg');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.base {
+    background-repeat: no-repeat;
+    background-image: url('/Images/frameBottom.svg');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
