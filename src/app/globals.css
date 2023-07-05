@@ -9,7 +9,7 @@
   }
   .home::before {
     @apply absolute w-full h-screen bg-no-repeat bg-center bg-cover -z-10 top-0 left-0 ;
-    background-image: url('/images/homebg.png');
+    background-image: url('/Images/homebg.png');
     content: "";
   }
 }

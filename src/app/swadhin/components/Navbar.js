@@ -10,7 +10,7 @@ function Navbar() {
       <div className="flex justify-between items-center">
         <Link href="/swadhin/#home">
           <Image
-            src={"/images/HO3.png"}
+            src={"/Images/HO3.png"}
             alt="logo"
             width="100"
             height="100"
@@ -23,14 +23,14 @@ function Navbar() {
         >
           {Navbar ? (
             <Image
-              src={"/images/closeIcon.png"}
+              src={"/Images/closeIcon.png"}
               alt="close Icon"
               height="30"
               width="30"
             />
           ) : (
             <Image
-              src={"/images/BurgerIcon.png"}
+              src={"/Images/BurgerIcon.png"}
               alt="Burger Icon"
               height="30"
               width="30"
