@@ -16,7 +16,7 @@ const SponsorCompany = () => {
     {
       images.map((image, index) => {
         return (
-          <div className='Big-dot'>
+          <div className='Big-dot' key={index}>
             <div className='Mid-dot'>
               <div className='Small-dot'>
                 <div className='container'>
