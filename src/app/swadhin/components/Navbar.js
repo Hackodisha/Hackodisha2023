@@ -1,10 +1,11 @@
 "use client";
+import Hamburger from "hamburger-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
 function Navbar() {
-  const [Navbar, setNavbar] = useState(false);
+  const [navbar, setNavbar] = useState(false);
   return (
     <nav className=" bg-navbg w-full h-full md:flex justify-between items-center sticky top-0 text-white backdrop-blur-sm">
       <div className="flex justify-between items-center">
@@ -17,30 +18,13 @@ function Navbar() {
             className="flex justify-center items-center p-3 md:pl-16 pl-8 w-28 h-14 md:w-40"
           />
         </Link>
-        <button
-          onClick={() => setNavbar(!Navbar)}
-          className="pr-8 md:hidden flex items-center justify-center"
-        >
-          {Navbar ? (
-            <Image
-              src={"/Images/closeIcon.png"}
-              alt="close Icon"
-              height="30"
-              width="30"
-            />
-          ) : (
-            <Image
-              src={"/Images/BurgerIcon.png"}
-              alt="Burger Icon"
-              height="30"
-              width="30"
-            />
-          )}
-        </button>
+        <span className="pr-8 md:hidden flex items-center justify-center">
+          <Hamburger toggled={navbar} toggle={() => setNavbar(!navbar)} />
+        </span>
       </div>
       <ul
         className={`md:flex  md:space-x-3 items-center justify-center md:pr-4 ${
-          Navbar ? "block" : "hidden"
+          navbar ? "block" : "hidden"
         }`}
       >
         <Link href="/swadhin/#home">
