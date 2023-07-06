@@ -1,0 +1,62 @@
+body{
+ background-color: black;
+}
+.main-section{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+ }
+.Big-dot{
+width: 16rem;
+height: 16rem;
+margin:1.25rem;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 16.031rem;
+border: 0.466rem dashed #06EBE5;
+}
+.Mid-dot{
+    width:12.4rem;
+    height: 12.4rem;
+    /* transform: rotate(); */
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14.4rem;
+    border: 0.04rem dashed #06EBE5;
+}
+.Small-dot{
+    width: 13.16rem;
+    height: 13.16rem;
+    /* transform: rotate(); */
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13.514rem;
+   border: .04rem dashed #06EBE5;
+}
+.container{
+    display: flex;
+    width: 10.6rem;
+    height: 10.75rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 21.966px;
+    flex-shrink: 0;
+    border-radius:18.75rem;
+    background: #FFF;
+}
+.item{
+width: 6.0625rem;
+height: 6.06rem;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+}

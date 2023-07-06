@@ -1,0 +1,18 @@
+.main-sponsor{
+    opacity: 0.7599999904632568;
+    /* background: url("./Assets/My\ project\ 1\ .svg"), cover no-repeat; */
+    background-image: url("./Assets/My\ project\ 1\ .svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first{
+    background-image:url("./Assets/border1.svg");
+    /* background-position: center; */
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+.second{
+   background-image: url("./Assets/border2.svg");
+   background-repeat: no-repeat;
+}

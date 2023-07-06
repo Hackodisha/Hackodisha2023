@@ -3,7 +3,7 @@ import React from 'react'
 import { Component } from 'react';
 import SponsorCompany from './SponsorCompany'
 import Text from './Text'
-import "./trial.css"
+import "./Sponsor.css"
 import Image from 'next/image';
 import photo from "./Assets/Group 143.svg"
 const SponsorPage = () => {
