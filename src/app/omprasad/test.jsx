@@ -1,26 +1,26 @@
 import React from "react";
 import "./test.css";
-const Timeline = () => {
+import Image from 'next/image';
+import Image1 from "./img1.svg";
+import Image2 from "./img2.svg";
+import Image3 from "./img3.svg";
+import Image5 from "./Union.svg";
+import Image6 from "./Group 171.svg"
+const Test2 = () => {
   return (
     <>
-      <div className="head">
+    <div className="topHead">
+      <div className="head shrink-0">
         <div>
-          <div className="headText">Timeline</div>
-          <hr className="headingLine"></hr>
+          <Image src={Image6} alt="Image"  className="img1"></Image>
         </div>
       </div>
       <div className="line">
-        <div>
-          <hr className="subLine1"></hr>
-        </div>
-        <div>
-          <hr className="subLine2"></hr>
-        </div>
-        <div className="line3">
-          <hr className="subLine3"></hr>
-        </div>
+      <Image src={Image5} alt="Image"  className="img2"></Image>
       </div>
-      <div className="circularAnimation1 w-1/2  flex flex-col items-end my-3">
+      </div>
+      <div className="timeline mt-14">
+      <div className="circularAnimation1 w-1/2  flex flex-col items-end">
         <div className="headSvg inline-flex items-center w-auto ">
           <span className="svg1 flex flex-col shrink-0">
             <span>
@@ -107,22 +107,22 @@ const Timeline = () => {
                   cy="86"
                   r="78.5"
                   stroke="#06EBE5"
-                  stroke-width="3"
+                  strokeWidth="3"
                 />
                 <circle
                   cx="88"
                   cy="86"
                   r="83.5"
                   stroke="#06EBE5"
-                  stroke-width="5"
-                  stroke-dasharray="10 20 30 40"
+                  strokeWidth="5"
+                  strokeDasharray="10 20 30 40"
                 />
                 <circle
                   cx="88.5"
                   cy="85.5"
                   r="72"
                   stroke="#06EBE5"
-                  stroke-dasharray="5 2"
+                  strokeDasharray="5 2"
                 />
                 <mask id="path-15-inside-2_141_1795" fill="white">
                   <path d="M156 85.5C156 101.368 150.41 116.728 140.211 128.884C130.013 141.04 115.857 149.215 100.231 151.973C84.6051 154.73 68.5068 151.895 54.7632 143.964C41.0196 136.034 30.5093 123.515 25.0777 108.605C19.6461 93.6964 19.6406 77.3503 25.0621 62.4375C30.4835 47.5248 40.9853 34.9986 54.7236 27.0586C68.4618 19.1185 84.5581 16.2722 100.186 19.0193C115.814 21.7665 129.975 29.9315 140.182 42.0807L138.281 43.6776C128.45 31.9752 114.81 24.1105 99.7564 21.4644C84.7031 18.8183 69.1988 21.5599 55.9658 29.2079C42.7329 36.856 32.6173 48.9214 27.3952 63.2857C22.1732 77.6501 22.1785 93.3949 27.4103 107.756C32.6421 122.116 42.7659 134.175 56.004 141.814C69.2421 149.453 84.7483 152.184 99.7998 149.528C114.851 146.872 128.486 138.998 138.309 127.289C148.133 115.58 153.517 100.784 153.517 85.5H156Z" />
@@ -130,8 +130,8 @@ const Timeline = () => {
                 <path
                   d="M156 85.5C156 101.368 150.41 116.728 140.211 128.884C130.013 141.04 115.857 149.215 100.231 151.973C84.6051 154.73 68.5068 151.895 54.7632 143.964C41.0196 136.034 30.5093 123.515 25.0777 108.605C19.6461 93.6964 19.6406 77.3503 25.0621 62.4375C30.4835 47.5248 40.9853 34.9986 54.7236 27.0586C68.4618 19.1185 84.5581 16.2722 100.186 19.0193C115.814 21.7665 129.975 29.9315 140.182 42.0807L138.281 43.6776C128.45 31.9752 114.81 24.1105 99.7564 21.4644C84.7031 18.8183 69.1988 21.5599 55.9658 29.2079C42.7329 36.856 32.6173 48.9214 27.3952 63.2857C22.1732 77.6501 22.1785 93.3949 27.4103 107.756C32.6421 122.116 42.7659 134.175 56.004 141.814C69.2421 149.453 84.7483 152.184 99.7998 149.528C114.851 146.872 128.486 138.998 138.309 127.289C148.133 115.58 153.517 100.784 153.517 85.5H156Z"
                   stroke="#06EBE5"
-                  stroke-width="6"
-                  stroke-linejoin="round"
+                  strokeWidth="6"
+                  strokeLinejoin="round"
                   mask="url(#path-15-inside-2_141_1795)"
                 />
                 <mask id="path-16-inside-3_141_1795" fill="white">
@@ -216,115 +216,11 @@ const Timeline = () => {
             </span>
           </span>
           <div className="svg2 flex items-center w-auto">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="350"
-              height="50"
-              viewBox="0 0 104 15"
-              fill="none"
-            >
-              <line y1="3.8208" x2="5.4129" y2="3.8208" stroke="#06EBE5" />
-              <line
-                x1="1.23035"
-                y1="1.46777"
-                x2="12.5482"
-                y2="1.46777"
-                stroke="#06EBE5"
-              />
-              <line
-                x1="5.16687"
-                y1="4.76172"
-                x2="6.88916"
-                y2="4.76172"
-                stroke="#06EBE5"
-              />
-              <line
-                x1="8.11951"
-                y1="5.23242"
-                x2="11.5641"
-                y2="5.23242"
-                stroke="#06EBE5"
-              />
-              <line
-                x1="4.19043"
-                y1="4.7915"
-                x2="4.19043"
-                y2="7.61471"
-                stroke="#06EBE5"
-              />
-              <line
-                x1="2.71436"
-                y1="4.7915"
-                x2="2.71436"
-                y2="7.61471"
-                stroke="#06EBE5"
-              />
-              <line
-                x1="1.23828"
-                y1="4.7915"
-                x2="1.23828"
-                y2="7.61471"
-                stroke="#06EBE5"
-              />
-              <path
-                d="M6.64319 1.49823L7.79851 3.38037L12.5482 3.38037"
-                stroke="#06EBE5"
-              />
-              <path
-                d="M12.5491 1.0263L56.3443 1.50765L78.2405 1.50765L80.824 5.49627"
-                stroke="#06EBE5"
-              />
-              <path
-                d="M35.9221 3.37842L38.1379 7.14269L81.9331 7.62405L99.1546 7.62404L103.091 13.9654"
-                stroke="#06EBE5"
-              />
-              <ellipse
-                cx="54.0061"
-                cy="4.55475"
-                rx="0.615102"
-                ry="1.17634"
-                fill="black"
-              />
-              <ellipse
-                cx="56.4662"
-                cy="4.55475"
-                rx="0.615102"
-                ry="1.17634"
-                fill="black"
-              />
-              <ellipse
-                cx="58.927"
-                cy="4.55475"
-                rx="0.615102"
-                ry="1.17634"
-                fill="black"
-              />
-              <ellipse
-                cx="61.3871"
-                cy="4.55475"
-                rx="0.615102"
-                ry="1.17634"
-                fill="black"
-              />
-              <ellipse
-                cx="63.8478"
-                cy="4.55475"
-                rx="0.615102"
-                ry="1.17634"
-                fill="black"
-              />
-              <path
-                d="M39.6125 3.81982C39.3364 3.81982 39.1125 4.04368 39.1125 4.31982C39.1125 4.59597 39.3364 4.81982 39.6125 4.81982V3.81982ZM39.6125 4.81982H52.0376V3.81982H39.6125V4.81982Z"
-                fill="#06EBE5"
-              />
-              <path
-                d="M65.6931 3.81982C65.417 3.81982 65.1931 4.04368 65.1931 4.31982C65.1931 4.59597 65.417 4.81982 65.6931 4.81982V3.81982ZM65.6931 4.81982H78.1182V3.81982H65.6931V4.81982Z"
-                fill="#06EBE5"
-              />
-            </svg>
+           <Image src={Image1} alt="Image" className="img3"></Image>
+           
           </div>
         </div>
-        <div className="content">
+        <div className="content w-full">
           <span className="contentHead mx-auto">
             <h3 className="mx-auto my-5 ">28/9/2023</h3>
           </span>
@@ -357,126 +253,10 @@ const Timeline = () => {
 
 {/* Animation2 */}
 
-      <div className="circularAnimation2 w-1/2  flex flex-col items-start my-3">
+      <div className="circularAnimation2 w-1/2  flex flex-col items-start  px-0 mx-0">
         <div className="headSvg inline-flex items-center w-auto ">
         <div className="svg2 flex items-center w-auto">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="350"
-              height="50"
-              viewBox="0 0 105 15"
-              fill="none"
-            >
-              <line
-                y1="-0.5"
-                x2="5.4129"
-                y2="-0.5"
-                transform="matrix(-1 0 0 1 104.121 4.3208)"
-                stroke="#06EBE5"
-              />
-              <line
-                y1="-0.5"
-                x2="11.3179"
-                y2="-0.5"
-                transform="matrix(-1 0 0 1 102.891 1.96777)"
-                stroke="#06EBE5"
-              />
-              <line
-                y1="-0.5"
-                x2="1.72229"
-                y2="-0.5"
-                transform="matrix(-1 0 0 1 98.954 5.26172)"
-                stroke="#06EBE5"
-              />
-              <line
-                y1="-0.5"
-                x2="3.44457"
-                y2="-0.5"
-                transform="matrix(-1 0 0 1 96.0013 5.73242)"
-                stroke="#06EBE5"
-              />
-              <line
-                y1="-0.5"
-                x2="2.82321"
-                y2="-0.5"
-                transform="matrix(0 1 1 0 100.43 4.7915)"
-                stroke="#06EBE5"
-              />
-              <line
-                y1="-0.5"
-                x2="2.82321"
-                y2="-0.5"
-                transform="matrix(0 1 1 0 101.906 4.7915)"
-                stroke="#06EBE5"
-              />
-              <line
-                y1="-0.5"
-                x2="2.82321"
-                y2="-0.5"
-                transform="matrix(0 1 1 0 103.383 4.7915)"
-                stroke="#06EBE5"
-              />
-              <path
-                d="M97.4777 1.49823L96.3223 3.38037L91.5727 3.38037"
-                stroke="#06EBE5"
-              />
-              <path
-                d="M91.5718 1.0263L47.7765 1.50765L25.8803 1.50765L23.2969 5.49627"
-                stroke="#06EBE5"
-              />
-              <path
-                d="M68.1987 3.37842L65.9829 7.14269L22.1877 7.62405L4.96626 7.62404L1.02961 13.9654"
-                stroke="#06EBE5"
-              />
-              <ellipse
-                cx="0.615102"
-                cy="1.17634"
-                rx="0.615102"
-                ry="1.17634"
-                transform="matrix(-1 0 0 1 50.7299 3.37842)"
-                fill="black"
-              />
-              <ellipse
-                cx="0.615102"
-                cy="1.17634"
-                rx="0.615102"
-                ry="1.17634"
-                transform="matrix(-1 0 0 1 48.2698 3.37842)"
-                fill="black"
-              />
-              <ellipse
-                cx="0.615102"
-                cy="1.17634"
-                rx="0.615102"
-                ry="1.17634"
-                transform="matrix(-1 0 0 1 45.809 3.37842)"
-                fill="black"
-              />
-              <ellipse
-                cx="0.615102"
-                cy="1.17634"
-                rx="0.615102"
-                ry="1.17634"
-                transform="matrix(-1 0 0 1 43.3489 3.37842)"
-                fill="black"
-              />
-              <ellipse
-                cx="0.615102"
-                cy="1.17634"
-                rx="0.615102"
-                ry="1.17634"
-                transform="matrix(-1 0 0 1 40.8882 3.37842)"
-                fill="black"
-              />
-              <path
-                d="M64.5083 3.81982C64.7844 3.81982 65.0083 4.04368 65.0083 4.31982C65.0083 4.59597 64.7844 4.81982 64.5083 4.81982V3.81982ZM64.5083 4.81982H52.0832V3.81982H64.5083V4.81982Z"
-                fill="#06EBE5"
-              />
-              <path
-                d="M38.4277 3.81982C38.7039 3.81982 38.9277 4.04368 38.9277 4.31982C38.9277 4.59597 38.7039 4.81982 38.4277 4.81982V3.81982ZM38.4277 4.81982H26.0027V3.81982H38.4277V4.81982Z"
-                fill="#06EBE5"
-              />
-            </svg>
+        <Image src={Image2} alt="Image" className="img3"></Image>
           </div>
           <span className="svg1 flex flex-col shrink-0">
             <span>
@@ -563,22 +343,22 @@ const Timeline = () => {
                   cy="86"
                   r="78.5"
                   stroke="#06EBE5"
-                  stroke-width="3"
+                  strokeWidth="3"
                 />
                 <circle
                   cx="88"
                   cy="86"
                   r="83.5"
                   stroke="#06EBE5"
-                  stroke-width="5"
-                  stroke-dasharray="10 20 30 40"
+                  strokeWidth="5"
+                  strokeDasharray="10 20 30 40"
                 />
                 <circle
                   cx="88.5"
                   cy="85.5"
                   r="72"
                   stroke="#06EBE5"
-                  stroke-dasharray="5 2"
+                  strokeDasharray="5 2"
                 />
                 <mask id="path-15-inside-2_141_1795" fill="white">
                   <path d="M156 85.5C156 101.368 150.41 116.728 140.211 128.884C130.013 141.04 115.857 149.215 100.231 151.973C84.6051 154.73 68.5068 151.895 54.7632 143.964C41.0196 136.034 30.5093 123.515 25.0777 108.605C19.6461 93.6964 19.6406 77.3503 25.0621 62.4375C30.4835 47.5248 40.9853 34.9986 54.7236 27.0586C68.4618 19.1185 84.5581 16.2722 100.186 19.0193C115.814 21.7665 129.975 29.9315 140.182 42.0807L138.281 43.6776C128.45 31.9752 114.81 24.1105 99.7564 21.4644C84.7031 18.8183 69.1988 21.5599 55.9658 29.2079C42.7329 36.856 32.6173 48.9214 27.3952 63.2857C22.1732 77.6501 22.1785 93.3949 27.4103 107.756C32.6421 122.116 42.7659 134.175 56.004 141.814C69.2421 149.453 84.7483 152.184 99.7998 149.528C114.851 146.872 128.486 138.998 138.309 127.289C148.133 115.58 153.517 100.784 153.517 85.5H156Z" />
@@ -586,8 +366,8 @@ const Timeline = () => {
                 <path
                   d="M156 85.5C156 101.368 150.41 116.728 140.211 128.884C130.013 141.04 115.857 149.215 100.231 151.973C84.6051 154.73 68.5068 151.895 54.7632 143.964C41.0196 136.034 30.5093 123.515 25.0777 108.605C19.6461 93.6964 19.6406 77.3503 25.0621 62.4375C30.4835 47.5248 40.9853 34.9986 54.7236 27.0586C68.4618 19.1185 84.5581 16.2722 100.186 19.0193C115.814 21.7665 129.975 29.9315 140.182 42.0807L138.281 43.6776C128.45 31.9752 114.81 24.1105 99.7564 21.4644C84.7031 18.8183 69.1988 21.5599 55.9658 29.2079C42.7329 36.856 32.6173 48.9214 27.3952 63.2857C22.1732 77.6501 22.1785 93.3949 27.4103 107.756C32.6421 122.116 42.7659 134.175 56.004 141.814C69.2421 149.453 84.7483 152.184 99.7998 149.528C114.851 146.872 128.486 138.998 138.309 127.289C148.133 115.58 153.517 100.784 153.517 85.5H156Z"
                   stroke="#06EBE5"
-                  stroke-width="6"
-                  stroke-linejoin="round"
+                  strokeWidth="6"
+                  strokeLinejoin="round"
                   mask="url(#path-15-inside-2_141_1795)"
                 />
                 <mask id="path-16-inside-3_141_1795" fill="white">
@@ -673,7 +453,7 @@ const Timeline = () => {
           </span>
           
         </div>
-        <div className="content">
+        <div className="content w-full">
           <span className="contentHead mx-auto">
             <h3 className="mx-auto my-5 ">28/9/2023</h3>
           </span>
@@ -707,7 +487,7 @@ const Timeline = () => {
       </div>
 
       {/* For Animation-3 */}
-      <div className="circularAnimation1 w-1/2  flex flex-col items-end my-3">
+      <div className="circularAnimation3 w-1/2  flex flex-col items-end">
         <div className="headSvg inline-flex items-center w-auto ">
           <span className="svg1 flex flex-col shrink-0">
             <span>
@@ -794,22 +574,22 @@ const Timeline = () => {
                   cy="86"
                   r="78.5"
                   stroke="#06EBE5"
-                  stroke-width="3"
+                  strokeWidth="3"
                 />
                 <circle
                   cx="88"
                   cy="86"
                   r="83.5"
                   stroke="#06EBE5"
-                  stroke-width="5"
-                  stroke-dasharray="10 20 30 40"
+                  strokeWidth="5"
+                  strokeDasharray="10 20 30 40"
                 />
                 <circle
                   cx="88.5"
                   cy="85.5"
                   r="72"
                   stroke="#06EBE5"
-                  stroke-dasharray="5 2"
+                  strokeDasharray="5 2"
                 />
                 <mask id="path-15-inside-2_141_1795" fill="white">
                   <path d="M156 85.5C156 101.368 150.41 116.728 140.211 128.884C130.013 141.04 115.857 149.215 100.231 151.973C84.6051 154.73 68.5068 151.895 54.7632 143.964C41.0196 136.034 30.5093 123.515 25.0777 108.605C19.6461 93.6964 19.6406 77.3503 25.0621 62.4375C30.4835 47.5248 40.9853 34.9986 54.7236 27.0586C68.4618 19.1185 84.5581 16.2722 100.186 19.0193C115.814 21.7665 129.975 29.9315 140.182 42.0807L138.281 43.6776C128.45 31.9752 114.81 24.1105 99.7564 21.4644C84.7031 18.8183 69.1988 21.5599 55.9658 29.2079C42.7329 36.856 32.6173 48.9214 27.3952 63.2857C22.1732 77.6501 22.1785 93.3949 27.4103 107.756C32.6421 122.116 42.7659 134.175 56.004 141.814C69.2421 149.453 84.7483 152.184 99.7998 149.528C114.851 146.872 128.486 138.998 138.309 127.289C148.133 115.58 153.517 100.784 153.517 85.5H156Z" />
@@ -817,8 +597,8 @@ const Timeline = () => {
                 <path
                   d="M156 85.5C156 101.368 150.41 116.728 140.211 128.884C130.013 141.04 115.857 149.215 100.231 151.973C84.6051 154.73 68.5068 151.895 54.7632 143.964C41.0196 136.034 30.5093 123.515 25.0777 108.605C19.6461 93.6964 19.6406 77.3503 25.0621 62.4375C30.4835 47.5248 40.9853 34.9986 54.7236 27.0586C68.4618 19.1185 84.5581 16.2722 100.186 19.0193C115.814 21.7665 129.975 29.9315 140.182 42.0807L138.281 43.6776C128.45 31.9752 114.81 24.1105 99.7564 21.4644C84.7031 18.8183 69.1988 21.5599 55.9658 29.2079C42.7329 36.856 32.6173 48.9214 27.3952 63.2857C22.1732 77.6501 22.1785 93.3949 27.4103 107.756C32.6421 122.116 42.7659 134.175 56.004 141.814C69.2421 149.453 84.7483 152.184 99.7998 149.528C114.851 146.872 128.486 138.998 138.309 127.289C148.133 115.58 153.517 100.784 153.517 85.5H156Z"
                   stroke="#06EBE5"
-                  stroke-width="6"
-                  stroke-linejoin="round"
+                  strokeWidth="6"
+                  strokeLinejoin="round"
                   mask="url(#path-15-inside-2_141_1795)"
                 />
                 <mask id="path-16-inside-3_141_1795" fill="white">
@@ -903,115 +683,10 @@ const Timeline = () => {
             </span>
           </span>
           <div className="svg2 flex items-center w-auto">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="350"
-              height="50"
-              viewBox="0 0 104 15"
-              fill="none"
-            >
-              <line y1="3.8208" x2="5.4129" y2="3.8208" stroke="#06EBE5" />
-              <line
-                x1="1.23035"
-                y1="1.46777"
-                x2="12.5482"
-                y2="1.46777"
-                stroke="#06EBE5"
-              />
-              <line
-                x1="5.16687"
-                y1="4.76172"
-                x2="6.88916"
-                y2="4.76172"
-                stroke="#06EBE5"
-              />
-              <line
-                x1="8.11951"
-                y1="5.23242"
-                x2="11.5641"
-                y2="5.23242"
-                stroke="#06EBE5"
-              />
-              <line
-                x1="4.19043"
-                y1="4.7915"
-                x2="4.19043"
-                y2="7.61471"
-                stroke="#06EBE5"
-              />
-              <line
-                x1="2.71436"
-                y1="4.7915"
-                x2="2.71436"
-                y2="7.61471"
-                stroke="#06EBE5"
-              />
-              <line
-                x1="1.23828"
-                y1="4.7915"
-                x2="1.23828"
-                y2="7.61471"
-                stroke="#06EBE5"
-              />
-              <path
-                d="M6.64319 1.49823L7.79851 3.38037L12.5482 3.38037"
-                stroke="#06EBE5"
-              />
-              <path
-                d="M12.5491 1.0263L56.3443 1.50765L78.2405 1.50765L80.824 5.49627"
-                stroke="#06EBE5"
-              />
-              <path
-                d="M35.9221 3.37842L38.1379 7.14269L81.9331 7.62405L99.1546 7.62404L103.091 13.9654"
-                stroke="#06EBE5"
-              />
-              <ellipse
-                cx="54.0061"
-                cy="4.55475"
-                rx="0.615102"
-                ry="1.17634"
-                fill="black"
-              />
-              <ellipse
-                cx="56.4662"
-                cy="4.55475"
-                rx="0.615102"
-                ry="1.17634"
-                fill="black"
-              />
-              <ellipse
-                cx="58.927"
-                cy="4.55475"
-                rx="0.615102"
-                ry="1.17634"
-                fill="black"
-              />
-              <ellipse
-                cx="61.3871"
-                cy="4.55475"
-                rx="0.615102"
-                ry="1.17634"
-                fill="black"
-              />
-              <ellipse
-                cx="63.8478"
-                cy="4.55475"
-                rx="0.615102"
-                ry="1.17634"
-                fill="black"
-              />
-              <path
-                d="M39.6125 3.81982C39.3364 3.81982 39.1125 4.04368 39.1125 4.31982C39.1125 4.59597 39.3364 4.81982 39.6125 4.81982V3.81982ZM39.6125 4.81982H52.0376V3.81982H39.6125V4.81982Z"
-                fill="#06EBE5"
-              />
-              <path
-                d="M65.6931 3.81982C65.417 3.81982 65.1931 4.04368 65.1931 4.31982C65.1931 4.59597 65.417 4.81982 65.6931 4.81982V3.81982ZM65.6931 4.81982H78.1182V3.81982H65.6931V4.81982Z"
-                fill="#06EBE5"
-              />
-            </svg>
+          <Image src={Image1} alt="Image" className="img3"></Image>
           </div>
         </div>
-        <div className="content">
+        <div className="content w-full">
           <span className="contentHead mx-auto">
             <h3 className="mx-auto my-5 ">28/9/2023</h3>
           </span>
@@ -1025,9 +700,9 @@ const Timeline = () => {
           </div>
         </div>
       </div>
-
+      </div>
     </>
   );
 };
 
-export default Timeline;
+export default Test2;
