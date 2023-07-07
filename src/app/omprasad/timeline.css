@@ -16,14 +16,13 @@
 	width: 100vw;
 	height: auto;
   }
-  .timeline{
-	background-image: url(./buildig.png);
+  body{
+	background-image: url(./background.png);
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 100%;
-	width: 100%;
 	background-size: cover;
   }
+  
   .subSvg,.contentUl{
 	color: #E7E7E7;
   }
