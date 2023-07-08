@@ -64,7 +64,7 @@ export default function Home() {
       </div>
       
     </main>
-    <div>
+    <div className="relative">
       <Accordion/>
     </div>
     </>
