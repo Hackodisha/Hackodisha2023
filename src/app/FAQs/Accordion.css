@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Gvonz:wght@100;300;400&display=swap");
 
-body {
+body,.asp {
     background-image: url(bg.png);
     color: aliceblue;
     height: 100vh;
