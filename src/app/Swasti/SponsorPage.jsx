@@ -1,6 +1,4 @@
 import React from 'react'
-// import { useState, useEffect } from 'react';
-import { Component } from 'react';
 import SponsorCompany from './SponsorCompany'
 import Text from './Text'
 import "./Sponsor.css"
@@ -21,8 +19,7 @@ const SponsorPage = () => {
               </div>
               <div className="md:mr-16">
                 <SponsorCompany />
-                <SponsorCompany />
-                <SponsorCompany />
+                
               </div>
             </div>
           </section>
@@ -34,8 +31,6 @@ const SponsorPage = () => {
             </div>
             <div className="md:-ml-96">
               <SponsorCompany />
-              <SponsorCompany />
-              <SponsorCompany />
             </div>
           </div>
         </section>
@@ -43,8 +38,6 @@ const SponsorPage = () => {
         <section className='hidden md:flex'>
           <div className='flex flex-col md:flex-row md:justify-between'>
             <div className="md:ml-16">
-              <SponsorCompany />
-              <SponsorCompany />
               <SponsorCompany />
             </div>
             <div className=''>

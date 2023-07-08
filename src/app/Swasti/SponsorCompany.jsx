@@ -6,7 +6,7 @@ import image3 from "./Assets/3.svg"
 import "./SponsorCompany.css"
 import Image from 'next/image'
 const SponsorCompany = () => {
-  const images = [image1, image2, image3]
+  const images = [image1, image2, image3,image1, image2, image3,image1, image2, image3 ]
   return (
     <>
     <section className='main-section'>
