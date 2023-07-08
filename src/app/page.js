@@ -1,4 +1,5 @@
 "use client";
+import Accordion from "@/components/FAQs/Accordion";
 import Player from "@/components/Player";
 import { useState } from "react";
 
@@ -21,6 +22,7 @@ export default function Home() {
     <main className="flex min-h-screen min-w-screen flex-col items-center justify-center p-12 xl:p-0 md:text-2xl bg-blue-100">
       <div className="drop-shadow-xl flex-col flex gap-10 items-center ">
         <Player />
+        <Accordion/>
         <div>
           <h1
             className="text-center font-black text-3xl md:text-5xl break-keep break-words mb-4 cursor-pointer"

@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Gvonz:wght@100;300;400&display=swap");
+
+body {
+    background-image: url(bg.png);
+    color: aliceblue;
+    height: 100vh;
+    background-size: cover;
+
+
+}
+
+.answer {
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0, 1, 0, 1);
+    padding-left: 3em;
+    padding-right: 4em;
+    line-height: 1.8;
+    background: rgba(224, 224, 224, 0.1);
+    border-radius: 0px 0px 12px 12px;
+
+}
+
+.answer.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.3s cubic-bezier(1, 0, 1, 0);
+    padding-left: 3em;
+    padding-right: 4em;
+    line-height: 1.8;
+
+}
+
+
+@media screen and (max-width:720px) {
+    .answer {
+        line-height: 1.2;
+        font-size: 11px;
+        padding-left: 4.5em;
+        padding-right: 5em;
+    }
+
+    .answer.show {
+        font-size: 11px;
+        line-height: 1.2;
+        padding-left: 4.5em;
+        padding-right: 5em;
+    }
+}
+
+@media screen and (max-width:512px) {
+.answer{
+    font-size: 10px;
+    line-height: 1.2;
+    padding-left: 2.8em;
+    padding-right: 3.5em;
+}
+    .answer.show {
+        font-size: 10px;
+        line-height: 1.2;
+        padding-left:2.8em;
+        padding-right: 3.5em;
+    }
+
+}
