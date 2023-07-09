@@ -7,17 +7,4 @@
     font-family: Monaco, monospace;
     font-size: 18px;
   }
-  .home::before {
-    @apply absolute w-full h-screen bg-no-repeat bg-center bg-cover -z-10 top-0 left-0 ;
-    background-image: url('/Images/homebg.svg');
-    content: "";
-  }
-}
-
-@layer base{
-  @font-face {
-    font-family: "myfont";
-    font-weight: 400;
-    src: url("/fonts/navbarTxt.ttf") format("truetype");
-  }
 }
