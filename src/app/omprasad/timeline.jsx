@@ -9,7 +9,7 @@ const Timeline = () => {
   return (
     <>
     <div className="topHead">
-      <div className="head shrink-0">
+      <div className="time-head shrink-0">
         <div>
           <Image src={Image6} alt="Image"  className="img1"></Image>
         </div>
@@ -20,7 +20,7 @@ const Timeline = () => {
       </div>
       <div className="timeline  h-auto ">
       <div className="circularAnimation1 w-1/2 mt-4 flex flex-col items-end">
-        <div className="headSvg inline-flex items-center w-auto ">
+        <div className="time-headSvg inline-flex items-center w-auto ">
           <span className="svg1 flex flex-col shrink-0">
             <span>
               <svg
@@ -224,7 +224,7 @@ const Timeline = () => {
             <h3 className="mx-auto my-5 ">28/9/2023</h3>
           </span>
           <div className="flex justify-center">
-            <ul className="contentUl px-5">
+            <ul className="contentUl ">
               <li>7:30</li>
               <li>7:30</li>
               <li>8:00</li>
@@ -235,7 +235,7 @@ const Timeline = () => {
               <li>18:00</li>
               <li>19:00</li>
             </ul>
-            <ul className="contentUl  px-5">
+            <ul className="contentUl ">
               <li>Check in starts</li>
               <li> Doors open for participants</li>
               <li> Opening Ceremony </li>
@@ -457,7 +457,7 @@ const Timeline = () => {
             <h3 className="mx-auto my-5 ">28/9/2023</h3>
           </span>
           <div className="flex justify-center">
-            <ul className="contentUl px-5">
+            <ul className="contentUl ">
               <li>00:00</li>
               <li>10:00</li>
               <li>12:00 </li>
@@ -469,7 +469,7 @@ const Timeline = () => {
               <li>21:30</li>
               <li>22:00</li>
             </ul>
-            <ul className="contentUl  px-5">
+            <ul className="contentUl ">
               <li> Hacker Hangout </li>
               <li>Workshop</li>
               <li>Lunch </li>
@@ -690,10 +690,10 @@ const Timeline = () => {
             <h3 className="mx-auto my-5 ">28/9/2023</h3>
           </span>
           <div className="flex justify-center">
-            <ul className="contentUl px-5">
+            <ul className="contentUl ">
               <li>7:30</li>
             </ul>
-            <ul className="contentUl  px-5">
+            <ul className="contentUl  ">
               <li>7:30  Winner announcement</li>
             </ul>
           </div>
