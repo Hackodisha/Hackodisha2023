@@ -63,7 +63,7 @@ export default function Home() {
           </a>
         </div>
       </main>
-      <div className="flex min-h-fit min-w-screen flex-col items-center  xl:p-0 md:text-2xl bg-black shadow"  >
+      <div className="flex min-h-fit min-w-screen items-center bg-black shadow overflow-x-hidden"  >
         <Statistics />
       </div>
     </>
