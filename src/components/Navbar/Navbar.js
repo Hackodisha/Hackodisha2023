@@ -3,6 +3,7 @@ import Hamburger from "hamburger-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import "./Navbar.css";
 
 function Navbar() {
   const [navbar, setNavbar] = useState(false);
@@ -10,12 +11,12 @@ function Navbar() {
     <nav
       className={`${
         navbar ? "animate-trans-navbarbg" : "animate-none"
-      } bg-navbg w-full h-full md:flex justify-between items-center sticky top-0 text-white backdrop-blur-sm`}
+      } bg-navbg w-full h-auto md:flex justify-between items-center fixed top-0 text-white backdrop-blur-sm py-1 z-10`}
     >
       <div className="flex justify-between items-center">
-        <Link href="/swadhin/#home">
+        <Link href="/#home">
           <Image
-            src={"/Images/HO3.svg"}
+            src={"/images/HO3.svg"}
             alt="logo"
             width="100"
             height="100"
@@ -35,22 +36,22 @@ function Navbar() {
           navbar ? "block" : "hidden"
         }`}
       >
-        <Link href="/swadhin/#home">
+        <Link href="/#home">
           <li className="animate-trans-navbar-component-1 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-xl hover:bg-slate-400 hover:bg-opacity-10">
             Home
           </li>
         </Link>
-        <Link href="/swadhin/#about">
+        <Link href="/#about">
           <li className="animate-trans-navbar-component-2 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-xl hover:bg-slate-400 hover:bg-opacity-10">
             About Us
           </li>
         </Link>
-        <Link href="/swadhin/#contact">
+        <Link href="/#contact">
           <li className="animate-trans-navbar-component-3 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-xl hover:bg-slate-400 hover:bg-opacity-10">
             Contact Us
           </li>
         </Link>
-        <Link href="/swadhin/#event">
+        <Link href="/#event">
           <li className="animate-trans-navbar-component-4 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-xl hover:bg-slate-400 hover:bg-opacity-10">
             Events
           </li>
