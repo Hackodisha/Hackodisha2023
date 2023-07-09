@@ -22,15 +22,21 @@
 	background-repeat: no-repeat;
 	background-size: cover;
   }
-  
+ 
   .subSvg,.contentUl{
 	color: #E7E7E7;
   }
   
   
   @media only screen and (max-width:750px) {
+	.timeline{
+		background-image: url(./Vector\ 11.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-top: 3rem;
+	 }
     .img1{
-		width:136px ;
+		width:136px;
 		height:36px;
 	}
 	.head{
@@ -81,6 +87,12 @@
   }
   
   @media only screen and (min-width:750px) and (max-width:1000px) {
+	.timeline{
+		background-image: url(./Vector\ 10.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-top: 3rem;
+	 }
 	.img1{
 		width:218px ;
 		height:52px;
@@ -131,6 +143,12 @@
 	}
   }
   @media only screen and (min-width:1000px) and (max-width:1300px) {
+	.timeline{
+		background-image: url(./Vector\ 9.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-top: 4rem;
+	 }
 	.img1{
 		width:245px ;
 		height:65px;
@@ -182,6 +200,12 @@
   }
   
   @media only screen and (min-width:1300px) {
+	.timeline{
+		background-image: url(./Vector\ 8.svg);
+		background-position: center;
+		background-repeat: no-repeat;
+		margin-top:5rem;
+	 }
 	.img1{
 		width:300px;
 		height:80px;

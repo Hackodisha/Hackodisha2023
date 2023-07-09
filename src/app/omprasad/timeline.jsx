@@ -3,7 +3,6 @@ import "./timeline.css";
 import Image from 'next/image';
 import Image1 from "./img1.svg";
 import Image2 from "./img2.svg";
-import Image3 from "./img3.svg";
 import Image5 from "./Union.svg";
 import Image6 from "./Group 171.svg"
 const Timeline = () => {
@@ -19,8 +18,8 @@ const Timeline = () => {
       <Image src={Image5} alt="Image"  className="img2"></Image>
       </div>
       </div>
-      <div className="timeline mt-14">
-      <div className="circularAnimation1 w-1/2  flex flex-col items-end">
+      <div className="timeline  h-auto ">
+      <div className="circularAnimation1 w-1/2 mt-4 flex flex-col items-end">
         <div className="headSvg inline-flex items-center w-auto ">
           <span className="svg1 flex flex-col shrink-0">
             <span>
@@ -487,7 +486,7 @@ const Timeline = () => {
       </div>
 
       {/* For Animation-3 */}
-      <div className="circularAnimation3 w-1/2  flex flex-col items-end">
+      <div className="circularAnimation3 w-1/2 mb-12 flex flex-col items-end">
         <div className="headSvg inline-flex items-center w-auto ">
           <span className="svg1 flex flex-col shrink-0">
             <span>
