@@ -4,7 +4,11 @@ import "./Sponsor.css"
 import Silver from "./Assets/silver.svg"
 import Bronze from "./Assets/bronze.svg"
 import photo from "./Assets/Group 143.svg"
+import image1 from "./Assets/1.svg"
+import image2 from "./Assets/2.svg"
+import image3 from "./Assets/3.svg"
 const SponsorPage = () => {
+  const images = [image1, image2, image3, image1, image2, image3, image1, image2, image3]
   return (
     <>
       <section className='overflow-hidden main-sponsor'>
@@ -20,8 +24,16 @@ const SponsorPage = () => {
           <div className='pic md:ml-24 md:mt-28 '>
             <img src={photo.src} alt="" className='hidde/n md:flex h-[35rem] md:h-max ' />
           </div>
-          <div className='mt-8 md:mt-20'>
-            <SponsorCompany />
+          <div className='mt-8 md:mt-14'>
+            <section className='main-section overflow-hidden grid grid-cols-3 md:min-h-full'>
+              {
+                images.map((image, index) => {
+                  return (
+                    <SponsorCompany image={image} key={index} />
+                  )
+                })
+              }
+            </section>
           </div>
         </section>
         <div className='sm:hidden md:hidden flex text-[#CA40CD] justify-center font pt-4'>
@@ -29,7 +41,17 @@ const SponsorPage = () => {
         </div>
         <section className='flex flex-row md:flex-row md:justify-between h-max first md:mt-32 md:mr-2 second'>
           <div className='mt-3 mr-4 md:mt-20'>
-            <SponsorCompany />
+
+            <section className='main-section overflow-hidden grid grid-cols-3 md:min-h-full'>
+              {
+                images.map((image, index) => {
+                  return (
+                    <SponsorCompany image={image} key={index} />
+                  )
+                })
+              }
+            </section>
+
           </div>
           <div className='pic md:mr-14 md:mt-20 -mt-8 md:rotate-180 rotate-180'>
             <img src={photo.src} alt="" className='hidde/n md:flex h-[35rem] md:h-max' />
@@ -39,7 +61,6 @@ const SponsorPage = () => {
               <img src={Bronze.src} alt="silver" />
             </div>
           </div>
-
         </section>
       </section>
     </>
