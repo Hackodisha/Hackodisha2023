@@ -1,22 +1,110 @@
-body{
-    background-color: black;
+.first {
+    background-image: url('./Assets/border1.svg');
+    background-repeat: no-repeat;
 }
-.main-sponsor{
-    opacity: 0.7599999904632568;
-    /* background-color: #802201; */
-    /* background: url("./Assets/My\ project\ 1\ .svg"), cover no-repeat; */
-    background-image:url("./Assets/My\ project\ 1\ .svg");
+
+.second {
+    background-image: url('./Assets/border2.svg');
+    background-repeat: no-repeat;
+}
+.main-sponsor {
+    background-color: #0f073cf8;
+    background-image: linear-gradient(315deg, #151010 0%, #a494ac 74%);
+    background-image: url("./Assets/My\ project\ 1\ .svg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.first{
-    background-image:url("./Assets/border1.svg");
-    /* background-position: center; */
-    /* background-size: cover; */
+
+.first {
     background-repeat: no-repeat;
 }
-.second{
-   background-image: url("./Assets/border2.svg");
-   background-repeat: no-repeat;
+
+.second {
+    background-image: url("./Assets/border2.svg");
+    background-repeat: no-repeat;
+}
+
+@media only screen and (max-width:600px) {
+    .font {
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .second {
+        background-image: none;
+    }
+
+    .first {
+        background-image: none;
+    }
+}
+
+@media only screen and (min-width:1600px) {
+   
+    .second {
+        background-image: none;
+    }
+
+    .first {
+        background-image: none;
+    }
+}
+/* sponsor comapny css */
+.mainsection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.Big-dot {
+    background-image: url("./Assets/Ellipse\ 4.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: cover;
+    margin-top: 2.25rem;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.Small-dot {
+
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 14.4rem;
+}
+
+.Mid-dot {
+    background-image: url("./Assets/brokenellipe.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: cover;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13.514rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 18.75rem;
+    background: #FFF;
+}
+
+.item {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
