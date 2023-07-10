@@ -1,7 +1,10 @@
 "use client";
 import Player from "@/components/Player";
 import { useState } from "react";
+
 import Timeline from "@/components/Timeline/timeline";
+import Statistics from "../components/suraj/Statistics";
+import '../components/suraj/statisticsStyle.css'
 
 export default function Home() {
   const [counter, setCounter] = useState(0);
@@ -40,11 +43,8 @@ export default function Home() {
                 >
                   🚀
                 </p>
-                <span className="absolute opacity-0 group-hover:opacity-100 text-xs duration-100 ease-in   ">
-                  {counter < 3
-                    ? "Tap HackOdisha Three times to see me rotate"
-                    : "Tap Me to Stop"}
-                </span>
+
+                <span className="absolute opacity-0 group-hover:opacity-100 text-xs duration-100 ease-in   ">{counter < 3 ? "Tap HackOdisha Three times to see me rotate" : "Tap Me to Stop"}</span>
               </span>
             </h2>
           </div>
@@ -66,6 +66,9 @@ export default function Home() {
           </a>
         </div>
       </main>
+      <div className="flex min-h-fit min-w-screen items-center bg-black shadow overflow-x-hidden"  >
+        <Statistics />
+      </div>
       <Timeline/>
     </>
   );
