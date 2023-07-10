@@ -3,6 +3,8 @@ import Hero from "@/components/Hero/Hero";
 import Navbar from "@/components/Navbar/Navbar";
 import Player from "@/components/Player";
 import { useState } from "react";
+import Statistics from "../components/suraj/Statistics";
+import '../components/suraj/statisticsStyle.css'
 
 export default function Home() {
   const [counter, setCounter] = useState(0);
@@ -23,6 +25,7 @@ export default function Home() {
     <>
       {/* UnComment the below line to reveal hero component and work on it */}
       {/* <Hero /> */}
+
       <main className="flex min-h-screen min-w-screen flex-col items-center justify-center p-12 xl:p-0 md:text-2xl bg-blue-100">
         <div className="drop-shadow-xl flex-col flex gap-10 items-center ">
           <Player />
@@ -43,11 +46,8 @@ export default function Home() {
                 >
                   🚀
                 </p>
-                <span className="absolute opacity-0 group-hover:opacity-100 text-xs duration-100 ease-in   ">
-                  {counter < 3
-                    ? "Tap HackOdisha Three times to see me rotate"
-                    : "Tap Me to Stop"}
-                </span>
+
+                <span className="absolute opacity-0 group-hover:opacity-100 text-xs duration-100 ease-in   ">{counter < 3 ? "Tap HackOdisha Three times to see me rotate" : "Tap Me to Stop"}</span>
               </span>
             </h2>
           </div>
@@ -69,6 +69,9 @@ export default function Home() {
           </a>
         </div>
       </main>
+      <div className="flex min-h-fit min-w-screen items-center bg-black shadow overflow-x-hidden"  >
+        <Statistics />
+      </div>
     </>
   );
 }
