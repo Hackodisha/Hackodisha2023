@@ -14,7 +14,7 @@ module.exports = {
         sm: "5px",
       },
       fontFamily: {
-        navtxt: "'myfont',sans-serif",
+        navtxt: "'electrolize',sans-serif",
       },
       keyframes: {
         "trans-navbar": {

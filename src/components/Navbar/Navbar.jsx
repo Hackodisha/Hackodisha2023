@@ -16,7 +16,7 @@ function Navbar() {
       <div className="flex justify-between items-center">
         <Link href="/#home">
           <Image
-            src={"/images/HO3.svg"}
+            src={"/Images/Logo.svg"}
             alt="logo"
             width="100"
             height="100"

@@ -2,7 +2,7 @@
 
 @layer base{
     @font-face {
-      font-family: "myfont";
+      font-family: "electrolize";
       font-weight: 400;
       src: url("/fonts/navbarTxt.ttf") format("truetype");
     }
