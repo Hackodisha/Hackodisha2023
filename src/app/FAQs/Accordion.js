@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Accordion.css";
-import Faq1 from "./Faq1.png";
 import union1 from "./union1.svg";
 import Image from "next/image";
 
@@ -16,28 +15,30 @@ function Accordion() {
 
   return (
     <>
-      <div className="wrapper font-electrolize h-auto w-screen justify-center items-center bg-center fixed">
-        <div className="image relative pt-5 w-[100%]">
-          <Image src={Faq1} alt="" width={170} className="ml-16 relative max-[1130px]:w-[130px] max-[900px]:w-[110px] max-[720px]:w-[100px] max-[555px]:w-[80px]max-[485px]:ml-[10px]" />
-          <Image src={union1} alt="" className="absolute top-8 left-0 w-[100%] max-[485px]:h-[35px] max-[485px]:pl-[35px]" />
+      <div className="wrapper font-electrolize w-screen justify-center items-center bg-center text-white bg-cover h-screen">
+        <div className="accordion">
+          <div className="image relative w-[100%]">
+          <h2 className="ml-16 ">FAQs</h2>
+          <Image src={union1} alt="" className=" top-1 left-0 w-[100%] " />
         </div>
 
-        <div className="accordion mt-10 ">
           {data.map((item, i) => (
-            <div key={i} className="item  ml-16 mt-3 mr-20 mb-3  bg-white/[0.1] shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0.39)] rounded-[12px] max-[512px]:mr-[50px] max-[720px]:mr-[13px] ">
-              <div className="title flex justify-between flex-row pl-12  gap-5 isolate w-1488 h-12 mr-20 max-[512px]:text-[10px] max-[512px]:pt-[8px] max-[512px]:mr-[15px] max-[512px]:pl-[10px max-[720px]:text-[12px] max-[720px]:mr-[60px]">
-                <h3 className="faq h-5 font-ele font-normal text-4xl leading-[9px]">
+            <div key={i} className="item item-center ml-12 mr-12 mt-3  mb-3  bg-white/[0.1] shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0.39)] rounded-[12px] ">
+              
+              <div className="title pl-[0.75rem]  gap-5 isolate w-1488 h-12 max-[326px]:h-14 mr-6  bg-transparent shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0)] rounded-[12px]   max-[512px]:pt-[8px] max-[512px]:mr-[6px] max-[512px]:pl-[10px]  max-[720px]:mr-[8px] flex justify-between flex-row pr-3 cursor-pointer"  onClick={() => toggle(i)}>
+                <h3 className="faq h-5 font-ele font-normal text-xl leading-[15px] max-[512px]:leading-2 max-[512px]:text-[15px] max-[720px]:text-[18px] ">
                   {"0" + item.id + " " + item.faq}
                 </h3>
                 <span
                   className="cursor-pointer box-border 
                 mt-3"
-                  onClick={() => toggle(i)}
+                
                 >
                   {show !== i ? "+" : "-"}
                 </span>
+               
               </div>
-              <div className={show == i ? "answer show" : "answer"}>
+              <div className={show == i ? "answer show" : "answer" } >
                 {item.answer}
               </div>
             </div>
