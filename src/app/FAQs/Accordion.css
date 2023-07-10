@@ -2,6 +2,7 @@
 
 .wrapper {
     background-image: url(bg.png);
+    background: black;
 }
 
 .answer {
