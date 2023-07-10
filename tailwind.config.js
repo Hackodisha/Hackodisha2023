@@ -17,7 +17,6 @@ module.exports = {
         'sm-mobile': {max: '400px'},
         'mobile': {max: '640px'},
         'wide': {min: '2000px'},
-        'ultrawide': {min: '4000px'},
       },
     },
   },
