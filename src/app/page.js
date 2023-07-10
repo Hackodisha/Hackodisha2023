@@ -1,6 +1,6 @@
 "use client";
+import About from "@/components/AboutUs/About";
 import Hero from "@/components/Hero/Hero";
-import Navbar from "@/components/Navbar/Navbar";
 import Player from "@/components/Player";
 import { useState } from "react";
 
@@ -22,6 +22,7 @@ export default function Home() {
   return (
     <>
       <Hero />
+      <About />
       <main className="flex min-h-screen min-w-screen flex-col items-center justify-center p-12 xl:p-0 md:text-2xl bg-blue-100">
         <div className="drop-shadow-xl flex-col flex gap-10 items-center ">
           <Player />
