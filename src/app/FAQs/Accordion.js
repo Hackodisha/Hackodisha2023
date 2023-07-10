@@ -26,7 +26,7 @@ function Accordion() {
             <div key={i} className="item item-center ml-12 mr-12 mt-3  mb-3  bg-white/[0.1] shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0.39)] rounded-[12px] ">
               
               <div className="title pl-[0.75rem]  gap-5 isolate w-1488 h-12 max-[326px]:h-14 mr-6  bg-transparent shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0)] rounded-[12px]   max-[512px]:pt-[8px] max-[512px]:mr-[6px] max-[512px]:pl-[10px]  max-[720px]:mr-[8px] flex justify-between flex-row pr-3 cursor-pointer"  onClick={() => toggle(i)}>
-                <h3 className="faq h-5 font-ele font-normal text-xl leading-[15px] max-[512px]:leading-2 max-[512px]:text-[15px] max-[720px]:text-[18px] ">
+                <h3 className="faq h-5 font-ele font-normal text-xl leading-[50px] max-[512px]:leading-2 max-[512px]:text-[15px] max-[720px]:text-[18px] ">
                   {"0" + item.id + " " + item.faq}
                 </h3>
                 <span
