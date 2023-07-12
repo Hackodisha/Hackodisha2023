@@ -1,0 +1,38 @@
+.boundary1{
+    background-repeat: no-repeat;
+    background-image: url('/Images/HealthCareBoundary.svg');
+    background-size: 100% 100%;
+    display: flex;
+    width: 25%;
+}
+
+.bg1{
+    background-repeat: no-repeat;
+    background-image: url('/Images/TOpTheme.svg');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: -5%;
+}
+
+.bg2{
+    background-repeat: no-repeat;
+    background-image: url('/images/MiddleTheme.svg');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    width: 78%;
+    height: 100%;
+    margin-top: -4%;
+}
+
+.bg3{
+    background-repeat: no-repeat;
+    background-image: url('/Images/BottomTheme.svg');
+    background-size:100% 100%;
+    display: flex;
+    align-items: center;
+    width: 77%;
+    height: 80%;
+}
