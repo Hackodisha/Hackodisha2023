@@ -2,9 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities{
+@layer utilities {
   div {
     font-family: Monaco, monospace;
     font-size: 18px;
+  }
+}
+@layer base {
+  @font-face {
+    font-family: "titlefont";
+    font-weight: 300;
+    color: #07d6d1;
+    src: url("/fonts/gvonz-2.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "syoog";
+    font-weight: 300;
+    color: #07d6d1;
+    src: url("/fonts/syoog.otf") format("opentype");
   }
 }

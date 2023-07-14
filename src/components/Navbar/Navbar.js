@@ -18,9 +18,9 @@ function Navbar() {
           <Image
             src={"/images/HO3.svg"}
             alt="logo"
-            width="100"
-            height="100"
-            className="flex justify-center items-center p-3 md:pl-16 pl-8 w-28 h-14 md:w-40"
+            width="150"
+            height="150"
+            className="flex justify-center items-center p-3 md:pl-16 pl-8 w-[120px] h-[65px] md:w-40"
           />
         </Link>
         <span className="pr-8 md:hidden flex items-center justify-center">
@@ -37,22 +37,22 @@ function Navbar() {
         }`}
       >
         <Link href="/#home">
-          <li className="animate-trans-navbar-component-1 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-xl hover:bg-slate-400 hover:bg-opacity-10">
+          <li className="animate-trans-navbar-component-1 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-[23px] hover:text-[#06EBE5] hover:underline">
             Home
           </li>
         </Link>
         <Link href="/#about">
-          <li className="animate-trans-navbar-component-2 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-xl hover:bg-slate-400 hover:bg-opacity-10">
+          <li className="animate-trans-navbar-component-2 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-[23px] hover:text-[#06EBE5] hover:underline">
             About Us
           </li>
         </Link>
         <Link href="/#contact">
-          <li className="animate-trans-navbar-component-3 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-xl hover:bg-slate-400 hover:bg-opacity-10">
+          <li className="animate-trans-navbar-component-3 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-[23px] hover:text-[#06EBE5] hover:underline">
             Contact Us
           </li>
         </Link>
         <Link href="/#event">
-          <li className="animate-trans-navbar-component-4 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-xl hover:bg-slate-400 hover:bg-opacity-10">
+          <li className="animate-trans-navbar-component-4 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-[23px] hover:text-[#06EBE5] hover:underline">
             Events
           </li>
         </Link>
