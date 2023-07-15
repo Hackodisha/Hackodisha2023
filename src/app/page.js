@@ -1,4 +1,5 @@
 "use client";
+import Hero from "@/components/Hero/Hero";
 import Player from "@/components/Player";
 import { useState } from "react";
 import Statistics from "../components/suraj/Statistics";
@@ -21,6 +22,7 @@ export default function Home() {
 
   return (
     <>
+      <Hero />
       <main className="flex min-h-screen min-w-screen flex-col items-center justify-center p-12 xl:p-0 md:text-2xl bg-blue-100">
         <div className="drop-shadow-xl flex-col flex gap-10 items-center ">
           <Player />
@@ -41,7 +43,11 @@ export default function Home() {
                 >
                   🚀
                 </p>
-                <span className="absolute opacity-0 group-hover:opacity-100 text-xs duration-100 ease-in   ">{counter < 3 ? "Tap HackOdisha Three times to see me rotate" : "Tap Me to Stop"}</span>
+                <span className="absolute opacity-0 group-hover:opacity-100 text-xs duration-100 ease-in   ">
+                  {counter < 3
+                    ? "Tap HackOdisha Three times to see me rotate"
+                    : "Tap Me to Stop"}
+                </span>
               </span>
             </h2>
           </div>
