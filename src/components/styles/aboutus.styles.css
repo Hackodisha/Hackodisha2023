@@ -1,0 +1,23 @@
+.aboutus{
+    background-image: url("../Images/cityscape-1.svg");
+    background-position: center;
+    color: #E7E7E7;
+}
+
+.logo-container{
+    width: 624px;
+    border: 1px solid aqua;
+}
+
+.para-container{
+    border: 1px solid #0f6796;
+}
+
+.pink-span{
+    color: #CA40CD;
+}
+
+.paras{
+    margin-top: 1.5rem; 
+margin-bottom: 1rem;
+}
