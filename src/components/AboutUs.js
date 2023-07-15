@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import {Logo} from './Images/HackLogo.png';
 
 export const AboutUs = () => {
   return (
     <div className='aboutus'>
         <div className='logo-container'>
-
+            <img src={Logo} className='hacklogo' />
         </div>
         <div className='para-container'>
         HackOdisha- a thrilling 36-hour online hackathon organized by Webwiz, Nit Rourkela— an event dedicated to fostering community collaboration. With an impressive turnout of over 1600 participants across India, this hackathon promises to be a platform where innovation knows no bounds.
