@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Hero() {
   return (
-    <main className="box-border relative w-full h-[818px] 2xl:h-[90rem] min-[2500px]:h-[110rem] bg-[url('/images/homebg.svg')] bg-center bg-no-repeat bg-cover">
+    <main className="box-border relative w-[100vw] h-[100vh] bg-[url('/images/homebg.svg')] bg-center bg-no-repeat bg-cover">
       <div className="rain mix-blend-screen opacity-[0.4] transform-scale-x-1"></div>
       <div className="flex h-full w-full absolute top-0">
         <div className="bg-gradient-to-b from-[#000AFF]/[0.32] from-[84%] via-[#510202]/[0.3] to-[#260606]/[0.50] mix-blend-overlay bg-opacity-[0.32] basis-[52%] md:basis-[51%]"></div>
