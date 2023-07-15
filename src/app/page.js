@@ -2,6 +2,8 @@
 import Hero from "@/components/Hero/Hero";
 import Player from "@/components/Player";
 import { useState } from "react";
+import Statistics from "../components/suraj/Statistics";
+import '../components/suraj/statisticsStyle.css'
 
 export default function Home() {
   const [counter, setCounter] = useState(0);
@@ -67,6 +69,9 @@ export default function Home() {
           </a>
         </div>
       </main>
+      <div className="flex min-h-fit min-w-screen items-center bg-black shadow overflow-x-hidden"  >
+        <Statistics />
+      </div>
     </>
   );
 }

@@ -1,0 +1,30 @@
+.upperline {
+    background-repeat: no-repeat;
+    background-image: url('/Images/upperline.svg');
+    background-size: 100% 100%;
+    
+    background-position: right;
+    height: 100px;
+    -moz-background-clip: border-box;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.frame{
+    background-repeat: no-repeat;
+    background-image: url('/Images/frameTop.svg');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.base {
+    background-repeat: no-repeat;
+    background-image: url('/Images/frameBottom.svg');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
