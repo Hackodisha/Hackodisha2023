@@ -1,16 +1,45 @@
-.aboutus{
+.about-section{
     background-image: url("../Images/cityscape-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     background-position: center;
     color: #E7E7E7;
+   
+}
+
+.header-sec{
+    color: #07D6D1;
+    font-family: gvonz;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  45px ;
+    letter-spacing: -0.5px;
+}
+
+.line{
+    width: 100%;
+    border: 1px solid #07D6D1 ;
 }
 
 .logo-container{
-    width: 624px;
-    border: 1px solid aqua;
+    width: 524px; height: 524px;
+    border: 0px solid aqua;
 }
-
+.hacklogo{
+   /* opacity: 0.4399999976158142;*/
+   width: 100%;
+}
 .para-container{
-    border: 1px solid #0f6796;
+    border: 0px solid #0f6796;
+    font-family: Syoog;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  45px ;
+    letter-spacing: -0.5px;
+   
 }
 
 .pink-span{
@@ -19,5 +48,5 @@
 
 .paras{
     margin-top: 1.5rem; 
-margin-bottom: 1rem;
+    margin-bottom: 1rem;
 }

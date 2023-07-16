@@ -5,7 +5,12 @@ import Logo from './Images/HackLogo.svg';
 
 export const AboutUs = () => {
   return (
-    <div className='aboutus flex flex-row bg-black px-10 py-20	text-justify justify-between '>
+    <section className='about-section  bg-black'>
+    <div className='header-sec '>
+      <h1 className='heading underline xl:text-[3.5rem] px-10 py-10'>About Us</h1>
+      <hr className='line'/>
+    </div>
+    <div className='aboutus flex flex-row px-10 py-20	text-justify justify-between items-center	 '>
         <div className='logo-container'>
             <Image src={Logo} className='hacklogo' />
         </div>
@@ -18,5 +23,6 @@ export const AboutUs = () => {
 
         </div>
     </div>
+    </section>
   )
 }
