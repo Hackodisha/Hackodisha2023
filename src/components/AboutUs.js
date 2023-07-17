@@ -12,7 +12,7 @@ export const AboutUs = () => {
       <hr className='line'/>
     </div>
     <div className='aboutus flex flex-col md:flex-row px-10 py-20	text-justify justify-between items-center	 '>
-        <div className='logo-container w-[219px] md:w-[524px]'>
+        <div className='logo-container w-[219px] md:w-[624px]'>
             <Image src={Logo} className='hacklogo' alt='hackodisha-logo'/>
         </div>
         <div className='para-container w-[333px] md:w-[841px] md:px-8 '>

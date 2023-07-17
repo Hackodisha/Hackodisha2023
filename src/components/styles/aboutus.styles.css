@@ -29,8 +29,9 @@
 .hacklogo{
    /* opacity: 0.4399999976158142;*/
    width: 100%;
-   mix-blend-mode: color-dodge;
+   mix-blend-mode: lighten;
 }
+
 .para-container{
     border: 0px solid #0f6796;
     font-family: Syoog;
