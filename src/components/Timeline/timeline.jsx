@@ -215,7 +215,7 @@ const Timeline = () => {
               </span>
             </span>
             <div className="svg2 flex items-center w-auto">
-              <Image src={Image1} alt="Image" className="img3"></Image>
+              <Image src={Image1} width={350} height={50} alt="Image" className="img3 opacity-60"></Image>
             </div>
           </div>
           <div className="content w-full">
@@ -250,7 +250,7 @@ const Timeline = () => {
         <div className="circularAnimation2 w-1/2  flex flex-col items-start  px-0 mx-0">
           <div className="headSvg inline-flex items-center w-auto ">
             <div className="svg2 flex items-center w-auto">
-              <Image src={Image2} alt="Image" className="img3"></Image>
+              <Image src={Image2} width={350} height={50} alt="Image" className="img3 opacity-60"></Image>
             </div>
             <span className="svg1 flex flex-col shrink-0">
               <span>
@@ -680,7 +680,7 @@ const Timeline = () => {
               </span>
             </span>
             <div className="svg2 flex items-center w-auto">
-              <Image src={Image1} alt="Image" className="img3"></Image>
+              <Image src={Image1} width={350} height={50} alt="Image" className="img3 opacity-60"></Image>
             </div>
           </div>
           <div className="content w-full">
