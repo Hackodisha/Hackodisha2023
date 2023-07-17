@@ -8,7 +8,7 @@ function Hero() {
   return (
     <main className="box-border relative bg-[#121212] w-[100%] h-screen bg-center bg-no-repeat bg-cover">
       <Image
-        src={"/images/homebg.svg"}
+        src={"/Images/homebg.webp"}
         alt="HeroBg"
         fill="true"
         className="absolute top-0 w-screen object-cover"
@@ -41,21 +41,21 @@ function Hero() {
       </div>
       <div className="flex flex-col md:-top-6 items-center w-full h-full relative xl:mb-32 pt-[50%] sm:pt-32">
         <Image
-          src={"/images/upper.svg"}
+          src={"/Images/upper.svg"}
           alt="upperLogo"
           height={"300"}
           width={"380"}
           className="w-10/12 md:w-4/12"
         />
         <Image
-          src={"/images/Group 8.svg"}
+          src={"/Images/Group 8.svg"}
           alt="Center Log"
           height={"300"}
           width={"380"}
           className="w-10/12 md:w-4/12 relative -top-3"
         />
         <Image
-          src={"/images/lower.svg"}
+          src={"/Images/lower.svg"}
           alt="LowerLogo"
           height={"300"}
           width={"380"}
