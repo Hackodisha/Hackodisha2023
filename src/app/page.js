@@ -1,8 +1,11 @@
 "use client";
 import Player from "@/components/Player";
 import { useState } from "react";
-import TracksPrizes from "../components/TracksPrizes/TracksPrizes"
-import "../components/TracksPrizes/TracksPrizes.jsx"
+import TracksPrizesHealthCare from "../components/TracksPrizes/TracksPrizesHealthCare";
+import TracksPrizesInnovation from "../components/TracksPrizes/TracksPrizesInnovation";
+import TracksPrizesEnvironment from "../components/TracksPrizes/TracksPrizesEnvironment";
+import TracksPrizesSecurity from "../components/TracksPrizes/TracksPrizesSecurity";
+import TracksPrizesWeb3 from "../components/TracksPrizes/TracksPrizesWeb3";
 
 export default function Home() {
   const [counter, setCounter] = useState(0);
@@ -64,7 +67,27 @@ export default function Home() {
         </div>
       </main>
       <div className="flex min-h-fit min-w-screen flex-col bg-black">
-          <TracksPrizes/>
+        <TracksPrizesHealthCare />
+        <br />
+        <br />
+        <hr />
+        <br />
+        <TracksPrizesInnovation />
+        <br />
+        <br />
+        <hr />
+        <br />
+        <TracksPrizesEnvironment />
+        <br />
+        <br />
+        <hr />
+        <br />
+        <TracksPrizesSecurity />
+        <br />
+        <br />
+        <hr />
+        <br />
+        <TracksPrizesWeb3 />
       </div>
     </>
   );

@@ -15,11 +15,11 @@ const TracksPrizes = () => {
       </div>
       <div className='flex'>
         <div className='w-3/4'>
-            <div className='flex mt-[-18%] justify-evenly'>
-              <Image src={"/images/HealthCareLogo.svg"} alt="logo" width="100" height="100" className="boundary1 p-2  " />
-              <Image src={"/images/HealthCareText.svg"} alt="logo" width="100" height="100" className="w-[40%]  " />
-              <Image src={"/images/Angle.svg"} alt="logo" width="100" height="100" className="w-[5%] mt-[15%]" />
-            </div>
+          <div className='flex mt-[-18%] justify-evenly'>
+            <Image src={"/images/HealthCareLogo.svg"} alt="logo" width="100" height="100" className="boundary1 p-2  " />
+            <Image src={"/images/HealthCareText.svg"} alt="logo" width="100" height="100" className="w-[40%]  " />
+            <Image src={"/images/Angle.svg"} alt="logo" width="100" height="100" className="w-[5%] mt-[15%]" />
+          </div>
           <div className='flex mt-[5%]'>
             <div className='w-[8%] ml-[4%]'>
               <Image src={"/images/VerticalLine.svg"} alt="logo" width="100" height="100" className="w-[15%]" />
@@ -50,12 +50,12 @@ const TracksPrizes = () => {
               <div>
                 <Image src={"/images/TextImages/PresentedBy.svg"} alt="logo" width="100" height="100" className="w-[30%] mt-[10%]" />
               </div>
-              
+
             </div>
           </div>
         </div>
         <div className='w-1/4 '>
-          <div className='flex flex-col mt-[-65%] ml-[5%] p-1'> 
+          <div className='flex flex-col mt-[-65%] ml-[5%] p-1'>
             <Image src={"/images/TextImages/Health.svg"} alt="logo" width="100" height="100" className="w-[50%] bg1 p-[24%]" />
             <div className='flex flex-col bg2 mt-[-4%] p-[8%] '>
               <Image src={"/images/TextImages/Web3.svg"} alt="logo" width="100" height="100" className="w-[34%] mt-[22%]" />
@@ -69,10 +69,10 @@ const TracksPrizes = () => {
           </div>
         </div>
       </div>
-        <div className='flex'>
-          <Image src={"/images/BottomBoundary.svg"} alt="logo" width="100" height="100" className="w-[70%] ml-[4%] mt-[6%]" />
-          <Image src={"/images/RightBoundary.svg"} alt="logo" width="100" height="100" className="w-[15%] ml-[9%] mt-[-25%]" />
-        </div>
+      <div className='flex'>
+        <Image src={"/images/BottomBoundary.svg"} alt="logo" width="100" height="100" className="w-[70%] ml-[4%] mt-[6%]" />
+        <Image src={"/images/RightBoundary.svg"} alt="logo" width="100" height="100" className="w-[15%] ml-[9%] mt-[-25%]" />
+      </div>
     </>
   )
 }
