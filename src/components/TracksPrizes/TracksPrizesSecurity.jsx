@@ -63,7 +63,7 @@ const TracksPrizes = () => {
                             <Image src={"/images/TextImages/HorizentalLine.svg"} alt="logo" width="100" height="100" className="w-[60%] mt-[30%]" />
                             <Image src={"/images/TextImages/Environment.svg"} alt="logo" width="100" height="100" className="w-[100%] mt-[45%]" />
                         </div>
-                        <Image src={"/images/TextImages/Women.svg"} alt="logo" width="100" height="100" className="w-[40%] p-[32%] bg12" />
+                        <Image src={"/images/TextImages/Women.svg"} alt="logo" width="100" height="100" className="w-[40%] p-[28%] bg12" />
                         <Image src={"/images/TextImages/Innovation.svg"} alt="logo" width="100" height="100" className="w-[50%] p-[18%] mt-[4%] bg13" />
                     </div>
                 </div>
