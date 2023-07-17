@@ -1,24 +1,34 @@
 import React from "react";
 import "./timeline.css";
+import Title from "../CommonComponent/Title/Title";
 import Image from "next/image";
 import Image1 from "./assets/img1.svg";
 import Image2 from "./assets/img2.svg";
 import Image5 from "./assets/Union.svg";
-import Image6 from "./assets/Group 171.svg";
+import silhouetteInv from "../Images/silhouette-2.webp";
+import building from "../Images/floating-building.webp";
 const Timeline = () => {
   return (
-    <>
+    <div className="w-full relative">
+      <Image
+        src={silhouetteInv}
+        fill
+        className="object-contain object-top mt-20 h-[25%] opacity-50"
+      />
+
       <div className="topHead">
-        <div className="time-head shrink-0">
-          <div>
-            <Image src={Image6} alt="Image" className="img1"></Image>
-          </div>
-        </div>
+          <Title title={"Timeline"} className={"px-5 sm:px-10 pt-5"}>
+          </Title>
         <div className="line">
           <Image src={Image5} alt="Image" className="img2"></Image>
         </div>
       </div>
-      <div className="timeline  h-auto ">
+      <div className="timeline h-auto relative  pb-20 ">
+      <Image
+        src={building}
+        fill
+        className="object-contain object-center h-[50%] opacity-30 mix-blend-hard-light "
+      />
         <div className="circularAnimation1 w-1/2 mt-4 flex flex-col items-end">
           <div className="time-headSvg inline-flex items-center w-auto ">
             <span className="svg1 flex flex-col shrink-0">
@@ -215,7 +225,13 @@ const Timeline = () => {
               </span>
             </span>
             <div className="svg2 flex items-center w-auto">
-              <Image src={Image1} width={350} height={50} alt="Image" className="img3 opacity-60"></Image>
+              <Image
+                src={Image1}
+                width={350}
+                height={50}
+                alt="Image"
+                className="img3 opacity-60"
+              ></Image>
             </div>
           </div>
           <div className="content w-full">
@@ -225,22 +241,33 @@ const Timeline = () => {
             <div className="">
               <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 text-left ">
                 {[
-                  "7:30 AM",	"Check-in starts",
-                  "7:30 AM",	"Doors open for participants",
-                  "9:00 AM",	"Opening Ceremony",
-                  "8:30 AM",	"Hacking Starts",
-                  "9:00 AM",	"Team Building Event",
-                  "12:00 PM", "Lunch Break",
-                  "3:30 PM",	"Fun Event 1",
-                  "5:00 PM",	"Hacker Hangout",
-                  "8:00 PM",	"Fun Event 2",
+                  "7:30 AM",
+                  "Check-in starts",
+                  "7:30 AM",
+                  "Doors open for participants",
+                  "9:00 AM",
+                  "Opening Ceremony",
+                  "8:30 AM",
+                  "Hacking Starts",
+                  "9:00 AM",
+                  "Team Building Event",
+                  "12:00 PM",
+                  "Lunch Break",
+                  "3:30 PM",
+                  "Fun Event 1",
+                  "5:00 PM",
+                  "Hacker Hangout",
+                  "8:00 PM",
+                  "Fun Event 2",
                 ].map((item, index) => (
-                  <li className={`${index%2==0?"w-fit":"w-full"} m-auto `} key={index}>
+                  <li
+                    className={`${index % 2 == 0 ? "w-fit" : "w-full"} m-auto `}
+                    key={index}
+                  >
                     {item}
                   </li>
                 ))}
               </ul>
-
             </div>
           </div>
         </div>
@@ -250,7 +277,13 @@ const Timeline = () => {
         <div className="circularAnimation2 w-1/2  flex flex-col items-start  px-0 mx-0">
           <div className="headSvg inline-flex items-center w-auto ">
             <div className="svg2 flex items-center w-auto">
-              <Image src={Image2} width={350} height={50} alt="Image" className="img3 opacity-60"></Image>
+              <Image
+                src={Image2}
+                width={350}
+                height={50}
+                alt="Image"
+                className="img3 opacity-60"
+              ></Image>
             </div>
             <span className="svg1 flex flex-col shrink-0">
               <span>
@@ -450,7 +483,7 @@ const Timeline = () => {
             <span className="contentHead mx-auto">
               <h3 className="mx-auto my-5 ">September 10, 2023</h3>
             </span>
-            
+
             <div className="">
               <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 text-left  ">
                 {[
@@ -473,12 +506,14 @@ const Timeline = () => {
                   "11:00 PM",
                   "Event Ends",
                 ].map((item, index) => (
-                  <li className={`${index%2==0?"w-fit":"w-full"} m-auto `} key={index}>
+                  <li
+                    className={`${index % 2 == 0 ? "w-fit" : "w-full"} m-auto `}
+                    key={index}
+                  >
                     {item}
                   </li>
                 ))}
               </ul>
-
             </div>
           </div>
         </div>
@@ -680,7 +715,13 @@ const Timeline = () => {
               </span>
             </span>
             <div className="svg2 flex items-center w-auto">
-              <Image src={Image1} width={350} height={50} alt="Image" className="img3 opacity-60"></Image>
+              <Image
+                src={Image1}
+                width={350}
+                height={50}
+                alt="Image"
+                className="img3 opacity-60"
+              ></Image>
             </div>
           </div>
           <div className="content w-full">
@@ -689,20 +730,20 @@ const Timeline = () => {
             </span>
             <div className="">
               <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 text-left  ">
-                {[
-                  "6:00 PM","Winner Announcement",
-                ].map((item, index) => (
-                  <li className={`${index%2==0?"w-fit":"w-full"} m-auto `} key={index}>
+                {["6:00 PM", "Winner Announcement"].map((item, index) => (
+                  <li
+                    className={`${index % 2 == 0 ? "w-fit" : "w-full"} m-auto `}
+                    key={index}
+                  >
                     {item}
                   </li>
                 ))}
               </ul>
-
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

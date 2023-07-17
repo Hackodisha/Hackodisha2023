@@ -1,3 +1,13 @@
+.stats-section{
+    /* background-image: url("../Images/cityscape-2.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-position: top; */
+    color: #E7E7E7;
+   
+}
+
 .upperline {
     background-repeat: no-repeat;
     background-image: url('/Images/upperline.svg');
