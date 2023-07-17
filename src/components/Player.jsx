@@ -1,3 +1,5 @@
+// Not used in the final version of the project
+
 "use client"
 
 import Lottie from "react-lottie";
