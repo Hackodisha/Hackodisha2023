@@ -57,11 +57,11 @@ const TracksPrizes = () => {
                 <div className='w-1/4'>
                     <div className='flex flex-col mt-[-65%] ml-[5%] p-1 '>
                         <Image src={"/images/TextImages/Health.svg"} alt="logo" width="100" height="100" className="w-[50%] bg11 p-[16%]" />
-                        <Image src={"/images/TextImages/Women.svg"} alt="logo" width="100" height="100" className="w-[40%] p-[32%] bg12" />
+                        <Image src={"/images/TextImages/Web3.svg"} alt="logo" width="100" height="100" className="w-[35%] p-[32%] bg12" />
                         <div className='flex flex-col bg14 p-[13%] '>
-                            <Image src={"/images/TextImages/Web3.svg"} alt="logo" width="100" height="100" className="w-[45%] mt-[15%]" />
+                            <Image src={"/images/TextImages/Environment.svg"} alt="logo" width="100" height="100" className="w-[95%] mt-[15%]" />
                             <Image src={"/images/TextImages/HorizentalLine.svg"} alt="logo" width="100" height="100" className="w-[60%] mt-[30%]" />
-                            <Image src={"/images/TextImages/Environment.svg"} alt="logo" width="100" height="100" className="w-[100%] mt-[45%]" />
+                            <Image src={"/images/TextImages/Women.svg"} alt="logo" width="100" height="100" className="w-[60%] mt-[45%]" />
                             <Image src={"/images/TextImages/HorizentalLine.svg"} alt="logo" width="100" height="100" className="w-[60%] mt-[30%]" />
                         </div>
                         <Image src={"/images/TextImages/Innovation.svg"} alt="logo" width="100" height="100" className="w-[50%] p-[18%] mt-[4%] bg15" />

@@ -65,7 +65,7 @@
     display: flex;
     align-items: center;
     width: 70%;
-    margin-top: -15%;
+    margin-top: -12%;
 }
 
 .bg9 {
@@ -75,7 +75,7 @@
     display: flex;
     align-items: center;
     width: 70%;
-    margin-top: -2%;
+    margin-top: -1%;
     margin-left: 4%;
 }
 
@@ -152,7 +152,7 @@
     align-items: center;
     width: 95%;
     margin-left: -10%;
-    margin-top: -2%;
+    margin-top: -1%;
 }
 
 .bg12 {
@@ -161,7 +161,7 @@
     background-size: 100% 100%;
     display: flex;
     align-items: center;
-    width: 90%;
+    width: 85%;
     margin-left: -8%;
     margin-top: -14%;
 }
