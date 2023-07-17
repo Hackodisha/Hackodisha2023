@@ -84,7 +84,6 @@ export default function Home() {
         <Statistics />
       </div>
       
-    </main>
     <div>
       <Accordion/>
     </div>
