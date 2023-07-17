@@ -23,7 +23,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <main className="flex min-h-screen min-w-screen flex-col items-center justify-center p-12 xl:p-0 md:text-2xl bg-blue-100">
+      {/* <main className="flex min-h-screen min-w-screen flex-col items-center justify-center p-12 xl:p-0 md:text-2xl bg-blue-100">
         <div className="drop-shadow-xl flex-col flex gap-10 items-center ">
           <Player />
           <div>
@@ -68,7 +68,7 @@ export default function Home() {
             </button>
           </a>
         </div>
-      </main>
+      </main> */}
       <div className="flex min-h-fit min-w-screen items-center bg-black shadow overflow-x-hidden"  >
         <Statistics />
       </div>

@@ -9,7 +9,7 @@
   position: absolute;
   top: 0;
 }
-.bgbtn {
+/* .bgbtn {
   border: none;
   transition: all 600s ease-in-out;
 }
@@ -21,4 +21,4 @@
   border-image-repeat: stretch stretch;
   border-image-source: url("/images/hoverbg.svg");
   border-style: solid;
-}
+} */
