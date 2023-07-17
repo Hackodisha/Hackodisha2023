@@ -20,7 +20,7 @@ function Hero() {
         <div className="bg-gradient-to-b from-[#FF0000]/[0.12] from-[88%]  via-[#034E06]/[0.8] to-[#061E4D]/[0.60] mix-blend-color-burn basis-[48%] md:basis-[49%]"></div>
       </div>
       <div className="flex h-full w-full absolute top-0">
-        <div className="w-full h-full basis-[52%] md:basis-[51%] mix-blend-lighten">
+        <div className="w-full h-full basis-[52%] md:basis-[51%] mix-blend-color-dodge">
           <Image
             src={`/gif/thunder.gif`}
             alt="Thundergif"
@@ -29,7 +29,7 @@ function Hero() {
             className="w-full h-full opacity-[0.25]"
           />
         </div>
-        <div className="w-full h-full basis-[48%] md:basis-[49%] mix-blend-lighten">
+        <div className="w-full h-full basis-[48%] md:basis-[49%] mix-blend-color-dodge">
           <Image
             src={`/gif/thunder.gif`}
             alt="thundergif"
