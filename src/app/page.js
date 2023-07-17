@@ -5,6 +5,7 @@ import { useState } from "react";
 
 import Timeline from "@/components/Timeline/timeline";
 import Statistics from "../components/suraj/Statistics";
+import { AboutUs } from "@/components/AboutUs";
 import '../components/suraj/statisticsStyle.css'
 
 export default function Home() {
@@ -71,8 +72,12 @@ export default function Home() {
             </button>
           </a>
         </div>
-      </main> */}
+      </main>
+
+*/}
+      <AboutUs/>
       <div className="flex min-h-fit min-w-screen items-center bg-black shadow overflow-x-hidden"  >
+        
         <Statistics />
       </div>
       <Timeline/>
