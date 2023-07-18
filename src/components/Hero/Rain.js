@@ -27,7 +27,7 @@ const Rain = () => {
   return (
     <div
       id="rain-container"
-      className="z-50 absolute top-0 w-full scale-150 h-[150vh]"
+      className="z-40 absolute top-0 w-full scale-150 h-[150vh]"
     ></div>
   );
 };

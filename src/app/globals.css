@@ -14,12 +14,14 @@
     font-weight: 300;
     color: #07d6d1;
     src: url("/fonts/gvonz-2.ttf") format("truetype");
+    font-display: swap;
   }
   @font-face {
     font-family: "syoog";
     font-weight: 300;
     color: #07d6d1;
     src: url("/fonts/syoog.otf") format("opentype");
+    font-display: swap;
   }
 }
 

@@ -11,7 +11,7 @@ function Navbar() {
     <nav
       className={`${
         navbar ? "animate-trans-navbarbg" : "animate-none"
-      } bg-navbg w-full h-auto md:flex justify-between items-center fixed top-0 text-white backdrop-blur-sm py-1 z-10`}
+      } bg-navbg w-full h-auto md:flex justify-between items-center fixed top-0 text-white backdrop-blur-sm py-1 z-50`}
     >
       <div className="flex justify-between items-center">
         <Link href="/#home">
@@ -32,7 +32,7 @@ function Navbar() {
         </span>
       </div>
       <ul
-        className={`md:flex  md:space-x-3 items-center justify-center md:pr-4 ${
+        className={`md:flex  md:space-x-3 items-center justify-center md:pr-4  ${
           navbar ? "block" : "hidden"
         }`}
       >

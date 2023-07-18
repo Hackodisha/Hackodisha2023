@@ -15,7 +15,7 @@ function Hero() {
           src={"/Images/homebg.webp"}
           alt="HeroBg"
           fill="true"
-          className="absolute top-0 w-screen object-cover"
+          className="absolute top-0 w-screen object-cover o"
           priority
         ></Image>
         <div className="rain mix-blend-screen opacity-[0.4] transform-scale-x-1"></div>
@@ -24,22 +24,22 @@ function Hero() {
           <div className="bg-gradient-to-b from-[#FF0000]/[0.12] from-[88%]  via-[#034E06]/[0.8] to-[#061E4D]/[0.60] mix-blend-color-burn basis-[48%] md:basis-[49%]"></div>
         </div>
         <div className="flex h-full w-full absolute top-0">
-          <div className="w-full h-full basis-[52%] md:basis-[51%] mix-blend-color-dodge">
+          <div className="w-full h-full basis-[52%] hidden sm:block md:basis-[51%] mix-blend-lighten bg-black ">
             <Image
               src={`/gif/thunder3.gif`}
               alt="Thundergif"
               height={"100"}
               width={"100"}
-              className="w-full h-full opacity-[0.25]"
+              className="w-full h-full opacity-[0.36]"
             />
           </div>
-          <div className="w-full h-full basis-[48%] md:basis-[49%] mix-blend-color-dodge">
+          <div className="w-full h-full basis-[48%] hidden sm:block md:basis-[49%] mix-blend-lighten bg-black">
             <Image
               src={`/gif/thunder3.gif`}
               alt="thundergif"
               height={"100"}
               width={"100"}
-              className="w-full h-full opacity-[0.25]"
+              className="w-full h-full opacity-[0.36]"
             />
           </div>
         </div>
@@ -50,6 +50,7 @@ function Hero() {
             height={"300"}
             width={"380"}
             className="w-10/12 md:w-4/12"
+            priority
           />
           <Image
             src={"/Images/Group 8.svg"}
@@ -57,6 +58,7 @@ function Hero() {
             height={"300"}
             width={"380"}
             className="w-10/12 md:w-4/12 relative -top-3"
+            priority
           />
           <Image
             src={"/Images/lower.svg"}
@@ -64,6 +66,7 @@ function Hero() {
             height={"300"}
             width={"380"}
             className="w-10/12 md:w-4/12 relative -top-6"
+            priority
           />
         </div>
         <DevfolioButton />
