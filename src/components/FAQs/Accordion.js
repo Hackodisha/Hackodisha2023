@@ -23,7 +23,7 @@ function Accordion() {
         </div>
 
           {data.map((item, i) => (
-            <div key={i} className="item item-center ml-12 mr-12 mt-3  mb-6  bg-white/[0.1] shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0.39)] rounded-[12px] ">
+            <div key={i} className="item item-center ml-12 mr-12 mt-[3rem]  mb-6  bg-white/[0.1] shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0.39)] rounded-[12px] ">
               
               <div className="title pl-[0.75rem]  gap-5 isolate w-1488 max-[326px]:h-14 mr-6  bg-transparent shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0)] rounded-[12px]   max-[512px]:pt-[8px] max-[512px]:mr-[6px] max-[512px]:pl-[10px]  max-[720px]:mr-[8px] flex justify-between flex-row pr-3 cursor-pointer max-[420px]:gap-0 max-[420px]:pr-[0] max-[400px]:h-[0]"  onClick={() => toggle(i)}>
                 <span className="flex">
