@@ -84,11 +84,13 @@ export default function Home() {
         <Statistics />
       </div>
       
+      <Timeline/>
+
     <div>
       <Accordion/>
     </div>
 
-      <Timeline/>
+     
     </>
   );
 }
