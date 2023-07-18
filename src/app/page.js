@@ -1,5 +1,5 @@
 "use client";
-import Accordion from "@/app/FAQs/Accordion";
+import Accordion from "@/components/FAQs/Accordion";
 
 import Hero from "@/components/Hero/Hero";
 import Player from "@/components/Player";
