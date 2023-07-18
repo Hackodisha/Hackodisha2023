@@ -7,7 +7,7 @@ import cityscape from "./Images/cityscape-1.webp";
 
 export const AboutUs = () => {
   return (
-    <section className="bg-black">
+    <section className="bg-black z-50 relative" id="about-us">
       <div className="about-section relative">
         <Image src={cityscape} fill className="object-cover sm:object-contain h-[50%] opacity-25 object-bottom" />
         <div className="header-sec ">

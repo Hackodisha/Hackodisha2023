@@ -78,9 +78,9 @@ const Statistics = () => {
               rel="noreferrer"
               target="_blank"
             >
-              <i className="text-xs sm:text-base md:text-lg lg:text-xl 2xl:text-2xl">
-                <u>Go to HackOdisha 2.0&gt;</u>
-              </i>
+              <div className="text-xs sm:text-base md:text-lg lg:text-xl 2xl:text-2xl">
+                <span>Go to HackOdisha 2.0&gt;</span>
+              </div>
             </a>
           </div>
         </div>
