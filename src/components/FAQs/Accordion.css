@@ -70,10 +70,9 @@
 
 }
 
-@media screen and (max-width:475px) {
+@media screen and (max-width:470px) {
     .answer{
         padding-top:3px;
-        font-size: 6px;
         line-height: 1.5;
         padding-left:2em;
         margin-right: 0em;
@@ -81,7 +80,7 @@
     }
         .answer.show {
             padding-top:3px;
-            font-size: 6px;
+            /* font-size: 6px; */
             line-height: 1.5;
             padding-left:2em;
             margin-right: 0em;
