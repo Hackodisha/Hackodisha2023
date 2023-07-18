@@ -28,8 +28,8 @@ function Hero() {
             <Image
               src={`/gif/thunder3.gif`}
               alt="Thundergif"
-              height={"100"}
-              width={"100"}
+              height={"670"}
+              width={"490"}
               className="w-full h-full opacity-[0.36]"
             />
           </div>
@@ -37,8 +37,8 @@ function Hero() {
             <Image
               src={`/gif/thunder3.gif`}
               alt="thundergif"
-              height={"100"}
-              width={"100"}
+              height={"670"}
+              width={"490"}
               className="w-full h-full opacity-[0.36]"
             />
           </div>
