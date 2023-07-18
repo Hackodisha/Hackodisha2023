@@ -2,7 +2,6 @@
 
 .wrapper {
     background-image: url(bg.png);
-    /* background: black; */
 }
 
 .answer {
@@ -10,10 +9,10 @@
     max-height: 0;
     overflow: hidden;
     transition: all 0.3s cubic-bezier(0, 1, 0, 1);
-    padding-left: 2.5rem;
+    padding-left: 2.7rem;
     padding-right: 4em;
     margin-right: 0em;
-    line-height: 1.8;
+    line-height: 2;
     background: rgba(224, 224, 224, 0.1);
     border-radius: 0px 0px 12px 12px;
 
@@ -23,10 +22,11 @@
     height: auto;
     max-height: 9999px;
     transition: all 0.3s cubic-bezier(1, 0, 1, 0);
-    padding-left: 2.5rem;
+    padding-left: 2.7rem;
     padding-right: 4em;
     margin-right: 0em;
-    line-height: 1.8;
+    background: rgba(224, 224, 224,0.1);
+    line-height:2;
 
 }
 
@@ -50,22 +50,42 @@
     }
 }
 
-@media screen and (max-width:512px) {
+@media screen and (max-width:542px) {
 .answer{
     padding-top:3px;
     font-size: 13px;
-    line-height: 1.2;
-    padding-left: 1em;
+    line-height: 1.5;
+    padding-left: 2.3em;
     margin-right: 0em;
     padding-right:2em;
 }
     .answer.show {
-        padding-top:13px;
+        padding-top:3px;
         font-size: 13px;
-        line-height: 1.2;
-        padding-left:1em;
+        line-height: 1.5;
+        padding-left:2.3em;
         margin-right: 0em;
         padding-right:2em;
     }
 
 }
+
+@media screen and (max-width:475px) {
+    .answer{
+        padding-top:3px;
+        font-size: 6px;
+        line-height: 1.5;
+        padding-left:2em;
+        margin-right: 0em;
+        padding-right:2em;
+    }
+        .answer.show {
+            padding-top:3px;
+            font-size: 6px;
+            line-height: 1.5;
+            padding-left:2em;
+            margin-right: 0em;
+            padding-right:2em;
+        }
+    
+    }
