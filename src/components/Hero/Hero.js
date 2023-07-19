@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import DevfolioButton from "@/components/CommonComponent/DevfolioButton/DevfolioButton";
 import Rain from "./Rain";
+import Title from "../CommonComponent/Title/Title";
 
 function Hero() {
   return (
@@ -68,7 +69,9 @@ function Hero() {
             className="w-10/12 md:w-4/12 relative -top-6"
             priority
           />
+          <h1 className="text-5xl font-gvonz text-white rounded-2xl border-2 p-2 px-4 ">9 - 10 September </h1>
         </div>
+
         <DevfolioButton />
       </main>
     </>

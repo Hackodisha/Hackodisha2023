@@ -8,25 +8,25 @@ import silhouette from "../Images/silhouette.webp";
 
 const Statistics = () => {
   return (
-    <div className=" stats-section relative flex min-h-fit min-w-screen items-center bg-black shadow overflow-x-hidden pb-[75px] sm:pb-[360px] -mb-20">
+    <div className=" stats-section relative flex min-h-fit min-w-screen items-center bg-black shadow overflow-x-hidden pb-[75px] sm:pb-[360px] -mb-20 ">
       <Image
         src={cityscapeInv}
         fill
         className="object-cover sm:object-contain object-top h-[50%] opacity-25"
       />
-      <div className=" container  text-secondary w-screen">
+      <div className=" container  text-secondary w-screen relative z-50">
         <div className=" lg:text-[20px] md:text-[18px] font-semibold w-screen ">
-          <Title title={"Statistics"} className={"px-5 sm:px-10 pt-5"}>
+          <Title title={"Past Stats"} className={"px-5 sm:px-10 pt-5"}>
             Statistics
           </Title>
           <div className="line">
             <Image src={Image5} alt="Image" className="img2"></Image>
           </div>
-          <div className=" grid grid-cols-2 w-full mt-[50px] sm:mt-[216px] smallmobile:grid-cols-1 place-items-center md:grid-cols-4 lg:grid-cols-4 ">
+          <div className=" grid grid-cols-2 w-full mt-[50px] sm:mt-[216px] font-syoog smallmobile:grid-cols-1 place-items-center md:grid-cols-4 lg:grid-cols-4 ">
             <div className="card md:h-[20rem] xl:h-[25rem] 2xl:h-[25rem] h-64 md:pb-[5rem] xl:pb-[5rem] 2xl:pb-[5rem] w-full m-4 mt-3  p-3 mb-5 rounded flex flex-col items-center bg-none">
               <div className="frame h-full w-full ">
                 <h3 className="p-8 text-3xl sm:text-2xl md:text-3xl 2xl:text-4xl ">
-                  1600+
+                  3100+
                 </h3>
               </div>
               <div className="base w-full lg:w-10/12 xl:w-8/12  h-16 sm:h-24 md:h-28 lg:h-32">
@@ -38,36 +38,36 @@ const Statistics = () => {
             <div className="card md:h-[20rem] xl:h-[25rem] 2xl:h-[25rem] md:pt-[5rem] xl:pt-[5rem] 2xl:pt-[5rem] h-64 w-full m-4 mt-3  p-3 mb-5 rounded flex flex-col items-center bg-none">
               <div className="frame h-full w-full ">
                 <h3 className="p-8 text-3xl sm:text-2xl md:text-3xl 2xl:text-4xl ">
-                  1600+
+                  50+
                 </h3>
               </div>
               <div className="base w-full lg:w-10/12 xl:w-8/12  h-16 sm:h-24 md:h-28 lg:h-32">
                 <p className=" smallmobile:text-xs text-sm sm:text-lg md:text-base 2xl:text-lg ">
-                  Registrations
+                  Communities
                 </p>
               </div>
             </div>
             <div className="card md:h-[20rem] xl:h-[25rem] 2xl:h-[25rem] h-64 md:pb-[5rem] xl:pb-[5rem] 2xl:pb-[5rem] w-full m-4 mt-3  p-3 mb-5 rounded flex flex-col items-center bg-none">
               <div className="frame h-full w-full ">
                 <h3 className="p-8 text-3xl sm:text-2xl md:text-3xl 2xl:text-4xl ">
-                  1600+
+                  40+
                 </h3>
               </div>
               <div className="base w-full lg:w-10/12 xl:w-8/12  h-16 sm:h-24 md:h-28 lg:h-32">
                 <p className=" smallmobile:text-xs text-sm sm:text-lg md:text-base 2xl:text-lg ">
-                  Registrations
+                  Sponsors
                 </p>
               </div>
             </div>
             <div className="card md:h-[20rem] xl:h-[25rem] 2xl:h-[25rem] md:pt-[5rem] xl:pt-[5rem] 2xl:pt-[5rem] h-64 w-full m-4 mt-3  p-3 mb-5 rounded flex flex-col items-center bg-none">
               <div className="frame h-full w-full ">
                 <h3 className="p-8 text-3xl sm:text-2xl md:text-3xl 2xl:text-4xl ">
-                  1600+
+                  100+
                 </h3>
               </div>
               <div className="base w-full lg:w-10/12 xl:w-8/12  h-16 sm:h-24 md:h-28 lg:h-32">
                 <p className=" smallmobile:text-xs text-sm sm:text-lg md:text-base 2xl:text-lg ">
-                  Registrations
+                  Schools
                 </p>
               </div>
             </div>
