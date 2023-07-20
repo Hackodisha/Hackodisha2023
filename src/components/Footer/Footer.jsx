@@ -110,7 +110,7 @@ const Footer = () => {
 
             <hr />
             <h3 className="text-xl mx-auto w-fit py-10 text-white max-w-[90vw] text-center">
-              Hackodisha 3.0 © 2023. Powered by Webwiz, NIT Rourkela.
+              Hackodisha 3.0 2023. Powered by Webwiz, NIT Rourkela.
             </h3>
           </div>
         </div>
@@ -186,7 +186,7 @@ const Footer = () => {
 
             <hr className="px-4" />
             <h3 className="text-xs mx-auto w-fit py-10 text-white max-w-[90vw] text-center">
-              Hackodisha 3.0  2023. Powered by Webwiz, NIT Rourkela.
+              Hackodisha 3.0 2023. Powered by Webwiz, NIT Rourkela.
             </h3>
           </div>
         </div>

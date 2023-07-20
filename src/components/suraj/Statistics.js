@@ -16,7 +16,7 @@ const Statistics = () => {
       />
       <div className=" container  text-secondary w-screen relative z-50">
         <div className=" lg:text-[20px] md:text-[18px] font-semibold w-screen ">
-          <Title title={"Past Stats"} className={"px-5 sm:px-10 pt-5"}>
+          <Title title={"Past Statistics"} className={"px-5 sm:px-10 pt-5"}>
             Statistics
           </Title>
           <div className="line">
@@ -74,7 +74,7 @@ const Statistics = () => {
           </div>
           <div className="flex justify-end mr-16 py-8">
             <a
-              href="https://deploy-preview-78--hackodisha2022.netlify.app/"
+              href="https://hackodisha2022.devfolio.co/"
               rel="noreferrer"
               target="_blank"
             >
