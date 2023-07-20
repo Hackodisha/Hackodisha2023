@@ -1,12 +1,14 @@
-import Player from "@/components/Player";
+//Not used in production
 
-const EasterEggPage = () => {
-  return (
-    <div>
-      <Player></Player>
-      <h1 className="text-center">EasterEggPage</h1>
-    </div>
-  );
-};
+// import Player from "@/components/Player";
 
-export default EasterEggPage;
+// const EasterEggPage = () => {
+//   return (
+//     <div>
+//       <Player></Player>
+//       <h1 className="text-center">EasterEggPage</h1>
+//     </div>
+//   );
+// };
+
+// export default EasterEggPage;
