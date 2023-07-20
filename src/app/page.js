@@ -13,8 +13,8 @@ export default function Home() {
       <Hero />
       <AboutUs />
       <Statistics />
-      <div className="relative">
       <Timeline />
+      <div className="relative">
       <Accordion/>
       <Footer/>
 

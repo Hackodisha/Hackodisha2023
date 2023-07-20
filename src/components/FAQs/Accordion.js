@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from "react";
 import "./Accordion.css";
 import union1 from "./union1.svg";
