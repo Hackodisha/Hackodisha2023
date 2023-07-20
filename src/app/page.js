@@ -1,6 +1,7 @@
 "use client";
 import Player from "@/components/Player";
 import { useState } from "react";
+import Track from "@/components/track/Track";
 
 export default function Home() {
   const [counter, setCounter] = useState(0);
@@ -18,6 +19,7 @@ export default function Home() {
   };
 
   return (
+    <>
     <main className="flex min-h-screen min-w-screen flex-col items-center justify-center p-12 xl:p-0 md:text-2xl bg-blue-100">
       <div className="drop-shadow-xl flex-col flex gap-10 items-center ">
         <Player />
@@ -60,5 +62,9 @@ export default function Home() {
         </a>
       </div>
     </main>
+    <Track/>
+    </>
   );
+ 
 }
+
