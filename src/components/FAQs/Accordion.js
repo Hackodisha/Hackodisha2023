@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Accordion.css";
 import union1 from "./union1.svg";
+import Title from "../CommonComponent/Title/Title";
 import Image from "next/image";
 
 function Accordion() {
@@ -15,12 +16,12 @@ function Accordion() {
 
   return (
     <>
-      <div className="wrapper font-electrolize w-screen justify-center items-center bg-center text-white bg-cover">
+      <div className="wrapper  w-screen justify-center items-center bg-center text-white bg-cover mb-16 ">
         <div className="accordion">
-          <div className="image relative w-[100%]">
-          <h1 className="mt-[2.5rem] md:mt-[2rem] lg:mt-[2.5rem] xl:mt-[3rem] 2xl:mt-[3rem] -mb-1 sm:-mb-4 md:-mb-8 lg:-mb-12 xl:-mb-16 2xl:-mb-16 underline underline-offset-[7px] mx-6 smallmobile:mx-2 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-16  text-3xl sm:text-xl md:text-2xl lg:text-3xl xl:3xl 2xl:text-4xl smallmobile:text-lg font-bold 2xl:m-auto 2xl:w-[90%] text-[cyan]">FAQs</h1>
-          <Image src={union1} alt="" className=" mt-6 left-0 w-[100%] " />
-        </div>
+          <Title title={"FAQ"} className={"px-10 py-5"}/>
+          <div className="line">
+              <Image src={union1} alt="Image" className="img2"></Image>
+            </div>
 
           {data.map((item, i) => (
             <div key={i} className="item item-center ml-12 mr-12 mt-8  mb-4  bg-white/[0.1] shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0.39)] rounded-[12px] ">
