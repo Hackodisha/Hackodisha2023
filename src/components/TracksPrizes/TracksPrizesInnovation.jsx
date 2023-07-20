@@ -26,46 +26,45 @@ const TracksPrizes = () => {
               <Image src={"/images/VerticalLine.svg"} alt="logo" width="100" height="100" className="w-[15%]" />
             </div>
             <div className='w-[92%] flex-col'>
-              <div className='h-[33%] flex justify-evenly '>
+              <div className='h-[33%] flex justify-evenly items-center'>
                 <Image src={"/images/Arrow.svg"} alt="logo" width="100" height="100" className="w-[4%]" />
-                <Image src={"/images/TextImages/001.svg"} alt="logo" width="100" height="100" className="w-[8%]" />
-                <Image src={"/images/TextImages/first.svg"} alt="logo" width="100" height="100" className="w-[20%]" />
-                <Image src={"/images/TextImages/dotted1.svg"} alt="logo" width="100" height="100" className="w-[35%]" />
-                <Image src={"/images/TextImages/1500.svg"} alt="logo" width="100" height="100" className="w-[11%]" />
+                <h1 className='text-white text-[0.6rem] sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl '>001</h1>
+                <h1 className='text-white text-[0.6rem] sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl '>FIRST PRIZE</h1>
+                <h1 className='text-white text-[0.6rem] sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl '>.................</h1>
+                <h1 className='text-white text-[0.6rem] sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl '>$2500</h1>
               </div>
-              <div className='h-[33%] flex justify-evenly '>
+              <div className='h-[33%] flex justify-evenly items-center'>
                 <Image src={"/images/Arrow.svg"} alt="logo" width="100" height="100" className="w-[4%]" />
-                <Image src={"/images/TextImages/001.svg"} alt="logo" width="100" height="100" className="w-[8%]" />
-                <Image src={"/images/TextImages/second.svg"} alt="logo" width="100" height="100" className="w-[22%]" />
-                <Image src={"/images/TextImages/dotted2.svg"} alt="logo" width="100" height="100" className="w-[33%]" />
-                <Image src={"/images/TextImages/1000.svg"} alt="logo" width="100" height="100" className="w-[11%]" />
+                <h1 className='text-white text-[0.6rem] sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl '>002</h1>
+                <h1 className='text-white text-[0.6rem] sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl '>SECOND PRIZE</h1>
+                <h1 className='text-white text-[0.6rem] sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl '>..............</h1>
+                <h1 className='text-white text-[0.6rem] sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl '>$2000</h1>
               </div>
-              <div className='h-[33%] flex justify-evenly '>
+              <div className='h-[33%] flex justify-evenly items-center'>
                 <Image src={"/images/Arrow.svg"} alt="logo" width="100" height="100" className="w-[4%]" />
-                <Image src={"/images/TextImages/001.svg"} alt="logo" width="100" height="100" className="w-[8%]" />
-                <Image src={"/images/TextImages/third.svg"} alt="logo" width="100" height="100" className="w-[20%]" />
-                <Image src={"/images/TextImages/dotted1.svg"} alt="logo" width="100" height="100" className="w-[35%]" />
-                <Image src={"/images/TextImages/500.svg"} alt="logo" width="100" height="100" className="w-[11%]" />
+                <h1 className='text-white text-[0.6rem] sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl '>003</h1>
+                <h1 className='text-white text-[0.6rem] sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl '>THIRD PRIZE</h1>
+                <h1 className='text-white text-[0.6rem] sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl '>.................</h1>
+                <h1 className='text-white text-[0.6rem] sm:text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl '>$1500</h1>
               </div>
               <div>
-                <Image src={"/images/TextImages/PresentedBy.svg"} alt="logo" width="100" height="100" className="w-[30%] mt-[10%]" />
+                <h1 className='text-white text-[0.7rem] sm:text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl mt-[10%]'>PRESENTED BY</h1>
               </div>
-
             </div>
           </div>
         </div>
         <div className='w-1/4 '>
           <div className='flex flex-col mt-[-65%] ml-[5%] p-1'>
-            <Image src={"/images/TextImages/Health.svg"} alt="logo" width="100" height="100" className="w-[50%] bg4 p-[16%]" />
-            <Image src={"/images/TextImages/HorizentalLine.svg"} alt="logo" width="100" height="100" className="w-[40%] ml-[18%] mt-[4%]" />
-            <div className='flex flex-col bg6 p-[8%] '>
-              <Image src={"/images/TextImages/Web3.svg"} alt="logo" width="100" height="100" className="w-[34%] mt-[22%]" />
-              <Image src={"/images/TextImages/HorizentalLine.svg"} alt="logo" width="100" height="100" className="w-[60%] mt-[20%]" />
-              <Image src={"/images/TextImages/Environment.svg"} alt="logo" width="100" height="100" className="w-[84%] mt-[28%]" />
-              <Image src={"/images/TextImages/HorizentalLine.svg"} alt="logo" width="100" height="100" className="w-[60%] mt-[20%]" />
-              <Image src={"/images/TextImages/Women.svg"} alt="logo" width="100" height="100" className="w-[52%] mt-[34%]" />
+            <h1 className='text-white text-[0.38rem] sm:text-sm md:text-base lg:text-xl xl:text-2xl 2xl:text-3xl w-[100%] p-[16%] flex justify-center text-center bg4'>HEALTHCARE</h1>
+            <Image src={"/images/HorizentalLine.svg"} alt="logo" width="100" height="100" className="w-[40%] ml-[18%] mt-[4%]" />
+            <div className='flex flex-col bg6 p-[20%] '>
+              <h1 className='text-white text-[0.38rem] sm:text-sm md:text-base lg:text-xl xl:text-2xl 2xl:text-3xl w-[100%] p-[16%] mt-[-5%] flex justify-center text-center '>WEB3</h1>
+              <Image src={"/images/HorizentalLine.svg"} alt="logo" width="100" height="100" className="w-[60%] mt-[10%]" />
+              <h1 className='text-white text-[0.38rem] sm:text-sm md:text-base lg:text-xl xl:text-2xl 2xl:text-3xl w-[100%] p-[16%] mt-[20%] flex justify-center text-center'>WOMAN<br />SECURITY</h1>
+              <Image src={"/images/HorizentalLine.svg"} alt="logo" width="100" height="100" className="w-[60%] mt-[10%]" />
+              <h1 className='text-white text-[0.38rem] sm:text-sm md:text-base lg:text-xl xl:text-2xl 2xl:text-3xl w-[100%] p-[16%] mt-[20%] flex justify-center text-center '>ENVIRONMENT</h1>
             </div>
-            <Image src={"/images/TextImages/Innovation.svg"} alt="logo" width="100" height="100" className="w-[50%] p-[24%] bg5" />
+            <h1 className='text-white text-[0.38rem] sm:text-sm md:text-base lg:text-xl xl:text-2xl 2xl:text-3xl w-[100%] p-[24%] mt-[25%] flex justify-center text-center bg5'>OPEN<br />INNOVATION</h1>
           </div>
         </div>
       </div>

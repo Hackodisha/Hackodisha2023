@@ -72,7 +72,7 @@ export default function Home() {
         <br />
         <hr />
         <br />
-        <TracksPrizesInnovation />
+        <TracksPrizesWeb3 />
         <br />
         <br />
         <hr />
@@ -87,7 +87,7 @@ export default function Home() {
         <br />
         <hr />
         <br />
-        <TracksPrizesWeb3 />
+        <TracksPrizesInnovation />
       </div>
     </>
   );

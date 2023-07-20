@@ -22,9 +22,8 @@
     background-size: 100% 100%;
     display: flex;
     align-items: center;
-    width: 73%;
+    width: 77%;
     height: 80%;
-    margin-left: 2%;
 }
 
 .bg11 {
@@ -33,7 +32,7 @@
     background-size: 100% 100%;
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 80%;
     height: 80%;
 }
 
@@ -54,7 +53,7 @@
     background-size: cover;
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 80%;
     margin-top: 4%;
 }
 
@@ -64,8 +63,8 @@
     background-size: cover;
     display: flex;
     align-items: center;
-    width: 70%;
-    margin-top: -12%;
+    width: 80%;
+    margin-top: -2%;
 }
 
 .bg9 {
@@ -87,7 +86,7 @@
     align-items: center;
     width: 77%;
     height: 100%;
-    margin-top: 4%;
+    margin-top: -2%;
 }
 
 .bg3 {
@@ -96,8 +95,8 @@
     background-size: 100% 100%;
     display: flex;
     align-items: center;
-    width: 78%;
-    height: 80%;
+    width: 75%;
+    margin-left: 1%;
 }
 
 .bg10 {
@@ -117,10 +116,9 @@
     background-size: 100% 100%;
     display: flex;
     align-items: center;
-    width: 68%;
-    height: 80%;
+    width: 75%;
     margin-left: 2%;
-    margin-top: -20%;
+    margin-top: -19%;
 }
 
 .bg15 {
@@ -129,7 +127,7 @@
     background-size: 100% 100%;
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 80%;
     height: 80%;
 }
 
@@ -141,7 +139,7 @@
     align-items: center;
     width: 90%;
     margin-left: 1%;
-    margin-top: -7%;
+    margin-top: -15%;
 }
 
 .bg7 {
@@ -161,7 +159,18 @@
     background-size: 100% 100%;
     display: flex;
     align-items: center;
-    width: 85%;
-    margin-left: -8%;
-    margin-top: -12%;
+    width: 100%;
+    margin-left: -10%;
+    margin-top: -9%;
+}
+
+.bg16 {
+    background-repeat: no-repeat;
+    background-image: url('/Images/MiddleTheme2.svg');
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin-left: -10%;
+    margin-top: -11%;
 }
