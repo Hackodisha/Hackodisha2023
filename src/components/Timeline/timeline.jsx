@@ -9,7 +9,7 @@ import silhouetteInv from "../Images/silhouette-2.webp";
 import building from "../Images/floating-building.webp";
 const Timeline = () => {
   return (
-    <div className="w-full relative">
+    <div className="w-full relative" id="timeline">
       <Image
         src={silhouetteInv}
         fill

@@ -10,7 +10,7 @@ function Hero() {
   return (
     <>
 
-      <main className="box-border relative bg-[#121212] w-[100%] h-screen bg-center bg-no-repeat bg-cover max-w-screen overflow-hidden">
+      <main id="hero" className="box-border relative bg-[#121212] w-[100%] h-screen bg-center bg-no-repeat bg-cover max-w-screen overflow-hidden">
       <Rain />
         <Image
           src={"/Images/homebg.webp"}
