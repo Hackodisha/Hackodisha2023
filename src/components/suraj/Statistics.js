@@ -8,7 +8,7 @@ import silhouette from "../Images/silhouette.webp";
 
 const Statistics = () => {
   return (
-    <div className=" stats-section relative flex min-h-fit min-w-screen items-center bg-black shadow overflow-x-hidden pb-[75px] sm:pb-[360px] -mb-20 ">
+    <div className=" stats-section relative flex min-h-fit min-w-screen items-center  shadow overflow-x-hidden pb-[75px] sm:pb-[360px] -mb-20 ">
       <Image
         src={cityscapeInv}
         fill

@@ -31,6 +31,17 @@
    mix-blend-mode: lighten;
 }
 
+.logo-bg{
+    animation: spin 8s linear infinite;
+    
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
 .para-container{
     border: 0px solid #0f6796;
     font-family: Syoog;

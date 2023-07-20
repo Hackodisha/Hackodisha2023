@@ -220,7 +220,7 @@ const Timeline = () => {
                   />
                 </svg>
               </span>
-              <span className="subSvg self-center">
+              <span className="subSvg self-center uppercase font-gvonz">
                 <p>Day 1</p>
               </span>
             </span>
@@ -474,7 +474,7 @@ const Timeline = () => {
                   />
                 </svg>
               </span>
-              <span className="subSvg self-center">
+              <span className="subSvg self-center uppercase font-gvonz">
                 <p>DAY 2</p>
               </span>
             </span>
@@ -710,7 +710,7 @@ const Timeline = () => {
                   />
                 </svg>
               </span>
-              <span className="subSvg self-center">
+              <span className="subSvg self-center uppercase font-gvonz" >
                 <p>DAY 3</p>
               </span>
             </span>
