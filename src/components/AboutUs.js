@@ -15,7 +15,7 @@ export const AboutUs = () => {
           <hr className="line-hr" />
         </div>
         <div className="aboutus flex flex-col md:flex-row px-10 py-20	text-justify justify-between items-center	 ">
-          <div className="logo-container w-[219px] aspect-square grid place-items-center md:w-[624px] relative">
+          <div className="logo-container w-[219px] aspect-square grid place-items-center md:w-[624px] relative md:self-start">
             <Image src={"/Images/HO3.svg"} width={80} height={80} className="hacklogo max-w-[50%]" alt="hackodisha-logo" />
             <Image src={anim} fill className="relative -z-10 mix-blend-lighten opacity-20" alt="hackodisha-logo-animation" />
             

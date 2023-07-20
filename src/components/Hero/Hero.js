@@ -16,7 +16,7 @@ function Hero() {
           src={"/Images/homebg.webp"}
           alt="HeroBg"
           fill="true"
-          className="absolute top-0 w-screen object-cover o"
+          className="absolute top-0 w-screen object-cover "
           priority
         ></Image>
         <div className="rain mix-blend-screen opacity-[0.4] transform-scale-x-1"></div>
