@@ -1,11 +1,10 @@
 .about-section{
-    background-image: url("../Images/cityscape-1.svg");
+    /* background-image: url("../Images/cityscape-1.webp");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
-    background-position: center;
+    background-position: bottom; */
     color: #E7E7E7;
-   
 }
 
 .header-sec{
@@ -18,7 +17,7 @@
     letter-spacing: -0.5px;
 }
 
-.line{
+.line-hr{
     width: 100%;
     border: 1px solid #07D6D1 ;
 }

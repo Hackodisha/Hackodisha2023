@@ -1,62 +1,97 @@
-import React from 'react'
-import './statisticsStyle.css'
-
+import React from "react";
+import Image from "next/image";
+import Title from "../CommonComponent/Title/Title";
+import "./statisticsStyle.css";
+import Image5 from "./assets/Union.svg";
+import cityscapeInv from "../Images/cityscape-2.webp";
+import silhouette from "../Images/silhouette.webp";
 
 const Statistics = () => {
   return (
-    <div className=" container  text-secondary w-screen" >
-      <div className=" lg:text-[20px] md:text-[18px] font-semibold w-screen " >
-
-        <h1 className="mt-[2.5rem] md:mt-[2rem] lg:mt-[2.5rem] xl:mt-[3rem] 2xl:mt-[3rem] -mb-1 sm:-mb-4 md:-mb-8 lg:-mb-12 xl:-mb-16 2xl:-mb-16 underline underline-offset-[7px] mx-6 smallmobile:mx-2 sm:mx-8 md:mx-12 lg:mx-16 xl:mx-16  text-3xl sm:text-2xl md:text-2xl lg:text-3xl xl:3xl 2xl:text-4xl smallmobile:text-lg font-normal 2xl:m-auto 2xl:w-[90%] ">Statistics</h1>
-        <div className='upperline 2xl:m-auto 2xl:w-[90%]'></div>
-        <div className=" grid grid-cols-2 w-full mt-4 smallmobile:grid-cols-1 place-items-center md:grid-cols-4 lg:grid-cols-4 "  >
-
-          <div className="card md:h-[20rem] xl:h-[25rem] 2xl:h-[25rem] h-64 md:pb-[5rem] xl:pb-[5rem] 2xl:pb-[5rem] w-full m-4 mt-3  p-3 mb-5 rounded flex flex-col items-center bg-none" >
-            <div className='frame h-full w-full '>
-              <h3 className="p-8 text-3xl sm:text-2xl md:text-3xl 2xl:text-4xl ">1600+</h3>
+    <div className=" stats-section relative flex min-h-fit min-w-screen items-center bg-black shadow overflow-x-hidden pb-[75px] sm:pb-[360px] -mb-20 ">
+      <Image
+        src={cityscapeInv}
+        fill
+        className="object-cover sm:object-contain object-top h-[50%] opacity-25"
+      />
+      <div className=" container  text-secondary w-screen relative z-50">
+        <div className=" lg:text-[20px] md:text-[18px] font-semibold w-screen ">
+          <Title title={"Past Stats"} className={"px-5 sm:px-10 pt-5"}>
+            Statistics
+          </Title>
+          <div className="line">
+            <Image src={Image5} alt="Image" className="img2"></Image>
+          </div>
+          <div className=" grid grid-cols-2 w-full mt-[50px] sm:mt-[216px] font-syoog smallmobile:grid-cols-1 place-items-center md:grid-cols-4 lg:grid-cols-4 ">
+            <div className="card md:h-[20rem] xl:h-[25rem] 2xl:h-[25rem] h-64 md:pb-[5rem] xl:pb-[5rem] 2xl:pb-[5rem] w-full m-4 mt-3  p-3 mb-5 rounded flex flex-col items-center bg-none">
+              <div className="frame h-full w-full ">
+                <h3 className="p-8 text-3xl sm:text-2xl md:text-3xl 2xl:text-4xl ">
+                  3100+
+                </h3>
+              </div>
+              <div className="base w-full lg:w-10/12 xl:w-8/12  h-16 sm:h-24 md:h-28 lg:h-32">
+                <p className=" smallmobile:text-xs text-sm sm:text-lg md:text-base 2xl:text-lg ">
+                  Registrations
+                </p>
+              </div>
             </div>
-            <div className='base w-full lg:w-10/12 xl:w-8/12  h-16 sm:h-24 md:h-28 lg:h-32'>
-              <p className=" smallmobile:text-xs text-sm sm:text-lg md:text-base 2xl:text-lg ">Registrations</p>
+            <div className="card md:h-[20rem] xl:h-[25rem] 2xl:h-[25rem] md:pt-[5rem] xl:pt-[5rem] 2xl:pt-[5rem] h-64 w-full m-4 mt-3  p-3 mb-5 rounded flex flex-col items-center bg-none">
+              <div className="frame h-full w-full ">
+                <h3 className="p-8 text-3xl sm:text-2xl md:text-3xl 2xl:text-4xl ">
+                  50+
+                </h3>
+              </div>
+              <div className="base w-full lg:w-10/12 xl:w-8/12  h-16 sm:h-24 md:h-28 lg:h-32">
+                <p className=" smallmobile:text-xs text-sm sm:text-lg md:text-base 2xl:text-lg ">
+                  Communities
+                </p>
+              </div>
+            </div>
+            <div className="card md:h-[20rem] xl:h-[25rem] 2xl:h-[25rem] h-64 md:pb-[5rem] xl:pb-[5rem] 2xl:pb-[5rem] w-full m-4 mt-3  p-3 mb-5 rounded flex flex-col items-center bg-none">
+              <div className="frame h-full w-full ">
+                <h3 className="p-8 text-3xl sm:text-2xl md:text-3xl 2xl:text-4xl ">
+                  40+
+                </h3>
+              </div>
+              <div className="base w-full lg:w-10/12 xl:w-8/12  h-16 sm:h-24 md:h-28 lg:h-32">
+                <p className=" smallmobile:text-xs text-sm sm:text-lg md:text-base 2xl:text-lg ">
+                  Sponsors
+                </p>
+              </div>
+            </div>
+            <div className="card md:h-[20rem] xl:h-[25rem] 2xl:h-[25rem] md:pt-[5rem] xl:pt-[5rem] 2xl:pt-[5rem] h-64 w-full m-4 mt-3  p-3 mb-5 rounded flex flex-col items-center bg-none">
+              <div className="frame h-full w-full ">
+                <h3 className="p-8 text-3xl sm:text-2xl md:text-3xl 2xl:text-4xl ">
+                  100+
+                </h3>
+              </div>
+              <div className="base w-full lg:w-10/12 xl:w-8/12  h-16 sm:h-24 md:h-28 lg:h-32">
+                <p className=" smallmobile:text-xs text-sm sm:text-lg md:text-base 2xl:text-lg ">
+                  Schools
+                </p>
+              </div>
             </div>
           </div>
-          <div className="card md:h-[20rem] xl:h-[25rem] 2xl:h-[25rem] md:pt-[5rem] xl:pt-[5rem] 2xl:pt-[5rem] h-64 w-full m-4 mt-3  p-3 mb-5 rounded flex flex-col items-center bg-none" >
-            <div className='frame h-full w-full '>
-              <h3 className="p-8 text-3xl sm:text-2xl md:text-3xl 2xl:text-4xl ">1600+</h3>
-            </div>
-            <div className='base w-full lg:w-10/12 xl:w-8/12  h-16 sm:h-24 md:h-28 lg:h-32'>
-              <p className=" smallmobile:text-xs text-sm sm:text-lg md:text-base 2xl:text-lg ">Registrations</p>
-            </div>
-          </div>
-          <div className="card md:h-[20rem] xl:h-[25rem] 2xl:h-[25rem] h-64 md:pb-[5rem] xl:pb-[5rem] 2xl:pb-[5rem] w-full m-4 mt-3  p-3 mb-5 rounded flex flex-col items-center bg-none" >
-            <div className='frame h-full w-full '>
-              <h3 className="p-8 text-3xl sm:text-2xl md:text-3xl 2xl:text-4xl ">1600+</h3>
-            </div>
-            <div className='base w-full lg:w-10/12 xl:w-8/12  h-16 sm:h-24 md:h-28 lg:h-32'>
-              <p className=" smallmobile:text-xs text-sm sm:text-lg md:text-base 2xl:text-lg ">Registrations</p>
-            </div>
-          </div>
-          <div className="card md:h-[20rem] xl:h-[25rem] 2xl:h-[25rem] md:pt-[5rem] xl:pt-[5rem] 2xl:pt-[5rem] h-64 w-full m-4 mt-3  p-3 mb-5 rounded flex flex-col items-center bg-none" >
-            <div className='frame h-full w-full '>
-              <h3 className="p-8 text-3xl sm:text-2xl md:text-3xl 2xl:text-4xl ">1600+</h3>
-            </div>
-            <div className='base w-full lg:w-10/12 xl:w-8/12  h-16 sm:h-24 md:h-28 lg:h-32'>
-              <p className=" smallmobile:text-xs text-sm sm:text-lg md:text-base 2xl:text-lg ">Registrations</p>
-            </div>
+          <div className="flex justify-end mr-16 py-8">
+            <a
+              href="https://deploy-preview-78--hackodisha2022.netlify.app/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <div className="text-xs sm:text-base md:text-lg lg:text-xl 2xl:text-2xl">
+                <span>Go to HackOdisha 2.0&gt;</span>
+              </div>
+            </a>
           </div>
         </div>
-        <div className="flex justify-end mr-16 py-8">
-          <a href="https://deploy-preview-78--hackodisha2022.netlify.app/" rel="noreferrer" target="_blank">
-            <i className="text-xs sm:text-base md:text-lg lg:text-xl 2xl:text-2xl">
-              <u>Go to HackOdisha 2.0&gt;</u>
-            </i>
-          </a>
-        </div>
-
       </div>
-
+      <Image
+        src={silhouette}
+        fill
+        className="object-contain object-bottom  h-[25%] opacity-50"
+      />
     </div>
+  );
+};
 
-  )
-}
-
-export default Statistics
+export default Statistics;
