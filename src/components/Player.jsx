@@ -1,5 +1,7 @@
 // Not used in the final version of the project
 
+// Lottie Building Animation
+
 "use client"
 
 import Lottie from "react-lottie";
