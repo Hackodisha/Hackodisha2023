@@ -13,7 +13,7 @@ const DevfolioButton = () => {
     };
   }, []);
   return (
-    <div className="z-40 absolute bottom-8 left-[50%] -translate-x-[50%]">
+    <div className="z-40 w-fit">
       <div
         className="apply-button"
         data-hackathon-slug="hackodisha3"

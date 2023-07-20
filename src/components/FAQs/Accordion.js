@@ -17,7 +17,7 @@ function Accordion() {
 
   return (
     <>
-      <div className="wrapper  w-screen justify-center items-center bg-center text-white bg-cover mb-16 ">
+      <div className="wrapper  w-screen justify-center items-center bg-center text-white bg-cover mb-16 " id="faq" >
         <div className="accordion">
           <Title title={"FAQ"} className={"px-10 py-5"}/>
           <div className="line">
@@ -27,20 +27,20 @@ function Accordion() {
           {data.map((item, i) => (
             <div key={i} className="item item-center ml-12 mr-12 mt-8  mb-4  bg-white/[0.1] shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0.39)] rounded-[12px] ">
               
-              <div className="title pl-[0.75rem]  gap-5 isolate w-1488 max-[326px]:h-14 mr-6  bg-transparent shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0)] rounded-[12px]   max-[512px]:pt-[8px] max-[512px]:mr-[6px] max-[512px]:pl-[10px]  max-[720px]:mr-[8px] flex justify-between flex-row pr-3 cursor-pointer max-[420px]:gap-0 max-[420px]:pr-[0] max-[400px]:h-[0]"  onClick={() => toggle(i)}>
+              <div className="title pl-[0.75rem]  gap-5 isolate max-[326px]:h-14 mr-6  bg-transparent shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0)] rounded-[12px]   max-[512px]:pt-[8px] max-[512px]:pl-[10px] flex justify-between flex-row pr-3 cursor-pointer max-[420px]:gap-0 max-[420px]:pr-[0] max-[400px]:h-[0]"  onClick={() => toggle(i)}>
                 <span className="flex items-center py-4">
-              <p className="faq font-ele text-xl leading-[2.5rem] max-[512px]:leading-2 max-[720px]:leading-[2.5rem] max-[635px]:leading-[0rem]  max-[512px]:text-[13px]   max-[424px]:text-[10px] max-[342px]:leading-6  max-[342px]:text-[6.2px] font-bold">
+              <p className="faq text-sm sm:text-xl leading-[2.5rem] max-[512px]:leading-2 max-[720px]:leading-[2.5rem] max-[635px]:leading-[0rem]  max-[512px]:text-[13px]   max-[424px]:text-[10px] max-[342px]:leading-6  max-[342px]:text-[6.2px] font-bold">
                   {"0" + item.id}
                 </p>
-              <p className="faq font-ele text-xl leading-[2.5rem] max-[512px]:leading-2 max-[720px]:leading-[2.5rem] max-[635px]:leading-[0rem]  max-[512px]:text-[13px]   max-[424px]:text-[10px] max-[342px]:leading-6  max-[342px]:text-[6.2px] font-bold ml-2">
+              <p className=" text-sm sm:text-xl leading-[2.5rem] max-[512px]:leading-2 max-[720px]:leading-[2.5rem] max-[635px]:leading-[0rem]  max-[512px]:text-[13px]   max-[424px]:text-[10px] max-[342px]:leading-6  max-[342px]:text-[6.2px] font-bold ml-2">
                   {item.faq}
                 </p>
                 </span>
                 <span
-                  className={` ${show==i?"mt-4":""} cursor-pointer box-border flex-col justify-start text-4xl font-bold h-full`}
+                  className={`cursor-pointer box-border flex flex-col justify-center  text-4xl font-bold fill-white`}
                 
                 >
-                  {show !== i ? '⌄' : "⌃"}
+                  {show !== i ? (<svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="M480-360 280-559h400L480-360Z"/></svg>) :(<svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48"><path d="m280-400 200-201 200 201H280Z"/></svg>)}
                 </span>
                
               </div>

@@ -32,7 +32,7 @@ function Navbar() {
         </span>
       </div>
       <ul
-        className={`md:flex  md:space-x-3 items-center justify-center md:pr-4  ${
+        className={`md:flex h-auto  md:space-x-3 items-center justify-center md:pr-4  ${
           navbar ? "block" : "hidden"
         }`}
       >
@@ -56,6 +56,18 @@ function Navbar() {
             Events
           </li>
         </a>
+        <a href="https://discord.gg/ewun7cxkJh" 
+            rel="noreferrer"
+            target="_blank"
+            className="w-screen inline-flex md:w-fit justify-center"
+            >
+          <button
+            className=" self-start hover:bg-[#096D6A] p-3 md:pl-3 pl-8 transition-colors ease-in rounded-2xl text-sm sm:text-lg px-4 py-2 border-white text-white border-2"
+          >
+            Join Discord
+          </button>
+        </a>
+        <div className="empty h-6 w-fit"></div>
       </ul>
     </nav>
   );

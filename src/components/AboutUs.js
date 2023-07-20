@@ -1,13 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import "./styles/aboutus.styles.css";
-import Logo from "./Images/HackLogo.svg";
+import anim from "./Images/circle-anim.gif";
 import Title from "./CommonComponent/Title/Title";
 import cityscape from "./Images/cityscape-1.webp";
 
 export const AboutUs = () => {
   return (
-    <section className="bg-black z-50 relative" id="about-us">
+    <section className=" z-50 relative" id="about-us">
       <div className="about-section relative">
         <Image src={cityscape} fill className="object-cover sm:object-contain h-[50%] opacity-25 object-bottom" />
         <div className="header-sec ">
@@ -15,8 +15,10 @@ export const AboutUs = () => {
           <hr className="line-hr" />
         </div>
         <div className="aboutus flex flex-col md:flex-row px-10 py-20	text-justify justify-between items-center	 ">
-          <div className="logo-container w-[219px] md:w-[624px]">
-            <Image src={Logo} className="hacklogo" alt="hackodisha-logo" />
+          <div className="logo-container w-[219px] aspect-square grid place-items-center md:w-[624px] relative md:self-start">
+            <Image src={"/Images/HO3.svg"} width={80} height={80} className="hacklogo max-w-[50%]" alt="hackodisha-logo" />
+            <Image src={anim} fill className="relative -z-10 mix-blend-lighten opacity-20" alt="hackodisha-logo-animation" />
+            
           </div>
           <div className="para-container w-[333px] md:w-[841px] md:px-8 ">
             <p className="paras">

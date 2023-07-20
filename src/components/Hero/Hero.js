@@ -1,22 +1,22 @@
 import React from "react";
 import "./Hero.css";
 import Image from "next/image";
-import Link from "next/link";
 import DevfolioButton from "@/components/CommonComponent/DevfolioButton/DevfolioButton";
 import Rain from "./Rain";
-import Title from "../CommonComponent/Title/Title";
 
 function Hero() {
   return (
     <>
-
-      <main id="hero" className="box-border relative bg-[#121212] w-[100%] h-screen bg-center bg-no-repeat bg-cover max-w-screen overflow-hidden">
-      <Rain />
+      <main
+        id="home"
+        className="box-border relative bg-[#121212] w-[100%] min-h-screen h-fit bg-center bg-no-repeat bg-cover max-w-screen overflow-hidden"
+      >
+        <Rain />
         <Image
           src={"/Images/homebg.webp"}
           alt="HeroBg"
           fill="true"
-          className="absolute top-0 w-screen object-cover o"
+          className="absolute top-0 w-screen object-cover "
           priority
         ></Image>
         <div className="rain mix-blend-screen opacity-[0.4] transform-scale-x-1"></div>
@@ -48,31 +48,44 @@ function Hero() {
           <Image
             src={"/Images/upper.svg"}
             alt="upperLogo"
-            height={"300"}
+            height={"240"}
             width={"380"}
-            className="w-10/12 md:w-4/12"
+            className="w-10/12 md:w-4/12 max-h-[240px]"
             priority
           />
           <Image
             src={"/Images/Group 8.svg"}
             alt="Center Log"
-            height={"300"}
+            height={"80"}
             width={"380"}
-            className="w-10/12 md:w-4/12 relative -top-3"
+            className="w-10/12 md:w-4/12 relative -top-3 max-h-[80px]"
             priority
           />
           <Image
             src={"/Images/lower.svg"}
             alt="LowerLogo"
-            height={"300"}
+            height={"240"}
             width={"380"}
-            className="w-10/12 md:w-4/12 relative -top-6"
+            className="w-10/12 md:w-4/12 relative -top-6 max-h-[240px]"
             priority
           />
-          <h1 className="text-5xl font-gvonz text-white rounded-2xl border-2 p-2 px-4 ">9 - 10 September </h1>
+          <h1 className="sm:text-5xl text-2xl font-gvonz text-white rounded-2xl border-2 p-2 px-4 ">
+            9 - 10 September{" "}
+          </h1>
+          <div className=" items-center gap-6 flex flex-col mt-4 relative z-[100]">
+            <DevfolioButton />
+            <div className="md:hidden">
+              <a
+                href="https://discord.gg/ewun7cxkJh"
+                rel="noreferrer"
+                target="_blank"
+                className=" hover:bg-[#096D6A] -[#FB48FF] transition-colors ease-in rounded-2xl text-sm sm:text-lg px-4 py-2 border-white text-white border-2 w-fit"
+              >
+                Join Discord
+              </a>
+            </div>
+          </div>
         </div>
-
-        <DevfolioButton />
       </main>
     </>
   );

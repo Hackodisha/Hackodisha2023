@@ -33,6 +33,13 @@
   box-sizing: border-box;
 }
 
+.bggrad{
+  background-image: url("../components/Images/background.png");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-color: black;
+}
+
 html{
   scroll-behavior: smooth !important;
 }
