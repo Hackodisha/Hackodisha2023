@@ -41,7 +41,7 @@ export const Sponsor = () => {
                   >
                     <Image
                       src={sponsor.logo}
-                      alt={sponsor.name}
+                      alt={sponsor.alt}
                       width={sponsor.width}
                       height={sponsor.height}
                       className={`object-contain w-[70%] sm:w-[100%] xl:w-[150%] `}
