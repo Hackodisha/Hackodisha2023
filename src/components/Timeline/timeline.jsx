@@ -248,7 +248,7 @@ const Timeline = () => {
               <h3 className="mx-auto mt-5 ">September 9, 2023</h3>
             </span>
             <div className="">
-              <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 mb-5">
+              <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 mb-5 mt-2">
                 {[
                   "7:30 AM",
                   "Check-in starts",
@@ -493,7 +493,7 @@ const Timeline = () => {
               <h3 className="mx-auto mt-5 ">September 10, 2023</h3>
             </span>
             <div className="">
-              <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 mb-5">
+              <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 mb-5 mt-2">
                 {[
                   "12:00 AM",
                   "Discord Catch-up Session",
@@ -746,7 +746,7 @@ const Timeline = () => {
               <h3 className="mx-auto mt-5 ">September 16, 2023</h3>
             </span>
             <div className="">
-              <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 text-left  mb-5">
+              <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 text-left  mb-5 mt-2">
                 {["6:00 PM", "Winner Announcement"].map((item, index) => (
                   <li
                     className={`${index % 2 == 0 ? "w-fit" : "w-full"} m-auto text-left`}
