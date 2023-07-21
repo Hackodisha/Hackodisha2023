@@ -25,14 +25,14 @@ function Accordion() {
             </div>
 
           {data.map((item, i) => (
-            <div key={i} className="item item-center ml-12 mr-12 mt-8  mb-4  bg-white/[0.1] shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0.39)] rounded-[12px] ">
+            <div key={i} className="item item-center ml-12 mr-12 mt-8  mb-4  bg-white/[0.1] shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0.39)] rounded-[12px] " onClick={() => toggle(i)}>
               
-              <div className="title pl-[0.75rem]  gap-5 isolate max-[326px]:h-14 mr-6  bg-transparent shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0)] rounded-[12px]   max-[512px]:pt-[8px] max-[512px]:pl-[10px] flex justify-between flex-row pr-3 cursor-pointer max-[420px]:gap-0 max-[420px]:pr-[0] max-[400px]:h-[0]"  onClick={() => toggle(i)}>
+              <div className="title pl-[0.75rem]  gap-5 isolate max-[326px]:h-14 mr-6  bg-transparent shadow-[-3px_-2px_3px_0px_rgba(248,248,248,0)] rounded-[12px]   max-[512px]:pt-[8px] max-[512px]:pl-[10px] flex justify-between flex-row pr-3 cursor-pointer max-[420px]:gap-0 max-[420px]:pr-[0] max-[400px]:h-[0]"  >
                 <span className="flex items-center py-4">
               <p className="faq text-sm sm:text-xl leading-[2.5rem] max-[512px]:leading-2 max-[720px]:leading-[2.5rem] max-[635px]:leading-[0rem]  max-[512px]:text-[13px]   max-[424px]:text-[10px] max-[342px]:leading-6  max-[342px]:text-[6.2px] font-bold">
                   {"0" + item.id}
                 </p>
-              <p className=" text-sm sm:text-xl leading-[2.5rem] max-[512px]:leading-2 max-[720px]:leading-[2.5rem] max-[635px]:leading-[0rem]  max-[512px]:text-[13px]   max-[424px]:text-[10px] max-[342px]:leading-6  max-[342px]:text-[6.2px] font-bold ml-2">
+              <p className=" text-sm sm:text-xl max-[512px]:text-[13px]   max-[424px]:text-[10px] max-[342px]:text-[6.2px] font-bold ml-2">
                   {item.faq}
                 </p>
                 </span>
