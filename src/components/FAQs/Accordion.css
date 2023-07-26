@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Gvonz:wght@100;300;400&display=swap");
+
+.wrapper {
+    background-image: url(bg.png);
+
+}
+
+.answer {
+    color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0, 1, 0, 1);
+    padding-left: 2.7rem;
+    padding-right: 4em;
+    margin-right: 0em;
+    line-height: 2;
+    padding-bottom: 2px;
+    background: rgba(224, 224, 224, 0.1);
+    border-radius: 0px 0px 12px 12px;
+
+}
+
+.answer.show {
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.3s cubic-bezier(1, 0, 1, 0);
+    padding-left: 2.7rem;
+    padding-right: 4em;
+    margin-right: 0em;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    background: rgba(224, 224, 224,0.1);
+    line-height:2;
+
+}
+
+
+
+
+@media screen and (max-width:720px) {
+    .answer {
+        line-height: 1.2;
+        font-size: 15px;
+        padding-left: 2.7em;
+        margin-right:0em;
+        padding-bottom: 1px;
+        margin-top: 5px;
+
+    }
+
+    .answer.show {
+        font-size: 15px;
+        line-height: 1.2;
+        padding-left:1rem;
+        margin-right:0em;
+        padding-bottom: 5px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width:542px) {
+.answer{
+    padding-top:3px;
+    font-size: 13px;
+    line-height: 1.5;
+    padding-left: 2.3em;
+    padding-bottom: 1px;
+    margin-right: 0em;
+    padding-right:2em;
+}
+    .answer.show {
+        padding-top:3px;
+        font-size: 13px;
+        line-height: 1.5;
+        padding-bottom: 2.3px;
+        padding-left:1.5rem;
+        margin-right: 0em;
+        padding-right:2em;
+    }
+
+}
+
+@media screen and (max-width:470px) {
+    .answer{
+        padding-top:3px;
+        line-height: 1.5;
+        padding-left:5em;
+        margin-right: 0em;
+        padding-right:2em;
+        padding-bottom: 4px;
+    }
+        .answer.show {
+            padding-top:3px;
+            line-height: 1.5;
+            padding-left:1.25rem;
+            margin-right: 0em;
+            padding-right:2em;
+            padding-bottom: 4px;
+        }
+    
+    }

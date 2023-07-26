@@ -14,9 +14,9 @@ module.exports = {
         sm: "5px",
       },
       fontFamily: {
-        navtxt: "'myfont',sans-serif",
-        Gvonz: "'titlefont', sans-serif",
-        Syoog: "'syoog', sans-serif",
+        navtxt: ['myfont',"monospace"],
+        gvonz: ['titlefont', "monospacce"],
+        syoog: ['syoog', "sans-serif"],
       },
       keyframes: {
         "trans-navbar": {

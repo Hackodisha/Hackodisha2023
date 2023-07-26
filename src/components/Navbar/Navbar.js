@@ -11,12 +11,12 @@ function Navbar() {
     <nav
       className={`${
         navbar ? "animate-trans-navbarbg" : "animate-none"
-      } bg-navbg w-full h-auto md:flex justify-between items-center fixed top-0 text-white backdrop-blur-sm py-1 z-10`}
+      } bg-navbg w-full h-auto md:flex justify-between items-center fixed top-0 text-white backdrop-blur-sm py-1 z-[100]`}
     >
       <div className="flex justify-between items-center">
         <Link href="/#home">
           <Image
-            src={"/images/HO3.svg"}
+            src={"/Images/HO3.svg"}
             alt="logo"
             width="150"
             height="150"
@@ -32,7 +32,7 @@ function Navbar() {
         </span>
       </div>
       <ul
-        className={`md:flex  md:space-x-3 items-center justify-center md:pr-4 ${
+        className={`md:flex h-auto  md:space-x-3 items-center justify-center md:pr-4  ${
           navbar ? "block" : "hidden"
         }`}
       >
@@ -41,21 +41,33 @@ function Navbar() {
             Home
           </li>
         </Link>
-        <Link href="/#about">
+        <Link href="/#about-us">
           <li className="animate-trans-navbar-component-2 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-[23px] hover:text-[#06EBE5] hover:underline">
             About Us
           </li>
         </Link>
-        <Link href="/#contact">
+        <a href="mailto:mail@hackodisha.tech" rel="noreferrer" target="_blank">
           <li className="animate-trans-navbar-component-3 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-[23px] hover:text-[#06EBE5] hover:underline">
             Contact Us
           </li>
-        </Link>
-        <Link href="/#event">
+        </a>
+        <a href="/#timeline">
           <li className="animate-trans-navbar-component-4 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-[23px] hover:text-[#06EBE5] hover:underline">
             Events
           </li>
-        </Link>
+        </a>
+        <a href="https://discord.gg/ewun7cxkJh" 
+            rel="noreferrer"
+            target="_blank"
+            className="w-screen inline-flex md:w-fit justify-center"
+            >
+          <button
+            className=" self-start hover:bg-[#096D6A] p-3 md:pl-3 pl-8 transition-colors ease-in rounded-2xl text-sm sm:text-lg px-4 py-2 border-white text-white border-2"
+          >
+            Join Discord
+          </button>
+        </a>
+        <div className="empty h-6 w-fit"></div>
       </ul>
     </nav>
   );
