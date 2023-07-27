@@ -1,20 +1,10 @@
 .about-section{
-<<<<<<< HEAD
-    background-image: url("../Images/cityscape-1.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-position: center;
-    color: #E7E7E7;
-   
-=======
     /* background-image: url("../Images/cityscape-1.webp");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
     background-position: bottom; */
     color: #E7E7E7;
->>>>>>> a4fcea9ce50e64c94b3e677e5d60481ffa05ebd4
 }
 
 .header-sec{
