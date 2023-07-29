@@ -76,21 +76,27 @@ const data = [
   },
   {
     id: 4,
-    faq: "Can I apply for multiple tracks?",
+    faq: "Registration costs?",
     answer:
-      "Yes. You can.",
+      "Nada.",
   },
   {
     id: 5,
-    faq: "Do I need to pay anything to participate?",
+    faq: "Can I apply for multiple tracks?",
     answer:
-      "No, the hackathon is completely free for everyone. ",
+      "Sure thing! Apply for all the tracks you want, like a kid in a candy store! 🏃🍭😄. Just make sure to be relevant.",
   },
   {
     id: 6,
     faq: "Who can participate?",
     answer:
-      "Everyone is welcome to participate, be it, students, professionals or aliens from different Planet!",
+      "Everyone is welcome to participate, be it, students, professionals, or aliens from different planets!",
+  },
+  {
+    id: 7,
+    faq: "Is physical presence required, or can we hack remotely?",
+    answer:
+      "Nah, no need for pants, go remote! 🏠😄",
   },
 ];
 
