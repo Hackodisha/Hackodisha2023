@@ -101,7 +101,7 @@ const SponsorData = [
         logo: "/Images/SponsorLogos/verbwire.svg",
         width: 300,
         height: 150,
-        alt:"FILECOIN LOGO"
+        alt:"VERBWIRE LOGO"
       },
       {
         name: "Solana",
