@@ -11,7 +11,7 @@ function Navbar() {
     <nav
       className={`${
         navbar ? "animate-trans-navbarbg" : "animate-none"
-      } bg-navbg w-full h-auto md:flex justify-between items-center fixed top-0 text-white backdrop-blur-sm py-1 z-[100]`}
+      } bg-navbg w-full h-auto md:flex justify-between items-center fixed top-0 text-white backdrop-blur-sm py-1 z-[200]`}
     >
       <div className="flex justify-between items-center">
         <Link href="#home">
@@ -56,14 +56,13 @@ function Navbar() {
             Events
           </li>
         </a>
-        <a href="https://discord.gg/ewun7cxkJh" 
-            rel="noreferrer"
-            target="_blank"
-            className="w-screen inline-flex md:w-fit justify-center"
-            >
-          <button
-            className=" self-start hover:bg-[#096D6A] p-3 md:pl-3 pl-8 transition-colors ease-in rounded-2xl text-sm sm:text-lg px-4 py-2 border-white text-white border-2"
-          >
+        <a
+          href="https://discord.gg/ewun7cxkJh"
+          rel="noreferrer"
+          target="_blank"
+          className="w-screen inline-flex md:w-fit justify-center"
+        >
+          <button className=" self-start hover:bg-[#096D6A] p-3 md:pl-3 pl-8 transition-colors ease-in rounded-2xl text-sm sm:text-lg px-4 py-2 border-white text-white border-2">
             Join Discord
           </button>
         </a>
