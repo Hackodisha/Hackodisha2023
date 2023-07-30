@@ -101,13 +101,6 @@ const SponsorData = [
         logo: "/Images/SponsorLogos/verbwire.webp",
         width: 200,
         height: 100,
-        alt: "VERBWIRE LOGO"
-      },
-      {
-        name: "Verbwire",
-        logo: "/Images/SponsorLogos/verbwire.svg",
-        width: 300,
-        height: 150,
         alt:"VERBWIRE LOGO"
       },
       {
