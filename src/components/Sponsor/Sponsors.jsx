@@ -33,7 +33,7 @@ export const Sponsor = () => {
                 {" "}
                 <span className="uppercase">{item.category}</span> sponsors
               </h2>
-              <ul className={`inline-flex flex-wrap gap-4 sm:gap-20 justify-center py-16 border-r-4 border-[#CA40CD] border-opacity-25 w-full ${index==3?"border-b-4":""} `}>
+              <ul className={`inline-flex flex-wrap gap-4 sm:gap-20 justify-center py-16 border-r-4 border-[#CA40CD] border-opacity-25 w-full ${index == 3 ? "border-b-4" : ""} `}>
                 {item.sponsors.map((sponsor, i) => (
                   <li
                     key={i}
@@ -63,7 +63,7 @@ const SponsorData = [
     category: "Platinum",
     sponsors: [
 
-    
+
     ],
   },
   {
@@ -74,16 +74,16 @@ const SponsorData = [
         logo: "/Images/SponsorLogos/devfolio.png",
         width: 300,
         height: 150,
-        alt:"DEVFOLIO LOGO"
+        alt: "DEVFOLIO LOGO"
       },
       {
         name: "Polygon",
         logo: "/Images/SponsorLogos/polygon.png",
         width: 300,
         height: 150,
-        alt:"POLYGON LOGO"
+        alt: "POLYGON LOGO"
       },
-     
+
     ],
   },
   {
@@ -91,38 +91,38 @@ const SponsorData = [
     sponsors: [
       {
         name: "Filecoin",
-        logo: "/Images/SponsorLogos/filecoin.svg",
-        width: 300,
-        height: 150,
-        alt:"FILECOIN LOGO"
+        logo: "/Images/SponsorLogos/filecoin.webp",
+        width: 200,
+        height: 100,
+        alt: "FILECOIN LOGO"
       },
       {
         name: "Verbwire",
-        logo: "/Images/SponsorLogos/verbwire.svg",
-        width: 300,
-        height: 150,
-        alt:"VERBWIRE LOGO"
+        logo: "/Images/SponsorLogos/verbwire.webp",
+        width: 200,
+        height: 100,
+        alt: "VERBWIRE LOGO"
       },
       {
         name: "Solana",
-        logo: "/Images/SponsorLogos/solana.png",
-        width: 300,
-        height: 150,
-        alt:"SOLANA LOGO"
+        logo: "/Images/SponsorLogos/solana.webp",
+        width: 200,
+        height: 100,
+        alt: "SOLANA LOGO"
       },
       {
         name: "Replit",
-        logo: "/Images/SponsorLogos/replit.png",
-        width: 300,
-        height: 150,
-        alt:"REPLIT LOGO"
+        logo: "/Images/SponsorLogos/replit.webp",
+        width: 200,
+        height: 100,
+        alt: "REPLIT LOGO"
       },
     ],
   },
   {
     category: "Bronze",
     sponsors: [
-      
+
     ],
   },
 ];
