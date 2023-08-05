@@ -1,50 +1,92 @@
-function Track () {
-    return (
-        <div className="bg-black grid grid-cols-1 gap-0  lg:grid-cols-3 md:grid-cols-1 ">
-        
-        <div className=" items-center justify-center p-12 lg:row-span-2 lg:col-span-2  md:text-2xl red lg:ml-80  "
-       >
-        <svg xmlns="http://www.w3.org/2000/svg" width="320" height="350" viewBox="0 0 714 833" fill="none" >
-<path d="M205.666 44.5001H3V785H7.25545V829.5H460.992L508.866 783H711V3.00012H255.135L205.666 44.5001Z" stroke="#CA40CD" stroke-width="6"/>
-<text x="50%" y="30%" dominant-baseline="middle" text-anchor="middle" font-size="50" font-family="Roboto" >
-    <tspan dy="2rem" width=" 129px" height=" 89.46px" font-Size="90px" line-height="180%" fill="#CA40CD" >Gold</tspan>
-    <tspan  x="50%" dy="2em" fill="#fff">Cash Prizes <tspan fill="#06EBE5"> ₹25k </tspan> </tspan>
+import Image from "next/image";
+import "./Track.css";
+import image1 from "../../../public/vector 47.png";
+import image2 from "../../../public/Vector 48.png";
+import image3 from "../../../public/Vector 49.png";
+import image4 from "../../../public/Vector 48 new.png";
+import image5 from "../../../public/Vector 49 mobile.png";
+import image6 from "../../../public/Vector 47 mobile.png";
 
-        <tspan x="50%" dy="2em" fill="#fff">Goodies & Tshirts</tspan>
-        <tspan x="50%" dy="2em" fill="#fff">Vouchers worth<tspan fill="#06EBE5"> $50k </tspan></tspan>
-</text>
+function Track() {
+  return (
+    <div className="bg-black">
+      <div className=" parent max-w-[1200]  bg-black grid lg:grid-rows-2 md:grid-rows-2 sm:grid-rows-3 grid-flow-col gap-2 box-sizing: border-box  ">
+        <div className="child lg:row-span-2 md:row-span-2 place-content-evenly  box-sizing: border-box justify-center ">
+          <div className="imagio">
+            <Image
+              src={image1}
+              alt="Picture of the author"
+              className="ima-full"
+            />
+            <Image
+              src={image6}
+              alt="Picture of the author"
+              className="ima-small"
+            />
+            <div className="text">
+              <h1 className="headin">Gold</h1>
+              <p className="">
+                Cash Prizes <span className="sp"> ₹25k</span>
+              </p>
+              <p className="">Goodies & Tshirts</p>
+              <p className="">
+                Vouchers worth<span className="sp"> $50k </span>
+              </p>
+            </div>
+          </div>
+        </div>
 
-</svg>
-</div>
+        <div className=" child box-sizing: border-box">
+          <div className="imago">
+            <Image
+              src={image2}
+              alt="Picture of the author"
+              className="ima-full"
+            />
+            <Image
+              src={image4}
+              alt="Picture of the author"
+              className="ima-small"
+            />
+            <div className="text2">
+              <h1 className="hea">Silver</h1>
+              <p className="">
+                Cash Prizes <span className="sp">₹17k</span>
+              </p>
+              <p className="">Goodies & Tshirts</p>
+              <p className="">
+                Vouchers worth<span className="sp"> $50k </span>
+              </p>
+            </div>
+          </div>
+        </div>
 
-
-<div className="items-center justify-center p-12 xl:p-0 md:text-2xl red md:ml-294 ">
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="192" viewBox="0 0 671 378" fill="none" >
-<path d="M669 2.00012H2V376H436L479 327.5H669V2.00012Z" stroke="#BBB4B4" stroke-width="3"/>
-<text x="50%" y="40%" dominant-baseline="middle" text-anchor="middle" font-size="50" font-family="Roboto" >
-<tspan x="50%" dy=".1em"  fill="#fff" width="100" height="70" fontSize="60">Silver</tspan>
-    <tspan x="50%" dy="1.2em" fill="#fff" fontSize="40">Cash Prizes <tspan fill="#06EBE5">₹17k </tspan></tspan>
-        <tspan x="50%" dy="1.2em" fill="#fff" fontSize="40">Goodies & Tshirts</tspan>
-        <tspan x="50%" dy="1.2em" fill="#fff" fontSize="40">Vouchers worth <tspan fill="#06EBE5"> $50k </tspan></tspan>
-        </text>
-</svg>
-</div>
-<div className=" items-center justify-center p-12 xl:p-0 md:text-2xl red  ">
-<svg xmlns="http://www.w3.org/2000/svg" width="320" height="181" viewBox="0 0 671 378" fill="none" >
-<path d="M669 2.00006H2V376H436L479 327.5H669V2.00006Z" stroke="#BBB4B4" stroke-width="3"/>
-<text x="50%" y="40%" dominant-baseline="middle" text-anchor="middle" font-size="50" font-family="Roboto" >
-<tspan x="50%" dy=".1em" fill="#fff"  width="100" height="70" fontSize="60">Bronze</tspan>
-    <tspan x="50%" dy="1.2em" fill="#fff" fontSize="40">Cash Prizes <tspan fill="#06EBE5">₹10k </tspan> </tspan>
-        <tspan x="50%" dy="1.2em" fill="#fff" fontSize="40">Goodies & Tshirts</tspan>
-        <tspan x="50%" dy="1.2em" fill="#fff" fontSize="40">Vouchers worth <tspan fill="#06EBE5"> $50k </tspan></tspan>
-        </text>
-</svg>
-
-
-</div>
-         
-
-</div>
-
-    )}
+        <div className=" child   box-sizing: border-box">
+          <div className="imagos">
+            <Image
+              src={image3}
+              alt="Picture of the author"
+              className="ima-full"
+            />
+            <Image
+              src={image5}
+              alt="Picture of the author"
+              className="ima-small"
+            />
+            <div className="text2">
+              <h1 className="hea">Bronze</h1>
+              <p className="">
+                Cash Prizes <span className="sp"> ₹10k</span>
+              </p>
+              <p className="">Goodies & Tshirts</p>
+              <p className="">
+                Vouchers worth<span className="sp"> $50k </span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 export default Track;
