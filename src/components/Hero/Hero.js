@@ -26,27 +26,33 @@ function Hero() {
         </div>
         <div className="flex h-full w-full absolute top-0">
           <div className="w-full h-full basis-[52%] hidden sm:block md:basis-[51%] mix-blend-lighten bg-black ">
-            <Image
-              src={`/gif/thunder3.gif`}
-              alt="Thundergif"
-              height={"670"}
-              width={"490"}
+            <video
+              src="/gif/thunder.webm"
+              alt="thundergif"
+              height={670}
+              width={490}
               className="w-full h-full opacity-[0.36]"
+              autoPlay
+              loop
+              muted
             />
           </div>
           <div className="w-full h-full basis-[48%] hidden sm:block md:basis-[49%] mix-blend-lighten bg-black">
-            <Image
-              src={`/gif/thunder3.gif`}
+            <video
+              src="/gif/thunder.webm"
               alt="thundergif"
-              height={"670"}
-              width={"490"}
+              height={670}
+              width={490}
               className="w-full h-full opacity-[0.36]"
+              autoPlay
+              loop
+              muted
             />
           </div>
         </div>
         <div className="flex flex-col md:-top-6 items-center w-full h-full relative xl:mb-32 pt-[50%] sm:pt-32">
           <Image
-            src={"/Images/upper.svg"}
+            src={"/Images/upper.webp"}
             alt="upperLogo"
             height={"240"}
             width={"380"}
@@ -62,7 +68,7 @@ function Hero() {
             priority
           />
           <Image
-            src={"/Images/lower.svg"}
+            src={"/Images/lower.webp"}
             alt="LowerLogo"
             height={"240"}
             width={"380"}
