@@ -17,6 +17,7 @@ function Track() {
               src={image1}
               alt="Picture of the author"
               className="ima-full"
+              width="500px"
             />
             <Image
               src={image6}
