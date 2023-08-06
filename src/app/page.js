@@ -1,22 +1,31 @@
+
 "use client";
 import Player from "@/components/Player";
 import { useState } from "react";
 import Track from "@/components/track/Track";
 
-export default function Home() {
-  const [counter, setCounter] = useState(0);
 
-  const headingClicked = () => {
-    setCounter(counter + 1);
-  };
-  if (counter == 3) {
-    document.getElementById("rocket").classList.add("animate-spin");
-  }
+import Accordion from "@/components/FAQs/Accordion";
+import Hero from "@/components/Hero/Hero";
+import Timeline from "@/components/Timeline/timeline";
+import Statistics from "../components/suraj/Statistics";
+import { AboutUs } from "@/components/AboutUs";
+import Footer from "@/components/Footer/Footer";
+import { Sponsor } from "@/components/Sponsor/Sponsors";
+
+export default function Home() {
+  return (
+    <>
   
-  const handleStop = () => {
-    setCounter(0);
-    document.getElementById("rocket").classList.remove(["animate-spin"]);
-  };
+      <Hero />
+      <AboutUs />
+      <Statistics />
+      <Timeline />
+      <Sponsor/>
+      <div className="relative">
+      <Accordion/>
+      <Footer/>
+
 
   return (
     <>
@@ -63,6 +72,8 @@ export default function Home() {
       </div>
     </main>
     <Track/>
+      </div>    
+
     </>
   );
  

@@ -2,10 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer utilities{
-  div {
+
+@layer utilities {
+  /* div {
     font-family: Monaco, monospace;
     font-size: 18px;
-    
+  } */
+}
+@layer base {
+  @font-face {
+    font-family: "titlefont";
+    font-weight: 300;
+    color: #07d6d1;
+    src: url("/fonts/gvonz-2.ttf") format("truetype");
+    font-display: swap;
   }
+  @font-face {
+    font-family: "syoog";
+    font-weight: 300;
+    color: #07d6d1;
+    src: url("/fonts/syoog.otf") format("opentype");
+    font-display: swap;
+  }
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bggrad{
+  background-image: url("../components/Images/background.png");
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-color: black;
+}
+
+html{
+  scroll-behavior: smooth !important;
 }

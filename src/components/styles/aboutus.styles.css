@@ -1,0 +1,60 @@
+.about-section{
+    /* background-image: url("../Images/cityscape-1.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-position: bottom; */
+    color: #E7E7E7;
+}
+
+.header-sec{
+    color: #07D6D1;
+    font-family: gvonz;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  45px ;
+    letter-spacing: -0.5px;
+}
+
+.line-hr{
+    width: 100%;
+    border: 1px solid #07D6D1 ;
+}
+
+.logo-container{
+    border: 0px solid aqua;
+}
+.hacklogo{
+   /* opacity: 0.4399999976158142;*/
+   width: 100%;
+   mix-blend-mode: lighten;
+}
+
+.para-container{
+    border: 0px solid #0f6796;
+    font-family: Syoog;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  45px ;
+    letter-spacing: -0.5px;
+}
+@media only screen and (max-width:600px) {
+.para-container{
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  20px;
+    letter-spacing: -0.2px;
+}    
+}
+
+.pink-span{
+    color: #CA40CD;
+}
+
+.paras{
+    margin-top: 1.5rem; 
+    margin-bottom: 1rem;
+}
