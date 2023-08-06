@@ -16,11 +16,11 @@ function Navbar() {
       <div className="flex justify-between items-center">
         <Link href="/#home">
           <Image
-            src={"/Images/HO3.svg"}
+            src={"/Images/HO3.webp"}
             alt="logo"
             width="150"
             height="150"
-            className="flex justify-center items-center p-3 md:pl-16 pl-8 w-[120px] h-[65px] md:w-40"
+            className="flex justify-center items-center p-3 md:pl-16 pl-8 w-[120px] h-[57px] md:w-40"
           />
         </Link>
         <span className="pr-8 md:hidden flex items-center justify-center">
