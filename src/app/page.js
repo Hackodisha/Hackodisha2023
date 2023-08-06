@@ -6,6 +6,7 @@ import Statistics from "../components/suraj/Statistics";
 import { AboutUs } from "@/components/AboutUs";
 import Footer from "@/components/Footer/Footer";
 import { Sponsor } from "@/components/Sponsor/Sponsors";
+import Track from "@/components/TRACK/Track";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Sponsor/>
       <div className="relative">
       <Accordion/>
+      <Track/>
       <Footer/>
 
       </div>    

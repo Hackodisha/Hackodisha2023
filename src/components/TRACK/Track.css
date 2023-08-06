@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .parent {
+    margin: auto;
+    background: url("../Images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .imago {
+    padding-top: 10px;
+    position: relative;
+  }
+  .imagos {
+    padding-top: 10px;
+    position: relative;
+  }
+  .text {
+    position: absolute;
+    top: 50px;
+    left: 19px;
+    color: white;
+    text-align: center;
+    font-family: Syoog;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 81px */
+  }
+  .sp {
+    color: #06ebe5;
+  }
+  .headin {
+    color: #ca40cd;
+    text-align: center;
+    font-family: Syoog;
+    font-size: 106px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 190.8px */
+    text-decoration-line: underline;
+  }
+  .hea {
+    color: #bbb4b4;
+    text-align: center;
+    font-family: Syoog;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%; /* 118.8px */
+    text-decoration-line: underline;
+  }
+  .text2 {
+    position: absolute;
+    top: 4px;
+    left: 19px;
+    color: #fff;
+    text-align: center;
+    font-family: Syoog;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 130%; /* 72px */
+  }
+  .imagio {
+    padding-top: 10px;
+    position: relative;
+    /* text-align: center; */
+  }
+  
+  .ima-full {
+    display: block;
+  }
+  .ima-small {
+    display: none;
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .text2 {
+      position: absolute;
+      top: 46px;
+      left: 70px;
+      color: #fff;
+      text-align: center;
+      font-family: Syoog;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: 130%; /* 72px */
+    }
+    .hea {
+      color: #bbb4b4;
+      text-align: center;
+      font-family: Syoog;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 100;
+      line-height: 100%; /* 118.8px */
+      text-decoration-line: underline;
+    }
+    .text{
+        font-size: 28px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .text2 {
+      position: absolute;
+      top: 70px;
+      left: 38px;
+      color: #fff;
+      text-align: center;
+      font-family: Syoog;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 50;
+      line-height: 130%; /* 72px */
+    }
+    .text {
+      top: 26px;
+      font-size: 28px;
+    }
+    .hea {
+      color: #bbb4b4;
+      text-align: center;
+      font-family: Syoog;
+      font-size: 45px;
+      font-style: normal;
+      font-weight: 100;
+      line-height: 100%; /* 118.8px */
+      text-decoration-line: underline;
+    }
+    .imagio {
+      padding-top: 0px;
+      position: relative;
+    }
+    .imago {
+      top: 400px;
+    }
+    .imagos {
+      top: 635px;
+    }
+    .parent {
+      display: grid;
+      grid-template-rows: 100px 60px 60px;
+      height: 1130px;
+      margin-left: 140px;
+    }
+    .child {
+      display: inline;
+    }
+  
+    .ima-full {
+      display: none;
+      position: relative;
+    }
+    .ima-small {
+      display: block;
+      position: relative;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .parent {
+      margin: 0px;
+    }
+    .text2 {
+      font-size: 25px;
+      top: 67px;
+    }
+  }
+  /* @media only screen and (min-width: 1120px) and (max-width: 1496px){
+        
+      }
+      */
+  
