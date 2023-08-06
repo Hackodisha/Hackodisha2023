@@ -1,11 +1,11 @@
 import Image from "next/image";
 import "./Track.css";
-import image1 from "./assets/Vector 47.png";
-import image2 from "./assets/Vector 48.png";
-import image3 from "./assets/Vector 49.png";
-import image4 from "./assets/Vector 48 new.png";
-import image5 from "./assets/Vector 49 mobile.png";
-import image6 from "./assets/Vector 47 mobile.png";
+// import image1 from "./assets/Vector 47.png";
+// import image2 from "./assets/Vector 48.png";
+// import image3 from "./assets/Vector 49.png";
+// import image4 from "./assets/Vector 48 new.png";
+// import image5 from "./assets/Vector 49 mobile.png";
+// import image6 from "./assets/Vector 47 mobile.png";
 
 function Track() {
   return (
@@ -14,14 +14,18 @@ function Track() {
         <div className="child lg:row-span-2 md:row-span-2 place-content-evenly  box-sizing: border-box justify-center ">
           <div className="imagio">
             <Image
-              src={image1}
+              src={"/Images/Vector 47.png"}
               alt="Picture of the author"
               className="ima-full"
+              width="500"
+              height="500"
             />
             <Image
-              src={image6}
+              src={"/Images/Vector 47 mobile.png"}
               alt="Picture of the author"
-              className="ima-small"   
+              className="ima-small"  
+              width="500"
+              height="500" 
             />
             <div className="text">
               <h1 className="headin">Gold</h1>
@@ -39,14 +43,18 @@ function Track() {
         <div className=" child box-sizing: border-box">
           <div className="imago">
             <Image
-              src={image2}
+              src={"/Images/Vector 48.png"}
               alt="Picture of the author"
               className="ima-full"
+              width="500"
+              height="500"
             />
             <Image
-              src={image4}
+              src={"/Images/Vector 48 new.png"}
               alt="Picture of the author"
               className="ima-small" 
+              width="500"
+              height="500"
             />
             <div className="text2">
               <h1 className="hea">Silver</h1>
@@ -64,15 +72,19 @@ function Track() {
         <div className=" child   box-sizing: border-box">
           <div className="imagos">
             <Image
-              src={image3}
+              src={"/Images/Vector 49.png"}
               alt="Picture of the author"
               className="ima-full"
+              width="500"
+              height="500"
              
             />
             <Image
-              src={image5}
+              src={"/Images/Vector 49 mobile.png"}
               alt="Picture of the author"
               className="ima-small"
+              width="500"
+              height="500"
             />
             <div className="text2">
               <h1 className="hea">Bronze</h1>
