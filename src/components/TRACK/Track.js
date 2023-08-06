@@ -1,6 +1,6 @@
 import Image from "next/image";
 import "./Track.css";
-import image1 from "../../../public/vector 47.png";
+import image1 from "../../../public/Vector 47.png";
 import image2 from "../../../public/Vector 48.png";
 import image3 from "../../../public/Vector 49.png";
 import image4 from "../../../public/Vector 48 new.png";
