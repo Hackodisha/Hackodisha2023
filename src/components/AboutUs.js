@@ -11,6 +11,7 @@ export const AboutUs = () => {
       <div className="about-section relative">
         <Image
           src={cityscape}
+          alt="cityBg"
           fill
           className="object-cover sm:object-contain h-[50%] opacity-25 object-bottom"
         />
