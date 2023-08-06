@@ -1,11 +1,11 @@
 import Image from "next/image";
 import "./Track.css";
-import image1 from "../../../public/Vector 47.png";
-import image2 from "../../../public/Vector 48.png";
-import image3 from "../../../public/Vector 49.png";
-import image4 from "../../../public/Vector 48 new.png";
-import image5 from "../../../public/Vector 49 mobile.png";
-import image6 from "../../../public/Vector 47 mobile.png";
+import image1 from "./assets/Vector 47.png";
+import image2 from "./assets/Vector 48.png";
+import image3 from "./assets/Vector 49.png";
+import image4 from "./assets/Vector 48 new.png";
+import image5 from "./assets/Vector 49 mobile.png";
+import image6 from "./assets/Vector 47 mobile.png";
 
 function Track() {
   return (
