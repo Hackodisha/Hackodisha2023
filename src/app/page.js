@@ -1,4 +1,3 @@
-
 import Accordion from "@/components/FAQs/Accordion";
 import Hero from "@/components/Hero/Hero";
 import Timeline from "@/components/Timeline/timeline";
@@ -11,18 +10,16 @@ import Track from "@/components/TRACK/Track";
 export default function Home() {
   return (
     <>
-  
       <Hero />
       <AboutUs />
       <Statistics />
       <Timeline />
-      <Sponsor/>
+      <Track />
+      <Sponsor />
       <div className="relative">
-      <Accordion/>
-      <Track/>
-      <Footer/>
-
-      </div>    
+        <Accordion />
+        <Footer />
+      </div>
     </>
   );
 }
