@@ -18,11 +18,14 @@ function Track() {
               alt="Picture of the author"
               className="ima-full"
               width="500px"
+              height="500px"
             />
             <Image
               src={image6}
               alt="Picture of the author"
               className="ima-small"
+              width="500px"
+              height="500px"
             />
             <div className="text">
               <h1 className="headin">Gold</h1>
@@ -43,11 +46,15 @@ function Track() {
               src={image2}
               alt="Picture of the author"
               className="ima-full"
+              width="500px"
+              height="500px"
             />
             <Image
               src={image4}
               alt="Picture of the author"
               className="ima-small"
+              width="500px"
+              height="500px"
             />
             <div className="text2">
               <h1 className="hea">Silver</h1>
@@ -68,11 +75,15 @@ function Track() {
               src={image3}
               alt="Picture of the author"
               className="ima-full"
+              width="500px"
+              height="500px"
             />
             <Image
               src={image5}
               alt="Picture of the author"
               className="ima-small"
+              width="500px"
+              height="500px"
             />
             <div className="text2">
               <h1 className="hea">Bronze</h1>
