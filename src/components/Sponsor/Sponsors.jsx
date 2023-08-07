@@ -88,7 +88,7 @@ const SponsorData = [
     sponsors: [
       {
         name: "Quine",
-        logo: "/Images/SponsorLogos/Quine.svg",
+        logo: "/Images/SponsorLogos/quine.webp",
         width: 200,
         height: 100,
         alt: "Quine LOGO",
@@ -140,7 +140,15 @@ const SponsorData = [
         link: "https://interviewbuddy.in/",
       },
       {
-        name: "logo_taskade_black",
+        name: "XYZ",
+        logo: "/Images/SponsorLogos/xyz.png",
+        width: 200,
+        height: 100,
+        alt: "XYZ LOGO",
+        link: "https://gen.xyz/",
+      },
+      {
+        name: "Taskade",
         logo: "/Images/SponsorLogos/taskade.png",
         width: 200,
         height: 100,
