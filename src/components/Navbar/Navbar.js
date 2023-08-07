@@ -14,7 +14,7 @@ function Navbar() {
       } bg-navbg w-full h-auto md:flex justify-between items-center fixed top-0 text-white backdrop-blur-sm py-1 z-[200]`}
     >
       <div className="flex justify-between items-center">
-        <Link href="/#home">
+        <Link href="#home">
           <Image
             src={"/Images/HO3.svg"}
             alt="logo"

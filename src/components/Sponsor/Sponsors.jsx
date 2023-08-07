@@ -3,14 +3,12 @@ import Image from "next/image";
 import line from "./union1.svg";
 import Title from "../CommonComponent/Title/Title";
 import floatingBuilding from "./floatingBuilding.webp";
+import Link from "next/link";
 
 export const Sponsor = () => {
   return (
     <section className="" id="sponsors">
-      <div
-        className="sponsorbg bg-opacity-10 relative"
-        id="about-us"
-      >
+      <div className="sponsorbg bg-opacity-10 relative" id="about-us">
         <Image
           src={floatingBuilding}
           fill
@@ -33,23 +31,24 @@ export const Sponsor = () => {
                 {" "}
                 <span className="uppercase">{item.category}</span> sponsors
               </h2>
-              <ul className={`inline-flex flex-wrap gap-4 sm:gap-20 justify-center py-16 border-r-4 border-[#CA40CD] border-opacity-25 w-full ${index==3?"border-b-4":""} `}>
+              <div
+                className={`inline-flex flex-wrap gap-4 sm:gap-20 justify-center py-16 border-r-4 border-[#CA40CD] border-opacity-25 w-full ${
+                  index == 3 ? "border-b-4" : ""
+                } `}
+              >
                 {item.sponsors.map((sponsor, i) => (
-                  <li
-                    key={i}
-                    className={`flex flex-col items-center justify-center p-2  rounded-lg sm:p-4 bg-white w-fit `}
-                  >
-                    <Image
-                      src={sponsor.logo}
-                      alt={sponsor.alt}
-                      width={sponsor.width}
-                      height={sponsor.height}
-                      className={`object-contain w-[70%] sm:w-[100%] xl:w-[150%] `}
-                    />
-                    {/* <p className="text-white text-center">{sponsor.}</p> */}
-                  </li>
+                  <Link href={sponsor.link} target="_blank" rel="noreferrer" className="flex flex-col items-center justify-center p-2  rounded-lg sm:p-4 bg-white w-fit " key = {sponsor.name}>
+                    
+                      <Image
+                        src={sponsor.logo}
+                        alt={sponsor.alt}
+                        width={sponsor.width}
+                        height={sponsor.height}
+                        className={`object-contain w-[70%] sm:w-[100%] xl:w-[150%] `}
+                      />
+                  </Link>
                 ))}
-              </ul>
+              </div>
             </div>
           ))}
         </div>
@@ -61,10 +60,7 @@ export const Sponsor = () => {
 const SponsorData = [
   {
     category: "Platinum",
-    sponsors: [
-
-    
-    ],
+    sponsors: [],
   },
   {
     category: "Gold",
@@ -74,55 +70,91 @@ const SponsorData = [
         logo: "/Images/SponsorLogos/devfolio.png",
         width: 300,
         height: 150,
-        alt:"DEVFOLIO LOGO"
+        alt: "DEVFOLIO LOGO",
+        link: "https://devfolio.co/",
       },
       {
         name: "Polygon",
         logo: "/Images/SponsorLogos/polygon.png",
         width: 300,
         height: 150,
-        alt:"POLYGON LOGO"
+        alt: "POLYGON LOGO",
+        link: "https://polygon.technology/",
       },
-     
     ],
   },
   {
     category: "Silver",
     sponsors: [
       {
-        name: "Filecoin",
-        logo: "/Images/SponsorLogos/filecoin.svg",
-        width: 300,
-        height: 150,
-        alt:"FILECOIN LOGO"
+        name: "Quine",
+        logo: "/Images/SponsorLogos/quine.webp",
+        width: 200,
+        height: 100,
+        alt: "Quine LOGO",
+        link: "https://bit.ly/WEBHO3xQUINE",
       },
       {
         name: "Verbwire",
-        logo: "/Images/SponsorLogos/verbwire.svg",
-        width: 300,
-        height: 150,
-        alt:"VERBWIRE LOGO"
+        logo: "/Images/SponsorLogos/verbwire.webp",
+        width: 200,
+        height: 100,
+        alt: "VERBWIRE LOGO",
+        link: "https://www.verbwire.com/",
+      },
+      {
+        name: "Filecoin",
+        logo: "/Images/SponsorLogos/filecoin.webp",
+        width: 200,
+        height: 100,
+        alt: "FILECOIN LOGO",
+        link: "https://filecoin.io/",
       },
       {
         name: "Solana",
-        logo: "/Images/SponsorLogos/solana.png",
-        width: 300,
-        height: 150,
-        alt:"SOLANA LOGO"
+        logo: "/Images/SponsorLogos/solana.webp",
+        width: 200,
+        height: 100,
+        alt: "SOLANA LOGO",
+        link: "https://solana.com/",
       },
       {
         name: "Replit",
-        logo: "/Images/SponsorLogos/replit.png",
-        width: 300,
-        height: 150,
-        alt:"REPLIT LOGO"
+        logo: "/Images/SponsorLogos/replit.webp",
+        width: 200,
+        height: 100,
+        alt: "REPLIT LOGO",
+        link: "https://replit.com/",
       },
     ],
   },
   {
     category: "Bronze",
     sponsors: [
-      
+      {
+        name: "InterviewBuddy",
+        logo: "/Images/SponsorLogos/InterviewBuddy.png",
+        width: 200,
+        height: 100,
+        alt: "INTERVIEWBUDDY LOGO",
+        link: "https://interviewbuddy.in/",
+      },
+      {
+        name: "XYZ",
+        logo: "/Images/SponsorLogos/xyz.png",
+        width: 200,
+        height: 100,
+        alt: "XYZ LOGO",
+        link: "https://gen.xyz/",
+      },
+      {
+        name: "Taskade",
+        logo: "/Images/SponsorLogos/taskade.png",
+        width: 200,
+        height: 100,
+        alt: "TASKADE LOGO",
+        link: "https://taskade.com/",
+      },
     ],
   },
 ];
