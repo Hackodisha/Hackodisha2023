@@ -1,6 +1,6 @@
 export default function sitemap() {
   const routes = ["/"].map((route) => ({
-    url: `https://hackodisha.tech${route}`,
+    url: `https://www.hackodisha.tech${route}`,
     lastModified: new Date().toISOString(),
   }));
 
