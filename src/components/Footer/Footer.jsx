@@ -13,6 +13,7 @@ const Footer = () => {
       <div className="w-full relative  z-40 2xl:-mt-20 pt-20">
         <Image
           src={footerBuilding}
+          alt="footerBuilding"
           fill
           className="-z-10 relative object-cover sm:hidden block 2xl:block "
         />
@@ -96,6 +97,7 @@ const Footer = () => {
                       fill={false}
                       className="sm:w-[3rem] w-8 sm:h-[3rem] h-8 m-auto mb-5 brightness-200  hover:brightness-75 transition-all ease-in"
                       src={discord}
+                      alt="discord"
                     ></Image>
                   </a>
                 </li>
@@ -110,6 +112,7 @@ const Footer = () => {
                       fill={false}
                       className="sm:w-[3rem] w-8 sm:h-[3rem] h-8 m-auto mb-5 fill-[#8e8e8e] hover:brightness-75 transition-all ease-in"
                       src={insta}
+                      alt="insta"
                     ></Image>
                   </a>
                 </li>
@@ -124,6 +127,7 @@ const Footer = () => {
                       fill={false}
                       className="w-[2rem] h-[2rem] m-auto mb-5  hover:brightness-75 transition-all ease-in"
                       src={linkedin}
+                      alt="linkedin"
                     ></Image>
                   </a>
                 </li>
@@ -138,6 +142,7 @@ const Footer = () => {
                       fill={false}
                       className="sm:w-[3rem] w-8 sm:h-[3rem] h-8 m-auto mb-5  hover:brightness-75 transition-all ease-in"
                       src={twitter}
+                      alt="twitter"
                     ></Image>
                   </a>
                 </li>
@@ -175,6 +180,7 @@ const Footer = () => {
                       fill={false}
                       className="sm:w-[3rem] w-8 sm:h-[3rem] h-8 m-auto mb-5  brightness-200  hover:brightness-75 transition-all ease-in"
                       src={discord}
+                      alt="discord"
                     ></Image>
                   </a>
                 </li>
@@ -189,6 +195,7 @@ const Footer = () => {
                       fill={false}
                       className="sm:w-[3rem] w-8 sm:h-[3rem] h-8 m-auto mb-5   hover:brightness-75 transition-all ease-in"
                       src={insta}
+                      alt="insta"
                     ></Image>
                   </a>
                 </li>
@@ -203,6 +210,7 @@ const Footer = () => {
                       fill={false}
                       className="sm:w-[3rem] w-8 sm:h-[3rem] h-8 m-auto mb-5  hover:brightness-75 transition-all ease-in"
                       src={linkedin}
+                      alt="linkedin"
                     ></Image>
                   </a>
                 </li>
@@ -217,6 +225,7 @@ const Footer = () => {
                       fill={false}
                       className="sm:w-[3rem] w-8 sm:h-[3rem] h-8 m-auto mb-5  hover:brightness-75 transition-all ease-in"
                       src={twitter}
+                      alt="twitter"
                     ></Image>
                   </a>
                 </li>
@@ -252,6 +261,7 @@ const Footer = () => {
 
       <Image
         src={footerBuilding}
+        alt="footerBuilding"
         fill
         className="-z-10 relative object-contain sm:block hidden object-bottom  2xl:hidden "
       />

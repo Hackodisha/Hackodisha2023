@@ -11,6 +11,7 @@ const Statistics = () => {
     <div className=" stats-section relative flex min-h-fit min-w-screen items-center  shadow overflow-x-hidden pb-[75px] sm:pb-[360px] -mb-20 ">
       <Image
         src={cityscapeInv}
+        alt="cityscapeInv"
         fill
         className="object-cover sm:object-contain object-top h-[50%] opacity-25"
       />
@@ -87,6 +88,7 @@ const Statistics = () => {
       </div>
       <Image
         src={silhouette}
+        alt="silhouette"
         fill
         className="object-contain object-bottom  h-[25%] opacity-50"
       />

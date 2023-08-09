@@ -12,26 +12,27 @@ const Timeline = () => {
     <div className="w-full relative" id="timeline">
       <Image
         src={silhouetteInv}
+        alt="silhouetteInv"
         fill
         className="object-contain object-top mt-20 h-[25%] opacity-50"
       />
 
       <div className="topHead">
-          <Title title={"Timeline"} className={"px-5 sm:px-10 pt-5"}>
-          </Title>
+        <Title title={"Timeline"} className={"px-5 sm:px-10 pt-5"}></Title>
         <div className="line">
           <Image src={Image5} alt="Image" className="img2"></Image>
         </div>
       </div>
       <div className="timeline h-auto relative  pb-20 ">
-      <Image
-        src={building}
-        fill
-        className="object-contain object-center h-[50%] opacity-30 mix-blend-hard-light "
-      />
+        <Image
+          src={building}
+          alt="building"
+          fill
+          className="object-contain object-center h-[50%] opacity-30 mix-blend-hard-light "
+        />
         <div className="circularAnimation1 w-1/2 mt-4 flex flex-col items-end">
           <div className="time-headSvg inline-flex items-center w-auto ">
-          <div className="svg3 flex items-center w-auto">
+            <div className="svg3 flex items-center w-auto">
               <Image
                 src={Image2}
                 width={350}
@@ -270,7 +271,9 @@ const Timeline = () => {
                   "Fun Event 2",
                 ].map((item, index) => (
                   <li
-                    className={`${index % 2 == 0 ? "w-fit" : "w-full"} m-auto text-left`}
+                    className={`${
+                      index % 2 == 0 ? "w-fit" : "w-full"
+                    } m-auto text-left`}
                     key={index}
                   >
                     {item}
@@ -515,7 +518,9 @@ const Timeline = () => {
                   "Event Ends",
                 ].map((item, index) => (
                   <li
-                    className={`${index % 2 == 0 ? "w-fit" : "w-full"} m-auto text-left`}
+                    className={`${
+                      index % 2 == 0 ? "w-fit" : "w-full"
+                    } m-auto text-left`}
                     key={index}
                   >
                     {item}
@@ -529,7 +534,7 @@ const Timeline = () => {
         {/* For Animation-3 */}
         <div className="circularAnimation3 w-1/2 mb-12 flex flex-col items-end">
           <div className="headSvg inline-flex items-center w-auto ">
-          <div className="svg3 flex items-center w-auto">
+            <div className="svg3 flex items-center w-auto">
               <Image
                 src={Image2}
                 width={350}
@@ -727,7 +732,7 @@ const Timeline = () => {
                   />
                 </svg>
               </span>
-              <span className="subSvg self-center uppercase font-gvonz" >
+              <span className="subSvg self-center uppercase font-gvonz">
                 <p>DAY 3</p>
               </span>
             </span>
@@ -749,7 +754,9 @@ const Timeline = () => {
               <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 text-left  mb-5 mt-2">
                 {["6:00 PM", "Winner Announcement"].map((item, index) => (
                   <li
-                    className={`${index % 2 == 0 ? "w-fit" : "w-full"} m-auto text-left`}
+                    className={`${
+                      index % 2 == 0 ? "w-fit" : "w-full"
+                    } m-auto text-left`}
                     key={index}
                   >
                     {item}
