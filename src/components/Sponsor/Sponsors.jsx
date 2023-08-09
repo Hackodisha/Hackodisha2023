@@ -148,6 +148,14 @@ const SponsorData = [
         link: "https://gen.xyz/",
       },
       {
+        name: "Echo3D",
+        logo: "/Images/SponsorLogos/echo3d.png",
+        width: 200,
+        height: 100,
+        alt: "ECHO3D LOGO",
+        link: "https://www.echo3d.com/",
+      },
+      {
         name: "Taskade",
         logo: "/Images/SponsorLogos/taskade.png",
         width: 200,
