@@ -49,10 +49,7 @@
 		margin-left:5px;
 		
 	}
-	.contentUl ul li{
-		/* margin: ; */
-		/* text-align:left; */
-	}
+	
 	.contentUl{
      padding:2px;
 	}
@@ -69,7 +66,6 @@
 		background-repeat: no-repeat;
 		margin-top: 2rem;
 	 }
-	 
     .img1{
 		width:70px;
 		height:25px;
@@ -120,7 +116,6 @@
 	}
   }
   
-  
   @media only screen and (min-width:550px) and (max-width:750px) {
 	
 	.timeline{
@@ -157,8 +152,6 @@
 	  height: 23px;
 	}
 	.contentUl {
-	  /* color: #e7e7e7; */
-	  /* text-align: justify; */
 	  font-family: Syoog;
 	  font-size: 12px;
 	  font-style: normal;
@@ -319,7 +312,7 @@
 	  translate: 0 -110px;
 	}
 	.subSvg p {
-	  font-size: 35px;
+	  font-size: 30px;
 	}
 	.contentUl {
 	  /* color: #e7e7e7; */
