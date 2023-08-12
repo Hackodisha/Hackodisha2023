@@ -21,10 +21,23 @@ export const metadata = {
   ],
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Website",
+  name: "HackOdisha 3.0",
+  image: "https://hackodisha.tech/Images/HO3.svg",
+  description:
+    "Largest Student hackathon of Odisha | HackOdisha 3.0 - a thrilling 36-hour online hackathon organized by Webwiz, Nit Rourkela— an event dedicated to fostering community collaboration.",
+};
+
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <Script
           strategy="afterInteractive"
           src="https://www.googletagmanager.com/gtag/js?id=G-MLP0HVXXM9"
