@@ -3,7 +3,8 @@ import "./globals.css";
 
 export const metadata = {
   title: "HackOdisha 3.0",
-  description: "Largest Student hackathon of Odisha | HackOdisha 3.0 - a thrilling 36-hour online hackathon organized by Webwiz, Nit Rourkela— an event dedicated to fostering community collaboration.",
+  description:
+    "Largest Student hackathon of Odisha | HackOdisha 3.0 - a thrilling 36-hour online hackathon organized by Webwiz, Nit Rourkela— an event dedicated to fostering community collaboration.",
   image: "https://hackodisha.tech/Images/HO3.svg",
   url: "https://hackodisha.tech/",
   keywords: [
@@ -24,6 +25,24 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-MLP0HVXXM9"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-MLP0HVXXM9', {
+            page_path: window.location.pathname,
+          });
+        `,
+          }}
+        />
         <link
           rel="icon"
           href="/Images/HO3.svg"
