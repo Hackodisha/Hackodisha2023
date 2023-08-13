@@ -1,42 +1,61 @@
 .imago {
-    position: relative;
-  }
-  .imagos {
-    position: relative;
-  }
-  .text {
-    position: absolute;
-    color: white;
-    text-align: center;
-    font-family: Syoog;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 180%; 
-  }
-  .sp {
-    color: #06ebe5;
-  }
-  .headin {
-    color: #ca40cd;
-    text-align: center;
-    font-family: Syoog;
-    font-size: 106px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 180%;
-    text-decoration-line: underline;
-  }
-  .hea {
-    color: #bbb4b4;
-    text-align: center;
-    font-family: Syoog;
-    font-size: 55px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 180%; /* 118.8px */
-    text-decoration-line: underline;
-  }
+  position: relative;
+}
+.imagos {
+  position: relative;
+}
+.text {
+  position: absolute;
+  color: white;
+  text-align: center;
+  font-family: Syoog;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+}
+.sp {
+  color: #06ebe5;
+}
+.headin {
+  color: #ca40cd;
+  text-align: center;
+  font-family: Syoog;
+  font-size: 106px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  text-decoration-line: underline;
+}
+.hea {
+  color: #bbb4b4;
+  text-align: center;
+  font-family: Syoog;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%; /* 118.8px */
+  text-decoration-line: underline;
+}
+.text2 {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-family: Syoog;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 130%; /* 72px */
+}
+
+.ima-full {
+  display: block;
+}
+.ima-small {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
   .text2 {
     position: absolute;
     color: #fff;
@@ -44,105 +63,83 @@
     font-family: Syoog;
     font-size: 20px;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 50;
     line-height: 130%; /* 72px */
   }
+  .headin {
+    font-size: 55px;
+  }
+  .hea {
+    color: #bbb4b4;
+    text-align: center;
+    font-family: Syoog;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 100%; /* 118.8px */
+    text-decoration-line: underline;
+  }
+  .text {
+    font-size: 28px;
+  }
+}
 
-  
+@media screen and (max-width: 768px) and (min-width: 600px) {
+  .text2 {
+    position: absolute;
+    top: 70px;
+    left: 38px;
+    color: #fff;
+    text-align: center;
+    font-family: Syoog;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 50;
+    line-height: 130%; /* 72px */
+  }
+  .text {
+    top: 26px;
+    font-size: 28px;
+  }
+  .hea {
+    color: #bbb4b4;
+    text-align: center;
+    font-family: Syoog;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 100%;
+    text-decoration-line: underline;
+  }
+  .imagio {
+    position: relative;
+  }
+
+  .parent {
+    display: grid;
+  }
+  .child {
+    display: inline;
+  }
+
   .ima-full {
-    display: block;
+    display: none;
+    position: relative;
   }
   .ima-small {
-    display: none;
+    display: block;
+    position: relative;
+    max-width: 80vw;
+    margin: 0 auto;
   }
-  
-  @media screen and (max-width: 1024px) {
-    .text2 {
-      position: absolute;
-      color: #fff;
-      text-align: center;
-      font-family: Syoog;
-      font-size: 20px;
-      font-style: normal;
-      font-weight: 50;
-      line-height: 130%; /* 72px */
-    }
-    .headin{
-      font-size: 55px;
-    }
-    .hea {
-      color: #bbb4b4;
-      text-align: center;
-      font-family: Syoog;
-      font-size: 45px;
-      font-style: normal;
-      font-weight: 100;
-      line-height: 100%; /* 118.8px */
-      text-decoration-line: underline;
-    }
-    .text{
-        font-size: 28px;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .text2 {
-      position: absolute;
-      top: 70px;
-      left: 38px;
-      color: #fff;
-      text-align: center;
-      font-family: Syoog;
-      font-size: 30px;
-      font-style: normal;
-      font-weight: 50;
-      line-height: 130%; /* 72px */
-    }
-    .text {
-      top: 26px;
-      font-size: 28px;
-    }
-    .hea {
-      color: #bbb4b4;
-      text-align: center;
-      font-family: Syoog;
-      font-size: 35px;
-      font-style: normal;
-      font-weight: 100;
-      line-height: 100%; 
-      text-decoration-line: underline;
-    }
-    .imagio {
-      position: relative;
-    }
+}
 
-    .parent {
-      display: grid;
-    }
-    .child {
-      display: inline;
-    }
-  
-    .ima-full {
-      display: none;
-      position: relative;
-    }
-    .ima-small {
-      display: block;
-      position: relative;
-      max-width: 80vw;
-      margin: 0 auto;
-    }
+@media only screen and (max-width: 600px) {
+  .text2 {
+    font-size: 14px;
+    top: 67px;
   }
-  
-  @media only screen and (max-width: 600px) {
-
-    .text2 {
-      font-size: 14px;
-      top: 67px;
-    }
-    .text {
-      font-size: 18px;
-    }
+  .text {
+    font-size: 18px;
   }
-  
+}

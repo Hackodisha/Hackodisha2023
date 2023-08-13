@@ -1,25 +1,23 @@
 import Image from "next/image";
 import "./Track.css";
-import image1 from "../../../public/Images/Vector 47.png";
-import image2 from "../../../public/Images/Vector 48.png";
-import image3 from "../../../public/Images/Vector 49.png";
-import image4 from "../../../public/Images/Vector 48 new.png";
-import image5 from "../../../public/Images/Vector 49 mobile.png";
-import image6 from "../../../public/Images/Vector 47 mobile.png";
 
 function Track() {
   return (
     <div className="h-fit py-40">
-      <div className=" parent max-w-[1200px] px-4  grid lg:grid-rows-2 md:grid-rows-2 gap-x-[4vw] sm:grid-rows-3 grid-flow-col mx-auto">
-        <div className="child lg:row-span-2 md:row-span-2 place-content-evenly  justify-center grid xl:justify-end ">
+      <div className=" parent max-w-[1200px] md:gap-y-0 px-4 sm:grid lg:grid-rows-2 md:grid-rows-2 gap-x-[4vw] sm:grid-rows-3 grid-flow-col mx-auto">
+        <div className="child lg:row-span-2 md:row-span-2 place-content-evenly  justify-center grid xl:justify-end mb-4 ">
           <div className="imagio flex flex-col items-center md:justify-start justify-center h-fit ">
             <Image
-              src={image1}
+            width={500}
+            height={400}
+              src={"/Images/gold-border.png"}
               alt="Picture of the author"
               className="ima-full"
             />
             <Image
-              src={image6}
+            width={250}
+            height={200}
+              src={"/Images/gold-border-mobile.png"}
               alt="Picture of the author"
               className="ima-small"
             />
@@ -36,19 +34,23 @@ function Track() {
           </div>
         </div>
 
-        <div className=" child h-fit">
+        <div className=" child h-fit  mb-4">
           <div className="imago grid place-items-center xl:place-items-start">
             <Image
-              src={image2}
+            width={500}
+            height={400}
+              src={"/Images/silver-border.png"}
               alt="Picture of the author"
               className="ima-full"
             />
             <Image
-              src={image4}
+            width={250}
+            height={200}
+              src={"/Images/silver-border-mobile.png"}
               alt="Picture of the author"
               className="ima-small"
             />
-            <div className="text2 h-full flex flex-col gap-4">
+            <div className="text2 h-full flex flex-col gap-4 xl:translate-x-[40%] -translate-y-[25%]  md:translate-y-0">
               <h1 className="hea">Silver</h1>
               <p className="">
                 Cash Prizes <span className="sp">₹17k</span>
@@ -61,19 +63,23 @@ function Track() {
           </div>
         </div>
 
-        <div className=" child -translate-y-[50%] md:translate-y-0 ">
+        <div className=" child mb-4">
           <div className="imagos grid place-items-center xl:place-items-start">
             <Image
-              src={image3}
+            width={500}
+            height={400}
+              src={"/Images/bronze-border.png"}
               alt="Picture of the author"
               className="ima-full"
             />
             <Image
-              src={image5}
+            width={250}
+            height={200}
+              src={"/Images/bronze-border-mobile.png"}
               alt="Picture of the author"
               className="ima-small"
             />
-            <div className="text2 h-full flex flex-col gap-4">
+            <div className="text2 h-full flex flex-col gap-4 xl:translate-x-[40%] -translate-y-[25%]  md:translate-y-0 ">
               <h1 className="hea">Bronze</h1>
               <p className="">
                 Cash Prizes <span className="sp"> ₹10k</span>
