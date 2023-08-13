@@ -57,24 +57,14 @@
 		margin-left:5px;
 		
 	}
+<<<<<<<<< Temporary merge branch 1
+	
+=========
 	.contentUl ul li{
 		/* margin: ; */
 		/* text-align:left; */
 	}
-	.circularAnimation1,.circularAnimation2,.circularAnimation3{
-		width:75%;
-		align-items: flex-start;
-		position: relative;
-		left:20%;
-	}
-	.contentUl{
-		grid-template-columns:1fr 3fr;
-		column-gap: 5px;
-		width: 100%;
-		margin-left:5px;
-		
-	}
-	
+>>>>>>>>> Temporary merge branch 2
 	.contentUl{
      padding:2px;
 	}
