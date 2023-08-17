@@ -254,7 +254,7 @@ const Timeline = () => {
                   "Check-in starts",
                   "7:30 AM",
                   "Doors open for participants",
-                  "9:00 AM",
+                  "8:00 AM",
                   "Opening Ceremony",
                   "8:30 AM",
                   "Hacking Starts",

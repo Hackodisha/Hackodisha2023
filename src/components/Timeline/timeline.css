@@ -35,6 +35,14 @@
 	left:50%;
   }
 
+   .svg3{
+	display: none;
+   }
+   .circularAnimation2{
+	position: relative;
+	left:50%;
+  }
+
   @media only screen and (max-width:550px) {
 	.circularAnimation1,.circularAnimation2,.circularAnimation3{
 		width:75%;
@@ -49,11 +57,22 @@
 		margin-left:5px;
 		
 	}
+<<<<<<<<< Temporary merge branch 1
+	
+=========
 	.contentUl ul li{
 		/* margin: ; */
 		/* text-align:left; */
 	}
+>>>>>>>>> Temporary merge branch 2
 	.contentUl{
+     padding:2px;
+	}
+	.svg2{
+		display: none;
+	}
+	.svg3{
+		display: block;
      padding:2px;
 	}
 	.svg2{
@@ -69,7 +88,6 @@
 		background-repeat: no-repeat;
 		margin-top: 2rem;
 	 }
-	 
     .img1{
 		width:70px;
 		height:25px;
@@ -98,7 +116,9 @@
 	}
 	.contentUl {
 	  /* text-align: justify; */
+	  /* text-align: justify; */
 	  font-family: Syoog;
+	  font-size: 9.5px;
 	  font-size: 9.5px;
 	  font-style: normal;
 	  font-weight: 400;
@@ -119,7 +139,6 @@
 	  
 	}
   }
-  
   
   @media only screen and (min-width:550px) and (max-width:750px) {
 	
@@ -157,8 +176,6 @@
 	  height: 23px;
 	}
 	.contentUl {
-	  /* color: #e7e7e7; */
-	  /* text-align: justify; */
 	  font-family: Syoog;
 	  font-size: 12px;
 	  font-style: normal;
@@ -217,6 +234,7 @@
 	.contentUl {
 	  /* color: #e7e7e7; */
 	  /* text-align: justify; */
+	  /* text-align: justify; */
 	  font-family: Syoog;
 	  font-size: 12px;
 	  font-style: normal;
@@ -273,6 +291,7 @@
 	.contentUl {
 	  /* color: #e7e7e7; */
 	  /* text-align: justify; */
+	  /* text-align: justify; */
 	  font-family: Syoog;
 	  font-size: 18px;
 	  font-style: normal;
@@ -319,10 +338,11 @@
 	  translate: 0 -110px;
 	}
 	.subSvg p {
-	  font-size: 35px;
+	  font-size: 30px;
 	}
 	.contentUl {
 	  /* color: #e7e7e7; */
+	  /* text-align: justify; */
 	  /* text-align: justify; */
 	  font-family: Syoog;
 	  font-size: 24px;
@@ -342,5 +362,6 @@
 	  font-weight: 700;
 	}
   }
+  
   
   

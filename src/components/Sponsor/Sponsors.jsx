@@ -3,6 +3,7 @@ import Image from "next/image";
 import line from "./union1.svg";
 import Title from "../CommonComponent/Title/Title";
 import floatingBuilding from "./floatingBuilding.webp";
+import Link from "next/link";
 
 export const Sponsor = () => {
   return (
@@ -30,27 +31,28 @@ export const Sponsor = () => {
                 {" "}
                 <span className="uppercase">{item.category}</span> sponsors
               </h2>
+<<<<<<< HEAD
               <ul
+=======
+              <div
+>>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
                 className={`inline-flex flex-wrap gap-4 sm:gap-20 justify-center py-16 border-r-4 border-[#CA40CD] border-opacity-25 w-full ${
                   index == 3 ? "border-b-4" : ""
                 } `}
               >
                 {item.sponsors.map((sponsor, i) => (
-                  <li
-                    key={i}
-                    className={`flex flex-col items-center justify-center p-2  rounded-lg sm:p-4 bg-white w-fit `}
-                  >
-                    <Image
-                      src={sponsor.logo}
-                      alt={sponsor.alt}
-                      width={sponsor.width}
-                      height={sponsor.height}
-                      className={`object-contain w-[70%] sm:w-[100%] xl:w-[150%] `}
-                    />
-                    {/* <p className="text-white text-center">{sponsor.}</p> */}
-                  </li>
+                  <Link href={sponsor.link} target="_blank" rel="noreferrer" className="flex flex-col items-center justify-center p-2  rounded-lg sm:p-4 bg-white w-fit " key = {sponsor.name}>
+                    
+                      <Image
+                        src={sponsor.logo}
+                        alt={sponsor.alt}
+                        width={sponsor.width}
+                        height={sponsor.height}
+                        className={`object-contain w-[70%] sm:w-[100%] xl:w-[150%] `}
+                      />
+                  </Link>
                 ))}
-              </ul>
+              </div>
             </div>
           ))}
         </div>
@@ -73,6 +75,10 @@ const SponsorData = [
         width: 300,
         height: 150,
         alt: "DEVFOLIO LOGO",
+<<<<<<< HEAD
+=======
+        link: "https://devfolio.co/",
+>>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
       },
       {
         name: "Polygon",
@@ -80,6 +86,10 @@ const SponsorData = [
         width: 300,
         height: 150,
         alt: "POLYGON LOGO",
+<<<<<<< HEAD
+=======
+        link: "https://polygon.technology/",
+>>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
       },
     ],
   },
@@ -87,11 +97,20 @@ const SponsorData = [
     category: "Silver",
     sponsors: [
       {
+<<<<<<< HEAD
         name: "Filecoin",
         logo: "/Images/SponsorLogos/filecoin.webp",
         width: 200,
         height: 100,
         alt: "FILECOIN LOGO",
+=======
+        name: "Quine",
+        logo: "/Images/SponsorLogos/quine.webp",
+        width: 200,
+        height: 100,
+        alt: "Quine LOGO",
+        link: "https://bit.ly/WEBHO3xQUINE",
+>>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
       },
       {
         name: "Verbwire",
@@ -99,6 +118,18 @@ const SponsorData = [
         width: 200,
         height: 100,
         alt: "VERBWIRE LOGO",
+<<<<<<< HEAD
+=======
+        link: "https://www.verbwire.com/",
+      },
+      {
+        name: "Filecoin",
+        logo: "/Images/SponsorLogos/filecoin.webp",
+        width: 200,
+        height: 100,
+        alt: "FILECOIN LOGO",
+        link: "https://filecoin.io/",
+>>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
       },
       {
         name: "Solana",
@@ -106,6 +137,10 @@ const SponsorData = [
         width: 200,
         height: 100,
         alt: "SOLANA LOGO",
+<<<<<<< HEAD
+=======
+        link: "https://solana.com/",
+>>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
       },
       {
         name: "Replit",
@@ -113,6 +148,7 @@ const SponsorData = [
         width: 200,
         height: 100,
         alt: "REPLIT LOGO",
+<<<<<<< HEAD
       },
       {
         name: "Quine",
@@ -120,6 +156,9 @@ const SponsorData = [
         width: 200,
         height: 100,
         alt: "Quine LOGO",
+=======
+        link: "https://replit.com/",
+>>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
       },
     ],
   },
@@ -131,6 +170,7 @@ const SponsorData = [
         logo: "/Images/SponsorLogos/InterviewBuddy.png",
         width: 200,
         height: 100,
+<<<<<<< HEAD
         alt: "InterviewBuddy",
       },
       {
@@ -139,6 +179,34 @@ const SponsorData = [
         width: 200,
         height: 100,
         alt: "logo_taskade_black",
+=======
+        alt: "INTERVIEWBUDDY LOGO",
+        link: "https://interviewbuddy.in/",
+      },
+      {
+        name: "XYZ",
+        logo: "/Images/SponsorLogos/xyz.png",
+        width: 200,
+        height: 100,
+        alt: "XYZ LOGO",
+        link: "https://gen.xyz/",
+      },
+      {
+        name: "Echo3D",
+        logo: "/Images/SponsorLogos/echo3d.png",
+        width: 200,
+        height: 100,
+        alt: "ECHO3D LOGO",
+        link: "https://www.echo3d.com/",
+      },
+      {
+        name: "Taskade",
+        logo: "/Images/SponsorLogos/taskade.png",
+        width: 200,
+        height: 100,
+        alt: "TASKADE LOGO",
+        link: "https://taskade.com/",
+>>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
       },
     ],
   },
