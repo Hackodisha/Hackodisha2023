@@ -31,11 +31,7 @@ export const Sponsor = () => {
                 {" "}
                 <span className="uppercase">{item.category}</span> sponsors
               </h2>
-<<<<<<< HEAD
-              <ul
-=======
               <div
->>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
                 className={`inline-flex flex-wrap gap-4 sm:gap-20 justify-center py-16 border-r-4 border-[#CA40CD] border-opacity-25 w-full ${
                   index == 3 ? "border-b-4" : ""
                 } `}
@@ -75,10 +71,7 @@ const SponsorData = [
         width: 300,
         height: 150,
         alt: "DEVFOLIO LOGO",
-<<<<<<< HEAD
-=======
         link: "https://devfolio.co/",
->>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
       },
       {
         name: "Polygon",
@@ -86,10 +79,7 @@ const SponsorData = [
         width: 300,
         height: 150,
         alt: "POLYGON LOGO",
-<<<<<<< HEAD
-=======
         link: "https://polygon.technology/",
->>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
       },
     ],
   },
@@ -97,20 +87,12 @@ const SponsorData = [
     category: "Silver",
     sponsors: [
       {
-<<<<<<< HEAD
-        name: "Filecoin",
-        logo: "/Images/SponsorLogos/filecoin.webp",
-        width: 200,
-        height: 100,
-        alt: "FILECOIN LOGO",
-=======
         name: "Quine",
         logo: "/Images/SponsorLogos/quine.webp",
         width: 200,
         height: 100,
         alt: "Quine LOGO",
         link: "https://bit.ly/WEBHO3xQUINE",
->>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
       },
       {
         name: "Verbwire",
@@ -118,8 +100,6 @@ const SponsorData = [
         width: 200,
         height: 100,
         alt: "VERBWIRE LOGO",
-<<<<<<< HEAD
-=======
         link: "https://www.verbwire.com/",
       },
       {
@@ -129,7 +109,6 @@ const SponsorData = [
         height: 100,
         alt: "FILECOIN LOGO",
         link: "https://filecoin.io/",
->>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
       },
       {
         name: "Solana",
@@ -137,10 +116,7 @@ const SponsorData = [
         width: 200,
         height: 100,
         alt: "SOLANA LOGO",
-<<<<<<< HEAD
-=======
         link: "https://solana.com/",
->>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
       },
       {
         name: "Replit",
@@ -148,17 +124,7 @@ const SponsorData = [
         width: 200,
         height: 100,
         alt: "REPLIT LOGO",
-<<<<<<< HEAD
-      },
-      {
-        name: "Quine",
-        logo: "/Images/SponsorLogos/Quine.svg",
-        width: 200,
-        height: 100,
-        alt: "Quine LOGO",
-=======
         link: "https://replit.com/",
->>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
       },
     ],
   },
@@ -170,16 +136,6 @@ const SponsorData = [
         logo: "/Images/SponsorLogos/InterviewBuddy.png",
         width: 200,
         height: 100,
-<<<<<<< HEAD
-        alt: "InterviewBuddy",
-      },
-      {
-        name: "logo_taskade_black",
-        logo: "/Images/SponsorLogos/logo_taskade_black.png",
-        width: 200,
-        height: 100,
-        alt: "logo_taskade_black",
-=======
         alt: "INTERVIEWBUDDY LOGO",
         link: "https://interviewbuddy.in/",
       },
@@ -206,7 +162,6 @@ const SponsorData = [
         height: 100,
         alt: "TASKADE LOGO",
         link: "https://taskade.com/",
->>>>>>> dc3deb7a5431d630659ccc7986cb4ffdd145d303
       },
     ],
   },
