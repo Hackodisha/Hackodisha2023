@@ -163,6 +163,14 @@ const SponsorData = [
         alt: "TASKADE LOGO",
         link: "https://taskade.com/",
       },
+      {
+        name: "Axure",
+        logo: "/Images/SponsorLogos/axure.svg",
+        width: 200,
+        height: 100,
+        alt: "AXURE LOGO",
+        link: "https://www.axure.com/",
+      }
     ],
   },
 ];
