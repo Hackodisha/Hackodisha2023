@@ -31,6 +31,15 @@ const Timeline = () => {
       />
         <div className="circularAnimation1 w-1/2 mt-4 flex flex-col items-end">
           <div className="time-headSvg inline-flex items-center w-auto ">
+          <div className="svg3 flex items-center w-auto">
+              <Image
+                src={Image2}
+                width={350}
+                height={50}
+                alt="Image"
+                className="img3 opacity-60"
+              ></Image>
+            </div>
             <span className="svg1 flex flex-col shrink-0">
               <span>
                 <svg
@@ -236,16 +245,16 @@ const Timeline = () => {
           </div>
           <div className="content w-full">
             <span className="contentHead mx-auto">
-              <h3 className="mx-auto my-5 ">September 9, 2023</h3>
+              <h3 className="mx-auto mt-5 ">September 9, 2023</h3>
             </span>
             <div className="">
-              <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 text-left ">
+              <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 mb-5 mt-2">
                 {[
                   "7:30 AM",
                   "Check-in starts",
                   "7:30 AM",
                   "Doors open for participants",
-                  "9:00 AM",
+                  "8:00 AM",
                   "Opening Ceremony",
                   "8:30 AM",
                   "Hacking Starts",
@@ -261,7 +270,7 @@ const Timeline = () => {
                   "Fun Event 2",
                 ].map((item, index) => (
                   <li
-                    className={`${index % 2 == 0 ? "w-fit" : "w-full"} m-auto `}
+                    className={`${index % 2 == 0 ? "w-fit" : "w-full"} m-auto text-left`}
                     key={index}
                   >
                     {item}
@@ -276,7 +285,7 @@ const Timeline = () => {
 
         <div className="circularAnimation2 w-1/2  flex flex-col items-start  px-0 mx-0">
           <div className="headSvg inline-flex items-center w-auto ">
-            <div className="svg2 flex items-center w-auto">
+            <div className="flex items-center w-auto">
               <Image
                 src={Image2}
                 width={350}
@@ -481,11 +490,10 @@ const Timeline = () => {
           </div>
           <div className="content w-full">
             <span className="contentHead mx-auto">
-              <h3 className="mx-auto my-5 ">September 10, 2023</h3>
+              <h3 className="mx-auto mt-5 ">September 10, 2023</h3>
             </span>
-
             <div className="">
-              <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 text-left  ">
+              <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 mb-5 mt-2">
                 {[
                   "12:00 AM",
                   "Discord Catch-up Session",
@@ -507,7 +515,7 @@ const Timeline = () => {
                   "Event Ends",
                 ].map((item, index) => (
                   <li
-                    className={`${index % 2 == 0 ? "w-fit" : "w-full"} m-auto `}
+                    className={`${index % 2 == 0 ? "w-fit" : "w-full"} m-auto text-left`}
                     key={index}
                   >
                     {item}
@@ -521,6 +529,15 @@ const Timeline = () => {
         {/* For Animation-3 */}
         <div className="circularAnimation3 w-1/2 mb-12 flex flex-col items-end">
           <div className="headSvg inline-flex items-center w-auto ">
+          <div className="svg3 flex items-center w-auto">
+              <Image
+                src={Image2}
+                width={350}
+                height={50}
+                alt="Image"
+                className="img3 opacity-60"
+              ></Image>
+            </div>
             <span className="svg1 flex flex-col shrink-0">
               <span>
                 <svg
@@ -726,13 +743,13 @@ const Timeline = () => {
           </div>
           <div className="content w-full">
             <span className="contentHead mx-auto">
-              <h3 className="mx-auto my-5 ">September 16, 2023</h3>
+              <h3 className="mx-auto mt-5 ">September 16, 2023</h3>
             </span>
             <div className="">
-              <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 text-left  ">
+              <ul className="contentUl grid grid-cols-2 w-fit justify-center gap-x-0 text-left  mb-5 mt-2">
                 {["6:00 PM", "Winner Announcement"].map((item, index) => (
                   <li
-                    className={`${index % 2 == 0 ? "w-fit" : "w-full"} m-auto `}
+                    className={`${index % 2 == 0 ? "w-fit" : "w-full"} m-auto text-left`}
                     key={index}
                   >
                     {item}

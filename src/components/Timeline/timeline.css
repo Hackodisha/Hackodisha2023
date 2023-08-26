@@ -17,10 +17,6 @@
 	height: auto;
   }
   body{
-	/* background-image: url(./assets/background.png);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover; */
 	background-color: black;
   }
  
@@ -31,18 +27,64 @@
    .contentUl{
 	padding:0 20px;
    }
+   .svg3{
+	display: none;
+   }
+   .circularAnimation2{
+	position: relative;
+	left:50%;
+  }
+
+   .svg3{
+	display: none;
+   }
+   .circularAnimation2{
+	position: relative;
+	left:50%;
+  }
+
   @media only screen and (max-width:550px) {
+	.circularAnimation1,.circularAnimation2,.circularAnimation3{
+		width:75%;
+		align-items: flex-start;
+		position: relative;
+		left:20%;
+	}
 	.contentUl{
-     padding: 5px;
+		grid-template-columns:1fr 3fr;
+		column-gap: 5px;
+		width: 100%;
+		margin-left:5px;
+		
+	}
+
+	.contentUl ul li{
+		/* margin: ; */
+		/* text-align:left; */
+	}
+	.contentUl{
+     padding:2px;
+	}
+	.svg2{
+		display: none;
+	}
+	.svg3{
+		display: block;
+     padding:2px;
+	}
+	.svg2{
+		display: none;
+	}
+	.svg3{
+		display: block;
 	}
 	.timeline{
 		background-image: url(./assets/Vector\ 1.svg);
-		background-position: center;
+		background-position-x:17%;
 		background-size: contain;
 		background-repeat: no-repeat;
 		margin-top: 2rem;
 	 }
-	 
     .img1{
 		width:70px;
 		height:25px;
@@ -70,9 +112,11 @@
 	  height:18px;
 	}
 	.contentUl {
-	  text-align: justify;
+	  /* text-align: justify; */
+	  /* text-align: justify; */
 	  font-family: Syoog;
-	  font-size: 10.5px;
+	  font-size: 9.5px;
+	  font-size: 9.5px;
 	  font-style: normal;
 	  font-weight: 400;
 	  line-height: 180%;
@@ -92,7 +136,6 @@
 	  
 	}
   }
-  
   
   @media only screen and (min-width:550px) and (max-width:750px) {
 	
@@ -130,8 +173,6 @@
 	  height: 23px;
 	}
 	.contentUl {
-	  /* color: #e7e7e7; */
-	  text-align: justify;
 	  font-family: Syoog;
 	  font-size: 12px;
 	  font-style: normal;
@@ -189,7 +230,8 @@
 	}
 	.contentUl {
 	  /* color: #e7e7e7; */
-	  text-align: justify;
+	  /* text-align: justify; */
+	  /* text-align: justify; */
 	  font-family: Syoog;
 	  font-size: 12px;
 	  font-style: normal;
@@ -245,7 +287,8 @@
 	}
 	.contentUl {
 	  /* color: #e7e7e7; */
-	  text-align: justify;
+	  /* text-align: justify; */
+	  /* text-align: justify; */
 	  font-family: Syoog;
 	  font-size: 18px;
 	  font-style: normal;
@@ -292,11 +335,12 @@
 	  translate: 0 -110px;
 	}
 	.subSvg p {
-	  font-size: 35px;
+	  font-size: 30px;
 	}
 	.contentUl {
 	  /* color: #e7e7e7; */
-	  text-align: justify;
+	  /* text-align: justify; */
+	  /* text-align: justify; */
 	  font-family: Syoog;
 	  font-size: 24px;
 	  font-style: normal;
@@ -316,7 +360,9 @@
 	}
   }
   
+
   .circularAnimation2{
 	position: relative;
 	left:50%;
   }
+
