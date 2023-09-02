@@ -1,0 +1,25 @@
+body {
+    width: 600px;
+    height: 600px;
+    margin: 100px auto;
+    text-align: center
+}
+
+div {
+    margin: 0 auto
+}
+
+img {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+    : gray;
+    /* IE5+ */
+    -webkit-filter: grayscale(1);
+    /* Webkit Nightlies & Chrome Canary */
+    -webkit-transition: all .8s ease-in-out;
+}
+
+img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+    -webkit-transform: scale(1.01);
+}

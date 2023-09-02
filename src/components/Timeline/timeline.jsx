@@ -17,21 +17,21 @@ const Timeline = () => {
       />
 
       <div className="topHead">
-          <Title title={"Timeline"} className={"px-5 sm:px-10 pt-5"}>
-          </Title>
+        <Title title={"Timeline"} className={"px-5 sm:px-10 pt-5"}>
+        </Title>
         <div className="line">
           <Image src={Image5} alt="Image" className="img2"></Image>
         </div>
       </div>
       <div className="timeline h-auto relative  pb-20 ">
-      <Image
-        src={building}
-        fill
-        className="object-contain object-center h-[50%] opacity-30 mix-blend-hard-light "
-      />
+        <Image
+          src={building}
+          fill
+          className="object-contain object-center h-[50%] opacity-30 mix-blend-hard-light "
+        />
         <div className="circularAnimation1 w-1/2 mt-4 flex flex-col items-end">
           <div className="time-headSvg inline-flex items-center w-auto ">
-          <div className="svg3 flex items-center w-auto">
+            <div className="svg3 flex items-center w-auto">
               <Image
                 src={Image2}
                 width={350}
@@ -529,7 +529,7 @@ const Timeline = () => {
         {/* For Animation-3 */}
         <div className="circularAnimation3 w-1/2 mb-12 flex flex-col items-end">
           <div className="headSvg inline-flex items-center w-auto ">
-          <div className="svg3 flex items-center w-auto">
+            <div className="svg3 flex items-center w-auto">
               <Image
                 src={Image2}
                 width={350}

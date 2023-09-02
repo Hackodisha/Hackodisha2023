@@ -9,9 +9,8 @@ function Navbar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <nav
-      className={`${
-        navbar ? "animate-trans-navbarbg" : "animate-none"
-      } bg-navbg w-full h-auto md:flex justify-between items-center fixed top-0 text-white backdrop-blur-sm py-1 z-[200]`}
+      className={`${navbar ? "animate-trans-navbarbg" : "animate-none"
+        } bg-navbg w-full h-auto md:flex justify-between items-center fixed top-0 text-white backdrop-blur-sm py-1 z-[200]`}
     >
       <div className="flex justify-between items-center">
         <Link href="#home">
@@ -32,9 +31,8 @@ function Navbar() {
         </span>
       </div>
       <ul
-        className={`md:flex h-auto  md:space-x-3 items-center justify-center md:pr-4  ${
-          navbar ? "block" : "hidden"
-        }`}
+        className={`md:flex h-auto  md:space-x-3 items-center justify-center md:pr-4  ${navbar ? "block" : "hidden"
+          }`}
       >
         <Link href="/#home">
           <li className="animate-trans-navbar-component-1 md:animate-none p-3 md:pl-3 pl-8 font-navtxt text-[23px] hover:text-[#06EBE5] hover:underline">
