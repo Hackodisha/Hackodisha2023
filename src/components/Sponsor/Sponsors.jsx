@@ -27,7 +27,7 @@ export const Sponsor = () => {
           {SponsorData.map((item, index) => (
             <div key={index} className={``}>
               <h2
-                className={` border-opacity-25 border-b-4 border-t-4 text-2xl sm:text-5xl font-gvonz text-[#CA40CD] border-l-4 pl-6 sm:pl-2 border-[#CA40CD] py-16 sm:pl-8  `}
+                className={` border-opacity-25 border-b-4 border-t-4 text-2xl sm:text-5xl font-gvonz text-[#CA40CD] border-l-4 pl-6  border-[#CA40CD] py-16 sm:pl-8  `}
               >
                 {" "}
                 <span className="uppercase">{item.category}</span> sponsors
