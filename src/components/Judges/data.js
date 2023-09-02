@@ -14,7 +14,7 @@ export const speakJudgeData = [
     {
         name:"Aniket Pal",
         subHeading:"Wells Fargo",
-        imgSrc:"/Images/JudgeImages/jud.png",
+        imgSrc:"/Images/JudgeImages/aniket.jpeg",
         link:"https://www.linkedin.com/in/aniket-pal"
     },
     {

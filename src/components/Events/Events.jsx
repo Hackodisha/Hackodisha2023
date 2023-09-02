@@ -18,7 +18,7 @@ const Events = () => {
         className="sm:grid-cols-2 grid gap-7 grid-cols-1 py-[8rem] w-[80%] mx-auto"
       >
         {eventsData.map((item) => (
-          <Link href={item.link}>
+          <Link href={item.link} key={item.link}>
             <Image
               src={item.imgSrc}
               alt="Event"

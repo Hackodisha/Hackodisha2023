@@ -35,7 +35,7 @@ export const Sponsor = () => {
 
               <div
                 className={`inline-flex flex-wrap gap-4 sm:gap-20 justify-center py-16 border-r-4 border-[#CA40CD] border-opacity-25 w-full ${
-                  index == 3 ? "border-b-4" : ""
+                  index == 2 ? "border-b-4" : ""
                 } `}
               >
                 {item.sponsors.map((sponsor, i) => (
@@ -65,11 +65,6 @@ export const Sponsor = () => {
 };
 
 const SponsorData = [
-  {
-    category: "Platinum",
-
-    sponsors: [],
-  },
   {
     category: "Gold",
     sponsors: [
