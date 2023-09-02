@@ -8,6 +8,8 @@ import Footer from "@/components/Footer/Footer";
 import { Sponsor } from "@/components/Sponsor/Sponsors";
 import Judges from "@/components/Judges/Judges";
 
+import Partners from "@/components/partners/Partners";
+
 export default function Home() {
   return (
     <>
@@ -16,8 +18,8 @@ export default function Home() {
       <Statistics />
       <Timeline />
       <Judges />
-      <Sponsor />
-
+      <Sponsor/>
+      <Partners/>
       <div className="relative">
         <Accordion />
         <Footer />
