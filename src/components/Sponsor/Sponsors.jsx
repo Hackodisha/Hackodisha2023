@@ -196,6 +196,14 @@ const SponsorData = [
         alt: "AXURE LOGO",
         link: "https://www.axure.com/",
       },
+      {
+        name: "Algoverse",
+        logo: "/Images/SponsorLogos/algoverse.png",
+        width: 100,
+        height: 100,
+        alt: "ALGOVERSE LOGO",
+        link: "https://algoverseacademy.com/" 
+      },
     ],
   },
 ];

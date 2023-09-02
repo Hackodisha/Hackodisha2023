@@ -336,6 +336,14 @@ const PartnersData = [
   },
   {
     category: "Media Partners",
-    partners: [],
+    partners: [
+      {
+        name: "Rourkela 360",
+        logo: "/Images/MediaImages/Rourkela360.png",
+        alt: "Rourkela360",
+        width: 174,
+        height: 125,
+      },
+    ],
   },
 ];
