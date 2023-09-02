@@ -70,20 +70,20 @@ export default function RootLayout({ children }) {
         <meta property="og:url" content="https://hackodisha.tech/" />
         <meta
           property="og:image"
-          content="https://aksharpharmacy.com/Images/HO3.svg"
+          content="https://hackodisha.tech/Images/HO3.svg"
         />
-        <meta name="twitter:title" content="Akshar Pharmacy" />
+        <meta name="twitter:title" content="HackOdisha 3.0" />
         <meta
           name="twitter:description"
           content="HackOdisha 3.0 | Largest Student Run Hackathon of HackOdisha | Participate and Win Prizes, Goodies and subscriptions."
         />
         <meta
           name="twitter:image"
-          content="https://aksharpharmacy.com/Images/HO3.svg"
+          content="https://hackodisha.tech/Images/HO3.svg"
         />
         <meta
           name="twitter:card"
-          content="https://aksharpharmacy.com/Images/HO3.svg"
+          content="https://hackodisha.tech/Images/HO3.svg"
         />
       </head>
 
