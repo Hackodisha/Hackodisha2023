@@ -6,13 +6,10 @@ import floatingBuilding from "./floatingBuilding.webp";
 
 import Link from "next/link";
 
-
 export const Sponsor = () => {
   return (
     <section className="" id="sponsors">
-
       <div className="sponsorbg bg-opacity-10 relative" id="about-us">
-
         <Image
           src={floatingBuilding}
           fill
@@ -42,19 +39,23 @@ export const Sponsor = () => {
                 } `}
               >
                 {item.sponsors.map((sponsor, i) => (
-                  <Link href={sponsor.link} target="_blank" rel="noreferrer" className="flex flex-col items-center justify-center p-2  rounded-lg sm:p-4 bg-white w-fit " key = {sponsor.name}>
-                    
-                      <Image
-                        src={sponsor.logo}
-                        alt={sponsor.alt}
-                        width={sponsor.width}
-                        height={sponsor.height}
-                        className={`object-contain w-[70%] sm:w-[100%] xl:w-[150%] `}
-                      />
+                  <Link
+                    href={sponsor.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex flex-col items-center justify-center p-2  rounded-lg sm:p-4 bg-white w-fit "
+                    key={sponsor.name}
+                  >
+                    <Image
+                      src={sponsor.logo}
+                      alt={sponsor.alt}
+                      width={sponsor.width}
+                      height={sponsor.height}
+                      className={`object-contain w-[70%] sm:w-[100%] xl:w-[150%] `+sponsor?.special}
+                    />
                   </Link>
                 ))}
               </div>
-
             </div>
           ))}
         </div>
@@ -67,15 +68,28 @@ const SponsorData = [
   {
     category: "Platinum",
 
-    sponsors: [
-
-    
-    ],
-
+    sponsors: [],
   },
   {
     category: "Gold",
     sponsors: [
+      {
+        name: "AlgoZenith",
+        logo: "/Images/SponsorLogos/algozenith.svg",
+        width: 300,
+        height: 150,
+        alt: "ALGOZENITH LOGO",
+        link: "https://algozenith.com/",
+        special: "w-[220px] sm:w-[270px] xl:w-[300px]",
+      },
+      {
+        name: "Fastn",
+        logo: "/Images/SponsorLogos/fastn.webp",
+        width: 300,
+        height: 150,
+        alt: "Fastn LOGO",
+        link: "https://fastn.com/",
+      },
       {
         name: "Devfolio",
         logo: "/Images/SponsorLogos/devfolio.png",
@@ -84,7 +98,6 @@ const SponsorData = [
 
         alt: "DEVFOLIO LOGO",
         link: "https://devfolio.co/",
-
       },
       {
         name: "Polygon",
@@ -94,14 +107,12 @@ const SponsorData = [
         alt: "POLYGON LOGO",
         link: "https://polygon.technology/",
       },
-
     ],
   },
   {
     category: "Silver",
     sponsors: [
       {
-
         name: "Quine",
         logo: "/Images/SponsorLogos/quine.webp",
         width: 200,
@@ -140,14 +151,12 @@ const SponsorData = [
         height: 100,
         alt: "REPLIT LOGO",
         link: "https://replit.com/",
-
       },
     ],
   },
   {
     category: "Bronze",
     sponsors: [
-
       {
         name: "InterviewBuddy",
         logo: "/Images/SponsorLogos/InterviewBuddy.png",
@@ -188,7 +197,7 @@ const SponsorData = [
         height: 100,
         alt: "AXURE LOGO",
         link: "https://www.axure.com/",
-      }
+      },
     ],
   },
 ];
