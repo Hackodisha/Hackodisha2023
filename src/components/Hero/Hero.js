@@ -74,7 +74,9 @@ function Hero() {
           </h1>
           <div className=" items-center gap-6 flex flex-col mt-4 relative z-[100]">
             <DevfolioButton />
+
             <div className="md:hidden mb-6">
+
               <a
                 href="https://discord.gg/ewun7cxkJh"
                 rel="noreferrer"

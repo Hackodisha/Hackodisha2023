@@ -3,12 +3,16 @@ import Image from "next/image";
 import line from "./union1.svg";
 import Title from "../CommonComponent/Title/Title";
 import floatingBuilding from "./floatingBuilding.webp";
+
 import Link from "next/link";
+
 
 export const Sponsor = () => {
   return (
     <section className="" id="sponsors">
+
       <div className="sponsorbg bg-opacity-10 relative" id="about-us">
+
         <Image
           src={floatingBuilding}
           fill
@@ -31,6 +35,7 @@ export const Sponsor = () => {
                 {" "}
                 <span className="uppercase">{item.category}</span> sponsors
               </h2>
+
               <div
                 className={`inline-flex flex-wrap gap-4 sm:gap-20 justify-center py-16 border-r-4 border-[#CA40CD] border-opacity-25 w-full ${
                   index == 3 ? "border-b-4" : ""
@@ -49,6 +54,7 @@ export const Sponsor = () => {
                   </Link>
                 ))}
               </div>
+
             </div>
           ))}
         </div>
@@ -60,7 +66,12 @@ export const Sponsor = () => {
 const SponsorData = [
   {
     category: "Platinum",
-    sponsors: [],
+
+    sponsors: [
+
+    
+    ],
+
   },
   {
     category: "Gold",
@@ -70,8 +81,10 @@ const SponsorData = [
         logo: "/Images/SponsorLogos/devfolio.png",
         width: 300,
         height: 150,
+
         alt: "DEVFOLIO LOGO",
         link: "https://devfolio.co/",
+
       },
       {
         name: "Polygon",
@@ -81,12 +94,14 @@ const SponsorData = [
         alt: "POLYGON LOGO",
         link: "https://polygon.technology/",
       },
+
     ],
   },
   {
     category: "Silver",
     sponsors: [
       {
+
         name: "Quine",
         logo: "/Images/SponsorLogos/quine.webp",
         width: 200,
@@ -125,12 +140,14 @@ const SponsorData = [
         height: 100,
         alt: "REPLIT LOGO",
         link: "https://replit.com/",
+
       },
     ],
   },
   {
     category: "Bronze",
     sponsors: [
+
       {
         name: "InterviewBuddy",
         logo: "/Images/SponsorLogos/InterviewBuddy.png",
@@ -163,6 +180,7 @@ const SponsorData = [
         alt: "TASKADE LOGO",
         link: "https://taskade.com/",
       },
+
       {
         name: "Axure",
         logo: "/Images/SponsorLogos/axure.svg",

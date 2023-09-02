@@ -57,14 +57,11 @@
 		margin-left:5px;
 		
 	}
-<<<<<<<<< Temporary merge branch 1
-	
-=========
+
 	.contentUl ul li{
 		/* margin: ; */
 		/* text-align:left; */
 	}
->>>>>>>>> Temporary merge branch 2
 	.contentUl{
      padding:2px;
 	}
@@ -363,5 +360,9 @@
 	}
   }
   
-  
-  
+
+  .circularAnimation2{
+	position: relative;
+	left:50%;
+  }
+
