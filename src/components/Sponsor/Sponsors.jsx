@@ -51,7 +51,10 @@ export const Sponsor = () => {
                       alt={sponsor.alt}
                       width={sponsor.width}
                       height={sponsor.height}
-                      className={`object-contain w-[70%] sm:w-[100%] xl:w-[150%] `+sponsor?.special}
+                      className={
+                        `object-contain w-[70%] sm:w-[100%] xl:w-[150%] ` +
+                        sponsor?.special
+                      }
                     />
                   </Link>
                 ))}
@@ -69,13 +72,13 @@ const SponsorData = [
     category: "Gold",
     sponsors: [
       {
-        name: "AlgoZenith",
-        logo: "/Images/SponsorLogos/algozenith.svg",
+        name: "Devfolio",
+        logo: "/Images/SponsorLogos/devfolio.png",
         width: 300,
         height: 150,
-        alt: "ALGOZENITH LOGO",
-        link: "https://algozenith.com/",
-        special: "w-[220px] sm:w-[270px] xl:w-[300px]",
+
+        alt: "DEVFOLIO LOGO",
+        link: "https://devfolio.co/",
       },
       {
         name: "Fastn",
@@ -86,13 +89,13 @@ const SponsorData = [
         link: "https://fastn.com/",
       },
       {
-        name: "Devfolio",
-        logo: "/Images/SponsorLogos/devfolio.png",
+        name: "AlgoZenith",
+        logo: "/Images/SponsorLogos/algozenith.svg",
         width: 300,
         height: 150,
-
-        alt: "DEVFOLIO LOGO",
-        link: "https://devfolio.co/",
+        alt: "ALGOZENITH LOGO",
+        link: "https://algozenith.com/",
+        special: "w-[220px] sm:w-[270px] xl:w-[300px]",
       },
       {
         name: "Polygon",
