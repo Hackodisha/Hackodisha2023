@@ -7,8 +7,9 @@ import { AboutUs } from "@/components/AboutUs";
 import Footer from "@/components/Footer/Footer";
 import { Sponsor } from "@/components/Sponsor/Sponsors";
 import Judges from "@/components/Judges/Judges";
+import Events from "@/components/Events/Events";
 
-import Partners from "@/components/partners/Partners";
+import Partners from "@/components/Partners/Partners";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Statistics />
       <Timeline />
       <Judges />
+      <Events/>
       <Sponsor/>
       <Partners/>
       <div className="relative">

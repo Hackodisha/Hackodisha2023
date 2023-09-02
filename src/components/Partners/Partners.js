@@ -6,14 +6,14 @@ import floatingBuilding from "./floatingBuilding.webp";
 
 const Partners = () => {
   return (
-    <section className="" id="sponsors">
-      <div className="sponsorbg bg-opacity-10 relative" id="about-us">
+    <section className="" id="partners">
+      <div className="partnerbg bg-opacity-10 relative" id="about-us">
         <Image
           src={floatingBuilding}
           fill
           className="object-contain object-center relative z-10 opacity-70 mix-blend-color-dodge"
         />
-        <div className="sponsor-section ">
+        <div className="partner-section ">
           <div className="header-sec ">
             <Title title={"Partners"} className={"px-5 sm:px-10 py-5"}></Title>
             <div className="line">
@@ -31,23 +31,22 @@ const Partners = () => {
                 <span className="uppercase">{item.category}</span>
               </h2>
               <ul
-                className={`inline-flex flex-wrap gap-4 sm:gap-20 justify-center py-16 border-r-4 border-[#CA40CD] border-opacity-25 w-full ${
+                className={`inline-flex flex-wrap gap-4 sm:gap-10 justify-center py-16 border-r-4 border-[#CA40CD] border-opacity-25 w-full ${
                   index == 3 ? "border-b-4" : ""
                 } `}
               >
-                {item.sponsors.map((sponsor, i) => (
+                {item.partners.map((partner, i) => (
                   <li
                     key={i}
                     className={`flex flex-col items-center justify-center p-2  rounded-lg sm:p-4 bg-white w-fit `}
                   >
                     <Image
-                      src={sponsor.logo}
-                      alt={sponsor.alt}
-                      width={sponsor.width}
-                      height={sponsor.height}
+                      src={partner.logo}
+                      alt={partner.alt}
+                      width={partner.width}
+                      height={partner.height}
                       className={`object-contain w-[70%] sm:w-[100%] xl:w-[150%] `}
                     />
-                    {/* <p className="text-white text-center">{sponsor.}</p> */}
                   </li>
                 ))}
               </ul>
@@ -64,278 +63,277 @@ export default Partners;
 const PartnersData = [
   {
     category: "Community Partners",
-    sponsors: [
+    partners: [
+      {
+        name: "Web_DesignSociety",
+        logo: "/Images/PartnersLogos/Web_DesignSociety.jpg",
+        alt: "Web_DesignSociety",
+        width: 75,
+        height: 50,
+      },
       {
         name: "Aerotech_vsuut",
         logo: "/Images/PartnersLogos/Aerotech_vssut.png",
         alt: "Aerotech_vsuut",
-        width: 100,
+        width: 75,
         height: 50,
       },
       {
         name: "Befikra",
         logo: "/Images/PartnersLogos/Befikra.png",
-        alt: "Aerotech_vsuut",
-        width: 100,
+        alt: "Befikra",
+        width: 75,
         height: 50,
       },
       {
-        name: "Aerotech_vsuut",
+        name: "CampusTechies",
         logo: "/Images/PartnersLogos/CampusTechies.png",
-        alt: "Aerotech_vsuut",
-        width: 100,
+        alt: "CampusTechies",
+        width: 75,
         height: 50,
       },
       {
-        name: "Aerotech_vsuut",
+        name: "CET zairza",
         logo: "/Images/PartnersLogos/CET zairza.png",
-        alt: "Aerotech_vsuut",
-        width: 100,
+        alt: "CET zairza",
+        width: 75,
         height: 50,
       },
       {
-        name: "Aerotech_vsuut",
+        name: "Code_edu",
         logo: "/Images/PartnersLogos/Code_edu.jpg",
-        alt: "Aerotech_vsuut",
-        width: 100,
+        alt: "Code_edu",
+        width: 75,
         height: 50,
       },
-
       {
-        name: "Aerotech_vsuut",
+        name: "Code-Up Community",
         logo: "/Images/PartnersLogos/Code-Up Community.jpg",
-        alt: "Aerotech_vsuut",
-        width: 100,
+        alt: "Code-Up Community",
+        width: 75,
         height: 50,
       },
       {
-        name: "Aerotech_vsuut",
+        name: "CodeINBlogs",
         logo: "/Images/PartnersLogos/CodeINBlogs.png",
-        alt: "Aerotech_vsuut",
-        width: 100,
-        height: 100,
+        alt: "CodeINBlogs",
+        width: 75,
+        height: 500,
       },
       {
-        name: "Aerotech_vsuut",
+        name: "Coding_Activist_G_3_20230718_135836",
         logo: "/Images/PartnersLogos/Coding_Activist_G_3_20230718_135836.jpg",
-        alt: "Aerotech_vsuut",
-        width: 100,
+        alt: "Coding_Activist_G_3_20230718_135836",
+        width: 75,
         height: 50,
       },
       {
-        name: "Aerotech_vsuut",
+        name: "Curious_develpers",
         logo: "/Images/PartnersLogos/Curious_develpers.png",
-        alt: "Aerotech_vsuut",
-        width: 100,
+        alt: "Curious_develpers",
+        width: 75,
         height: 50,
       },
       {
-        name: "Aerotech_vsuut",
+        name: "Cyberverse",
         logo: "/Images/PartnersLogos/Cyberverse.jpg",
-        alt: "Aerotech_vsuut",
-        width: 100,
+        alt: "Cyberverse",
+        width: 75,
         height: 50,
       },
       {
-        name: "Aerotech_vsuut",
+        name: "Dapps",
         logo: "/Images/PartnersLogos/Dapps.jpg",
-        alt: "Aerotech_vsuut",
-        width: 100,
+        alt: "Dapps",
+        width: 75,
         height: 50,
       },
       {
-        name: "Aerotech_vsuut",
+        name: "Defiverse",
         logo: "/Images/PartnersLogos/Defiverse.jpg",
-        alt: "Aerotech_vsuut",
-        width: 100,
+        alt: "Defiverse",
+        width: 75,
         height: 50,
       },
       {
-        name: "Aerotech_vsuut",
+        name: "Dev_CODE_BLACK_LOGO_01",
         logo: "/Images/PartnersLogos/Dev_CODE_BLACK_LOGO_01.jpeg",
-        alt: "Aerotech_vsuut",
-        width: 100,
+        alt: "Dev_CODE_BLACK_LOGO_01",
+        width: 75,
         height: 50,
       },
       {
-        name: "Aerotech_vsuut",
+        name: "Devboard",
         logo: "/Images/PartnersLogos/Devboard.png",
-        alt: "Aerotech_vsuut",
-        width: 100,
+        alt: "Devboard",
+        width: 75,
         height: 50,
       },
       {
-        name: "Aerotech_vsuut",
+        name: "Devcans",
         logo: "/Images/PartnersLogos/Devcans.jpg",
-        alt: "Aerotech_vsuut",
-        width: 100,
+        alt: "Devcans",
+        width: 75,
         height: 50,
       },
       {
-        name: "Aerotech_vsuut",
+        name: "devdotcom",
         logo: "/Images/PartnersLogos/devdotcom.png",
-        alt: "Aerotech_vsuut",
-        width: 100,
-        height: 50,
-      },
-      {
-        name: "Aerotech_vsuut",
-        logo: "/Images/PartnersLogos/Devs_dungeon.png",
-        alt: "Aerotech_vsuut",
-        width: 100,
+        alt: "devdotcom",
+        width: 75,
         height: 50,
       },
       {
         name: "DSC C.V. Raman global University",
         logo: "/Images/PartnersLogos/DSC_C.V._Raman_global_University__Light_Horizontal_Logo.png",
-        alt: "DSC_C.V._Raman_global_University__Light_Horizontal_Logo",
-        width: 100,
+        alt: "DSC C.V. Raman global University",
+        width: 75,
         height: 50,
       },
       {
-        name: "Fintech",
+        name: "FINTECH",
         logo: "/Images/PartnersLogos/FINTECH.png",
         alt: "FINTECH",
-        width: 100,
+        width: 75,
         height: 50,
       },
       {
         name: "GDSC NKOCET Solapur",
         logo: "/Images/PartnersLogos/GDSC NKOCET Solapur.jpg",
         alt: "GDSC NKOCET Solapur",
-        width: 100,
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC HIT",
+        name: "gdsc_hit",
         logo: "/Images/PartnersLogos/GDSC_HIT.jpg",
         alt: "gdsc_hit",
-        width: 100,
+        width: 75,
         height: 50,
       },
       {
         name: "GDSC IIIT Surat",
         logo: "/Images/PartnersLogos/GDSC_IIIT_Surat.png",
         alt: "GDSC IIIT Surat",
-        width: 100,
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "GDSCNarulaInstitute",
         logo: "/Images/PartnersLogos/GDSCNarulaInstitute.jpg",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "GDSCNarulaInstitute",
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "Geek_room",
         logo: "/Images/PartnersLogos/Geek_room.png",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "Geek_room",
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "Github_Gitam",
         logo: "/Images/PartnersLogos/Github_Gitam.jpg",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "Github_Gitam",
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "Hack_Unicorn_Club_Logo",
         logo: "/Images/PartnersLogos/Hack_Unicorn_Club_Logo.png",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "Hack_Unicorn_Club_Logo",
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "IIEC",
         logo: "/Images/PartnersLogos/IIEC.jpg",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "IIEC",
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "Inovact",
         logo: "/Images/PartnersLogos/Inovact.png",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "Inovact",
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "IOT_Lab_Kiit",
         logo: "/Images/PartnersLogos/IOT_Lab_Kiit.jpg",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "IOT_Lab_Kiit",
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "MESH",
         logo: "/Images/PartnersLogos/MESH.png",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "MESH",
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "Metaverse",
         logo: "/Images/PartnersLogos/Metaverse.png",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "Metaverse",
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "OCD",
         logo: "/Images/PartnersLogos/OCD.jpeg",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "OCD",
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "Open Source Chandigarh",
         logo: "/Images/PartnersLogos/Open Source Chandigarh.jpg",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "Open Source Chandigarh",
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "OWASP_Thapar",
         logo: "/Images/PartnersLogos/OWASP_Thapar.png",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "OWASP_Thapar",
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "Programming Society IIIT Bhubaneswar",
         logo: "/Images/PartnersLogos/Programming Society IIIT Bhubaneswar.jpeg",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "Programming Society IIIT Bhubaneswar",
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "SOS_Tech_INC",
         logo: "/Images/PartnersLogos/SOS_Tech_INC.jpg",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "SOS_Tech_INC",
+        width: 75,
         height: 50,
       },
       {
-        name: "GDSC IIIT Surat",
+        name: "StartupGrind Bhubaneswar",
         logo: "/Images/PartnersLogos/StartupGrind Bhubaneswar.png",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "StartupGrind Bhubaneswar",
+        width: 75,
         height: 50,
       },
       {
         name: "GDSC IIIT Surat",
         logo: "/Images/PartnersLogos/Web_DesignSociety.jpg",
-        alt: "GDSC IIIT Surat",
-        width: 100,
+        alt: "Web_DesignSociety",
+        width: 75,
         height: 50,
       },
     ],
   },
   {
     category: "Media Partners",
-    sponsors: [],
+    partners: [],
   },
 ];
