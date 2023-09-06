@@ -67,22 +67,165 @@ export const Sponsor = () => {
   );
 };
 
+// const SponsorData = [
+//   {
+//     category: "Gold",
+//     sponsors: [
+//       {
+//         name: "Devfolio",
+//         logo: "/Images/SponsorLogos/devfolio.png",
+//         width: 300,
+//         height: 150,
+
+//         alt: "DEVFOLIO LOGO",
+//         link: "https://devfolio.co/",
+//       },
+//       {
+//         name: "Fastn",
+//         logo: "/Images/SponsorLogos/fastn.webp",
+//         width: 300,
+//         height: 150,
+//         alt: "Fastn LOGO",
+//         link: "https://fastn.com/",
+//       },
+//       {
+//         name: "AlgoZenith",
+//         logo: "/Images/SponsorLogos/algozenith.svg",
+//         width: 300,
+//         height: 150,
+//         alt: "ALGOZENITH LOGO",
+//         link: "https://algozenith.com/",
+//         special: "w-[220px] sm:w-[270px] xl:w-[300px]",
+//       },
+//       {
+//         name: "Polygon",
+//         logo: "/Images/SponsorLogos/polygon.png",
+//         width: 300,
+//         height: 150,
+//         alt: "POLYGON LOGO",
+//         link: "https://polygon.technology/",
+//       },
+//     ],
+//   },
+//   {
+//     category: "Silver",
+//     sponsors: [
+//       {
+//         name: "Quine",
+//         logo: "/Images/SponsorLogos/quine.webp",
+//         width: 200,
+//         height: 100,
+//         alt: "Quine LOGO",
+//         link: "https://bit.ly/WEBHO3xQUINE",
+//       },
+//       {
+//         name: "Verbwire",
+//         logo: "/Images/SponsorLogos/verbwire.webp",
+//         width: 200,
+//         height: 100,
+//         alt: "VERBWIRE LOGO",
+//         link: "https://www.verbwire.com/",
+//       },
+//       {
+//         name: "Filecoin",
+//         logo: "/Images/SponsorLogos/filecoin.webp",
+//         width: 200,
+//         height: 100,
+//         alt: "FILECOIN LOGO",
+//         link: "https://filecoin.io/",
+//       },
+//       {
+//         name: "Solana",
+//         logo: "/Images/SponsorLogos/solana.webp",
+//         width: 200,
+//         height: 100,
+//         alt: "SOLANA LOGO",
+//         link: "https://solana.com/",
+//       },
+//       {
+//         name: "Replit",
+//         logo: "/Images/SponsorLogos/replit.webp",
+//         width: 200,
+//         height: 100,
+//         alt: "REPLIT LOGO",
+//         link: "https://replit.com/",
+//       },
+//     ],
+//   },
+//   {
+//     category: "Bronze",
+//     sponsors: [
+//       {
+//         name: "InterviewBuddy",
+//         logo: "/Images/SponsorLogos/InterviewBuddy.png",
+//         width: 200,
+//         height: 100,
+//         alt: "INTERVIEWBUDDY LOGO",
+//         link: "https://interviewbuddy.in/",
+//       },
+//       {
+//         name: "XYZ",
+//         logo: "/Images/SponsorLogos/xyz.png",
+//         width: 200,
+//         height: 100,
+//         alt: "XYZ LOGO",
+//         link: "https://gen.xyz/",
+//       },
+//       {
+//         name: "Echo3D",
+//         logo: "/Images/SponsorLogos/echo3d.png",
+//         width: 200,
+//         height: 100,
+//         alt: "ECHO3D LOGO",
+//         link: "https://www.echo3d.com/",
+//       },
+//       {
+//         name: "Taskade",
+//         logo: "/Images/SponsorLogos/taskade.png",
+//         width: 200,
+//         height: 100,
+//         alt: "TASKADE LOGO",
+//         link: "https://taskade.com/",
+//       },
+
+//       {
+//         name: "Axure",
+//         logo: "/Images/SponsorLogos/axure.svg",
+//         width: 200,
+//         height: 100,
+//         alt: "AXURE LOGO",
+//         link: "https://www.axure.com/",
+//       },
+//       {
+//         name: "Algoverse",
+//         logo: "/Images/SponsorLogos/algoverse.png",
+//         width: 100,
+//         height: 100,
+//         alt: "ALGOVERSE LOGO",
+//         link: "https://algoverseacademy.com/" 
+//       },
+//     ],
+//   },
+// ];
+
+
+const CloudinaryBaseUrl = "https://res.cloudinary.com/daurfk82i/image/upload/q_auto:good/v1693992539/ho3/sponsors";
+
 const SponsorData = [
   {
     category: "Gold",
     sponsors: [
       {
         name: "Devfolio",
-        logo: "/Images/SponsorLogos/devfolio.png",
+        logo: `${CloudinaryBaseUrl}/devfolio.png`,
         width: 300,
         height: 150,
-
         alt: "DEVFOLIO LOGO",
         link: "https://devfolio.co/",
       },
       {
         name: "Fastn",
-        logo: "/Images/SponsorLogos/fastn.webp",
+        logo: `${CloudinaryBaseUrl}/fastn.webp`,
         width: 300,
         height: 150,
         alt: "Fastn LOGO",
@@ -90,7 +233,7 @@ const SponsorData = [
       },
       {
         name: "AlgoZenith",
-        logo: "/Images/SponsorLogos/algozenith.svg",
+        logo: `${CloudinaryBaseUrl}/algozenith.svg`,
         width: 300,
         height: 150,
         alt: "ALGOZENITH LOGO",
@@ -99,7 +242,7 @@ const SponsorData = [
       },
       {
         name: "Polygon",
-        logo: "/Images/SponsorLogos/polygon.png",
+        logo: `${CloudinaryBaseUrl}/polygon.png`,
         width: 300,
         height: 150,
         alt: "POLYGON LOGO",
@@ -112,7 +255,7 @@ const SponsorData = [
     sponsors: [
       {
         name: "Quine",
-        logo: "/Images/SponsorLogos/quine.webp",
+        logo: `${CloudinaryBaseUrl}/quine.webp`,
         width: 200,
         height: 100,
         alt: "Quine LOGO",
@@ -120,7 +263,7 @@ const SponsorData = [
       },
       {
         name: "Verbwire",
-        logo: "/Images/SponsorLogos/verbwire.webp",
+        logo: `${CloudinaryBaseUrl}/verbwire.webp`,
         width: 200,
         height: 100,
         alt: "VERBWIRE LOGO",
@@ -128,7 +271,7 @@ const SponsorData = [
       },
       {
         name: "Filecoin",
-        logo: "/Images/SponsorLogos/filecoin.webp",
+        logo: `${CloudinaryBaseUrl}/filecoin.webp`,
         width: 200,
         height: 100,
         alt: "FILECOIN LOGO",
@@ -136,7 +279,7 @@ const SponsorData = [
       },
       {
         name: "Solana",
-        logo: "/Images/SponsorLogos/solana.webp",
+        logo: `${CloudinaryBaseUrl}/solana.webp`,
         width: 200,
         height: 100,
         alt: "SOLANA LOGO",
@@ -144,7 +287,7 @@ const SponsorData = [
       },
       {
         name: "Replit",
-        logo: "/Images/SponsorLogos/replit.webp",
+        logo: `${CloudinaryBaseUrl}/replit.webp`,
         width: 200,
         height: 100,
         alt: "REPLIT LOGO",
@@ -157,7 +300,7 @@ const SponsorData = [
     sponsors: [
       {
         name: "InterviewBuddy",
-        logo: "/Images/SponsorLogos/InterviewBuddy.png",
+        logo: `${CloudinaryBaseUrl}/InterviewBuddy.png`,
         width: 200,
         height: 100,
         alt: "INTERVIEWBUDDY LOGO",
@@ -165,7 +308,7 @@ const SponsorData = [
       },
       {
         name: "XYZ",
-        logo: "/Images/SponsorLogos/xyz.png",
+        logo: `${CloudinaryBaseUrl}/xyz.png`,
         width: 200,
         height: 100,
         alt: "XYZ LOGO",
@@ -173,7 +316,7 @@ const SponsorData = [
       },
       {
         name: "Echo3D",
-        logo: "/Images/SponsorLogos/echo3d.png",
+        logo: `${CloudinaryBaseUrl}/echo3d.png`,
         width: 200,
         height: 100,
         alt: "ECHO3D LOGO",
@@ -181,16 +324,15 @@ const SponsorData = [
       },
       {
         name: "Taskade",
-        logo: "/Images/SponsorLogos/taskade.png",
+        logo: `${CloudinaryBaseUrl}/taskade.png`,
         width: 200,
         height: 100,
         alt: "TASKADE LOGO",
         link: "https://taskade.com/",
       },
-
       {
         name: "Axure",
-        logo: "/Images/SponsorLogos/axure.svg",
+        logo: `${CloudinaryBaseUrl}/axure.svg`,
         width: 200,
         height: 100,
         alt: "AXURE LOGO",
@@ -198,7 +340,7 @@ const SponsorData = [
       },
       {
         name: "Algoverse",
-        logo: "/Images/SponsorLogos/algoverse.png",
+        logo: `${CloudinaryBaseUrl}/algoverse.png`,
         width: 100,
         height: 100,
         alt: "ALGOVERSE LOGO",
@@ -207,3 +349,4 @@ const SponsorData = [
     ],
   },
 ];
+

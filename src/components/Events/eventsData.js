@@ -1,24 +1,24 @@
 export const eventsData = [
     {
-        imgSrc:"/Images/EventImages/ajit.png",
+        imgSrc:"https://res.cloudinary.com/daurfk82i/image/upload/q_auto:good/v1693991780/ho3/events/ajit.png",
         width:"300",
         height:"300",
         link:"https://www.instagram.com/p/Cw0zfffBkGu/"
     },
     {
-        imgSrc:"/Images/EventImages/jay.png",
+        imgSrc:"https://res.cloudinary.com/daurfk82i/image/upload/q_auto:good/v1693991780/ho3/events/jay.png",
         width:"300",
         height:"300",
         link:"https://www.instagram.com/p/CwvRhQhvMqf/"
     },
     {
-        imgSrc:"/Images/EventImages/suneja.jpg",
+        imgSrc:"https://res.cloudinary.com/daurfk82i/image/upload/q_auto:good/v1693991780/ho3/events/suneja.jpg",
         width:"300",
         height:"300",
         link:"https://www.instagram.com/p/Cv-ADc7Pn0C/"
     },
     {
-        imgSrc:"/Images/EventImages/vivek.webp",
+        imgSrc:"https://res.cloudinary.com/daurfk82i/image/upload/q_auto:good/v1693991780/ho3/events/vivek.webp",
         width:"300",
         height:"300",
         link:"https://www.instagram.com/p/CwJuaOQIsam/"
