@@ -23,4 +23,22 @@ export const speakJudgeData = [
         imgSrc:"/Images/JudgeImages/jay.jpeg",
         link:"https://www.linkedin.com/in/jaysaadana/"
     },
+    {
+        name:"Harsh Kumar Jadon",
+        subHeading:"Zuraverse",
+        imgSrc:"/Images/JudgeImages/harsh.webp",
+        link:"https://www.linkedin.com/in/harsh-kumar-jadon-204a15197//"
+    },
+    {
+        name:"Abhishek Sagar",
+        subHeading:"Zuraverse",
+        imgSrc:"/Images/JudgeImages/abhishek.webp",
+        link:"https://www.linkedin.com/in/asssagar/"
+    },
+    {
+        name:"Ajit Garg",
+        subHeading:"FifthTry",
+        imgSrc:"/Images/JudgeImages/ajit.webp",
+        link:"https://www.linkedin.com/in/ajit-garg-319167190/"
+    },
 ];
