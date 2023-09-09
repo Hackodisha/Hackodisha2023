@@ -24,7 +24,7 @@ const Judges = () => {
         </div>
         <div
           id="judges"
-          className=" sm:grid-cols-3 grid gap-9 grid-cols-2 gap-y-20 justify-evenly py-[4rem]  w-[80%] mx-auto "
+          className=" sm:grid-cols-3 grid gap-9 grid-cols-2 gap-y-20 justify-evenly py-[4rem]  w-[80%] mx-auto place-items-center grid-flow-row-dense "
         >
           {speakJudgeData.map((item) => (
             <Link

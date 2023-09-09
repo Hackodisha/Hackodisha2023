@@ -1,4 +1,3 @@
-
 import Accordion from "@/components/FAQs/Accordion";
 import Hero from "@/components/Hero/Hero";
 import Timeline from "@/components/Timeline/timeline";
@@ -8,8 +7,8 @@ import Footer from "@/components/Footer/Footer";
 import { Sponsor } from "@/components/Sponsor/Sponsors";
 import Judges from "@/components/Judges/Judges";
 import Events from "@/components/Events/Events";
-
 import Partners from "@/components/Partners/Partners";
+import Prize from "@/components/Prizes/Prize";
 
 export default function Home() {
   return (
@@ -18,14 +17,14 @@ export default function Home() {
       <AboutUs />
       <Statistics />
       <Timeline />
+      <Prize />
       <Judges />
-      <Events/>
-      <Sponsor/>
-      <Partners/>
+      <Events />
+      <Sponsor />
+      <Partners />
       <div className="relative">
         <Accordion />
         <Footer />
-
       </div>
     </>
   );
