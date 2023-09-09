@@ -47,7 +47,10 @@ const Partners = () => {
                       height={partner.height}
                       className={`object-contain ` + partner?.special}
                       placeholder="blur"
-                      blurDataURL={partner.logo.replace("q_auto:good","w_500/c_scale,w_12")}
+                      blurDataURL={partner.logo.replace(
+                        "q_auto:good",
+                        "w_500/c_scale,w_12"
+                      )}
                     />
                   </li>
                 ))}
@@ -62,7 +65,8 @@ const Partners = () => {
 
 export default Partners;
 
-const CloudinaryBaseUrl = "https://res.cloudinary.com/daurfk82i/image/upload/q_auto:good/v1693992539/ho3/community";
+const CloudinaryBaseUrl =
+  "https://res.cloudinary.com/daurfk82i/image/upload/q_auto:good/v1693992539/ho3/community";
 const PartnersData = [
   {
     category: "Community Partners",
@@ -345,6 +349,125 @@ const PartnersData = [
         name: "GDSC IIIT Surat",
         logo: `${CloudinaryBaseUrl}/GDSC_IIIT_Surat.png`,
         alt: "GDSC IIIT Surat",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "Zuraverse",
+        logo: `${CloudinaryBaseUrl}/zuraverse.webp`,
+        alt: "Zuraverse",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "GDSSC IIIT BBSR",
+        logo: `${CloudinaryBaseUrl}/gdsciiitbbsr.webp`,
+        alt: "gdsciiitbbsr",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "ieee",
+        logo: `${CloudinaryBaseUrl}/ieee.webp`,
+        alt: "ieee",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "Meerut Codehub",
+        logo: `${CloudinaryBaseUrl}/merutcodehub.webp`,
+        alt: "Meerut Codehub",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "Spectrum",
+        logo: `${CloudinaryBaseUrl}/spectrum.webp`,
+        alt: "Spectrum",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "Fractal",
+        logo: `${CloudinaryBaseUrl}/fractal.webp`,
+        alt: "Fractal",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "hackcbs",
+        logo: `${CloudinaryBaseUrl}/hackcbs.webp`,
+        alt: "hackcbs",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "gdsclncts",
+        logo: `${CloudinaryBaseUrl}/gdsclncts.webp`,
+        alt: "gdsclncts",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "gdscfiem",
+        logo: `${CloudinaryBaseUrl}/gdscfiem.webp`,
+        alt: "gdscfiem",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "gdsclncte",
+        logo: `${CloudinaryBaseUrl}/gdsclncte.webp`,
+        alt: "Zuraverse",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "codex",
+        logo: `${CloudinaryBaseUrl}/codex.webp`,
+        alt: "codex",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "dapplink",
+        logo: `${CloudinaryBaseUrl}/dapplink.webp`,
+        alt: "dapplink",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "gdscjgec",
+        logo: `${CloudinaryBaseUrl}/gdscjgec.webp`,
+        alt: "gdscjgec",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "GDSC GGV",
+        logo: `${CloudinaryBaseUrl}/gdscggv.webp`,
+        alt: "GDSC GGV",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "GDSC ITER",
+        logo: `${CloudinaryBaseUrl}/gdsciter.webp`,
+        alt: "GDSC ITER",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "NSCC SRM",
+        logo: `${CloudinaryBaseUrl}/nsccsrm.webp`,
+        alt: "NSCC SRM",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "GDSC UEMK",
+        logo: `${CloudinaryBaseUrl}/gdscuem.webp`,
+        alt: "GDSC UEMK",
         width: 125,
         height: 90,
       },
