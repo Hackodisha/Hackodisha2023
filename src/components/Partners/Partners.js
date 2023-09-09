@@ -46,6 +46,8 @@ const Partners = () => {
                       width={partner.width}
                       height={partner.height}
                       className={`object-contain ` + partner?.special}
+                      placeholder="blur"
+                      blurDataURL={partner.logo.replace("q_auto:good","w_500/c_scale,w_12")}
                     />
                   </li>
                 ))}
@@ -61,7 +63,6 @@ const Partners = () => {
 export default Partners;
 
 const CloudinaryBaseUrl = "https://res.cloudinary.com/daurfk82i/image/upload/q_auto:good/v1693992539/ho3/community";
-
 const PartnersData = [
   {
     category: "Community Partners",
@@ -316,6 +317,20 @@ const PartnersData = [
         name: "SOS_Tech_INC",
         logo: `${CloudinaryBaseUrl}/SOS_Tech_INC.jpg`,
         alt: "SOS_Tech_INC",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "GDSC SGSITS",
+        logo: `${CloudinaryBaseUrl}/GDSC_SGSITS.png`,
+        alt: "GDSC SGSITS",
+        width: 125,
+        height: 90,
+      },
+      {
+        name: "WebArch",
+        logo: `${CloudinaryBaseUrl}/Webarch.jpg`,
+        alt: "Webarch",
         width: 125,
         height: 90,
       },
