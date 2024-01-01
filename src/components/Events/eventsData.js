@@ -1,24 +1,24 @@
 export const eventsData = [
     {
-        imgSrc:"https://res.cloudinary.com/daurfk82i/image/upload/q_auto:good/v1693991780/ho3/events/ajit.png",
+        imgSrc:"https://res.cloudinary.com/webwiz-team/image/upload/q_auto:good/v1693991780/ho3/events/ajit.png",
         width:"300",
         height:"300",
         link:"https://www.instagram.com/p/Cw0zfffBkGu/"
     },
     {
-        imgSrc:"https://res.cloudinary.com/daurfk82i/image/upload/q_auto:good/v1693991780/ho3/events/jay.png",
+        imgSrc:"https://res.cloudinary.com/webwiz-team/image/upload/q_auto:good/v1693991780/ho3/events/jay.png",
         width:"300",
         height:"300",
         link:"https://www.instagram.com/p/CwvRhQhvMqf/"
     },
     {
-        imgSrc:"https://res.cloudinary.com/daurfk82i/image/upload/q_auto:good/v1693991780/ho3/events/suneja.jpg",
+        imgSrc:"https://res.cloudinary.com/webwiz-team/image/upload/q_auto:good/v1693991780/ho3/events/suneja.jpg",
         width:"300",
         height:"300",
         link:"https://www.instagram.com/p/Cv-ADc7Pn0C/"
     },
     {
-        imgSrc:"https://res.cloudinary.com/daurfk82i/image/upload/q_auto:good/v1693991780/ho3/events/vivek.webp",
+        imgSrc:"https://res.cloudinary.com/webwiz-team/image/upload/q_auto:good/v1693991780/ho3/events/vivek.webp",
         width:"300",
         height:"300",
         link:"https://www.instagram.com/p/CwJuaOQIsam/"

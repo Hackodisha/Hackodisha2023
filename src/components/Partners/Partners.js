@@ -66,7 +66,7 @@ const Partners = () => {
 export default Partners;
 
 const CloudinaryBaseUrl =
-  "https://res.cloudinary.com/daurfk82i/image/upload/q_auto:good/v1693992539/ho3/community";
+  "https://res.cloudinary.com/webwiz-team/image/upload/q_auto:good/v1693992539/ho3/community";
 const PartnersData = [
   {
     category: "Community Partners",
@@ -478,7 +478,7 @@ const PartnersData = [
     partners: [
       {
         name: "Rourkela 360",
-        logo: "https://res.cloudinary.com/daurfk82i/image/upload/q_auto:/v1693992250/ho3/media/Rourkela360.png",
+        logo: "https://res.cloudinary.com/webwiz-team/image/upload/q_auto:/v1693992250/ho3/media/Rourkela360.png",
         alt: "Rourkela360",
         width: 174,
         height: 125,

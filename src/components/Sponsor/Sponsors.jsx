@@ -209,7 +209,7 @@ export const Sponsor = () => {
 // ];
 
 
-const CloudinaryBaseUrl = "https://res.cloudinary.com/daurfk82i/image/upload/q_auto:good/v1693992539/ho3/sponsors";
+const CloudinaryBaseUrl = "https://res.cloudinary.com/webwiz-team/image/upload/q_auto:good/v1693992539/ho3/sponsors";
 
 const SponsorData = [
   {
