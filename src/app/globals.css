@@ -67,3 +67,6 @@ html{
   background: #f769f7;
   transition: background 0.3s ease-in-out;
 }
+.ReactCollapse--collapse {
+  transition: height 300ms;
+}

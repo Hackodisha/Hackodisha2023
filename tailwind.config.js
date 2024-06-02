@@ -4,11 +4,15 @@ module.exports = {
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "*",
   ],
   theme: {
     extend: {
       colors: {
         navbg: "rgba(18, 18, 18, 0.42)",
+        customBg:"#130d1d",
+        boxBg:"#1f1a27",
+        answerBg:"#3f3949"
       },
       backdropBlur: {
         sm: "5px",

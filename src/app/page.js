@@ -1,4 +1,4 @@
-import Accordion from "@/components/FAQs/Accordion";
+import Faq from "@/components/FAQs/Faq";
 import Hero from "@/components/Hero/Hero";
 import Timeline from "@/components/Timeline/timeline";
 import Statistics from "../components/suraj/Statistics";
@@ -23,7 +23,7 @@ export default function Home() {
       <Sponsor />
       <Partners />
       <div className="relative">
-        <Accordion />
+        <Faq/>
         <Footer />
       </div>
     </>
